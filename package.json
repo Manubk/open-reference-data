@@ -1,0 +1,41 @@
+{
+  "name": "open-reference-data",
+  "version": "0.1.0",
+  "description": "Open reference datasets for JavaScript and TypeScript applications",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./countries": {
+      "types": "./dist/countries/index.d.ts",
+      "import": "./dist/countries/index.js",
+      "require": "./dist/countries/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "npm run clean && tsup",
+    "prepack": "npm run typecheck && npm test && npm run build",
+    "validate:data": "tsx scripts/validate-countries.ts"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  }
+}

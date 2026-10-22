@@ -1,0 +1,5420 @@
+[
+  {
+    "code": "AF",
+    "alpha3Code": "AFG",
+    "numericCode": "004",
+    "callingCodes": [
+      "+93"
+    ],
+    "currencyCode": [
+      "AFN"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Kabul",
+    "flag": {
+      "emoji": "🇦🇫",
+      "svg": "https://flagcdn.com/af.svg"
+    },
+    "names": {
+      "common": "Afghanistan",
+      "official": "Islamic Republic of Afghanistan"
+    }
+  },
+  {
+    "code": "AL",
+    "alpha3Code": "ALB",
+    "numericCode": "008",
+    "callingCodes": [
+      "+355"
+    ],
+    "currencyCode": [
+      "ALL"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Tirana",
+    "flag": {
+      "emoji": "🇦🇱",
+      "svg": "https://flagcdn.com/al.svg"
+    },
+    "names": {
+      "common": "Albania",
+      "official": "Republic of Albania"
+    }
+  },
+  {
+    "code": "DZ",
+    "alpha3Code": "DZA",
+    "numericCode": "012",
+    "callingCodes": [
+      "+213"
+    ],
+    "currencyCode": [
+      "DZD"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Algiers",
+    "flag": {
+      "emoji": "🇩🇿",
+      "svg": "https://flagcdn.com/dz.svg"
+    },
+    "names": {
+      "common": "Algeria",
+      "official": "People's Democratic Republic of Algeria"
+    }
+  },
+  {
+    "code": "AS",
+    "alpha3Code": "ASM",
+    "numericCode": "016",
+    "callingCodes": [
+      "+1684"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Pago Pago",
+    "flag": {
+      "emoji": "🇦🇸",
+      "svg": "https://flagcdn.com/as.svg"
+    },
+    "names": {
+      "common": "American Samoa",
+      "official": "American Samoa"
+    }
+  },
+  {
+    "code": "AD",
+    "alpha3Code": "AND",
+    "numericCode": "020",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇦🇩",
+      "svg": "https://flagcdn.com/ad.svg"
+    },
+    "names": {
+      "common": "Andorra",
+      "official": "Principality of Andorra"
+    }
+  },
+  {
+    "code": "AO",
+    "alpha3Code": "AGO",
+    "numericCode": "024",
+    "callingCodes": [
+      "+244"
+    ],
+    "currencyCode": [
+      "AOA"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Luanda",
+    "flag": {
+      "emoji": "🇦🇴",
+      "svg": "https://flagcdn.com/ao.svg"
+    },
+    "names": {
+      "common": "Angola",
+      "official": "Republic of Angola"
+    }
+  },
+  {
+    "code": "AI",
+    "alpha3Code": "AIA",
+    "numericCode": "660",
+    "callingCodes": [
+      "+1264"
+    ],
+    "currencyCode": [
+      "XCD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "The Valley",
+    "flag": {
+      "emoji": "🇦🇮",
+      "svg": "https://flagcdn.com/ai.svg"
+    },
+    "names": {
+      "common": "Anguilla",
+      "official": "Anguilla"
+    }
+  },
+  {
+    "code": "AQ",
+    "alpha3Code": "ATA",
+    "numericCode": "010",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇦🇶",
+      "svg": "https://flagcdn.com/aq.svg"
+    },
+    "names": {
+      "common": "Antarctica",
+      "official": "Antarctica"
+    }
+  },
+  {
+    "code": "AG",
+    "alpha3Code": "ATG",
+    "numericCode": "028",
+    "callingCodes": [
+      "+1268"
+    ],
+    "currencyCode": [
+      "XCD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Saint John's",
+    "flag": {
+      "emoji": "🇦🇬",
+      "svg": "https://flagcdn.com/ag.svg"
+    },
+    "names": {
+      "common": "Antigua and Barbuda",
+      "official": "Antigua and Barbuda"
+    }
+  },
+  {
+    "code": "AR",
+    "alpha3Code": "ARG",
+    "numericCode": "032",
+    "callingCodes": [
+      "+54"
+    ],
+    "currencyCode": [
+      "ARS"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Buenos Aires",
+    "flag": {
+      "emoji": "🇦🇷",
+      "svg": "https://flagcdn.com/ar.svg"
+    },
+    "names": {
+      "common": "Argentina",
+      "official": "Argentine Republic"
+    }
+  },
+  {
+    "code": "AM",
+    "alpha3Code": "ARM",
+    "numericCode": "051",
+    "callingCodes": [
+      "+374"
+    ],
+    "currencyCode": [
+      "AMD"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Yerevan",
+    "flag": {
+      "emoji": "🇦🇲",
+      "svg": "https://flagcdn.com/am.svg"
+    },
+    "names": {
+      "common": "Armenia",
+      "official": "Republic of Armenia"
+    }
+  },
+  {
+    "code": "AW",
+    "alpha3Code": "ABW",
+    "numericCode": "533",
+    "callingCodes": [
+      "+297"
+    ],
+    "currencyCode": [
+      "AWG"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Oranjestad",
+    "flag": {
+      "emoji": "🇦🇼",
+      "svg": "https://flagcdn.com/aw.svg"
+    },
+    "names": {
+      "common": "Aruba",
+      "official": "Aruba"
+    }
+  },
+  {
+    "code": "AU",
+    "alpha3Code": "AUS",
+    "numericCode": "036",
+    "callingCodes": [
+      "+61"
+    ],
+    "currencyCode": [
+      "AUD"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "capital": "Canberra",
+    "flag": {
+      "emoji": "🇦🇺",
+      "svg": "https://flagcdn.com/au.svg"
+    },
+    "names": {
+      "common": "Australia",
+      "official": "Australia"
+    }
+  },
+  {
+    "code": "AT",
+    "alpha3Code": "AUT",
+    "numericCode": "040",
+    "callingCodes": [
+      "+43"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Vienna",
+    "flag": {
+      "emoji": "🇦🇹",
+      "svg": "https://flagcdn.com/at.svg"
+    },
+    "names": {
+      "common": "Austria",
+      "official": "Republic of Austria"
+    }
+  },
+  {
+    "code": "AZ",
+    "alpha3Code": "AZE",
+    "numericCode": "031",
+    "callingCodes": [
+      "+994"
+    ],
+    "currencyCode": [
+      "AZN"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Baku",
+    "flag": {
+      "emoji": "🇦🇿",
+      "svg": "https://flagcdn.com/az.svg"
+    },
+    "names": {
+      "common": "Azerbaijan",
+      "official": "Republic of Azerbaijan"
+    }
+  },
+  {
+    "code": "BS",
+    "alpha3Code": "BHS",
+    "numericCode": "044",
+    "callingCodes": [
+      "+1242"
+    ],
+    "currencyCode": [
+      "BSD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Nassau",
+    "flag": {
+      "emoji": "🇧🇸",
+      "svg": "https://flagcdn.com/bs.svg"
+    },
+    "names": {
+      "common": "The Bahamas",
+      "official": "Commonwealth of the Bahamas"
+    }
+  },
+  {
+    "code": "BH",
+    "alpha3Code": "BHR",
+    "numericCode": "048",
+    "callingCodes": [
+      "+973"
+    ],
+    "currencyCode": [
+      "BHD"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Manama",
+    "flag": {
+      "emoji": "🇧🇭",
+      "svg": "https://flagcdn.com/bh.svg"
+    },
+    "names": {
+      "common": "Bahrain",
+      "official": "Kingdom of Bahrain"
+    }
+  },
+  {
+    "code": "BD",
+    "alpha3Code": "BGD",
+    "numericCode": "050",
+    "callingCodes": [
+      "+880"
+    ],
+    "currencyCode": [
+      "BDT"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Dhaka",
+    "flag": {
+      "emoji": "🇧🇩",
+      "svg": "https://flagcdn.com/bd.svg"
+    },
+    "names": {
+      "common": "Bangladesh",
+      "official": "People's Republic of Bangladesh"
+    }
+  },
+  {
+    "code": "BB",
+    "alpha3Code": "BRB",
+    "numericCode": "052",
+    "callingCodes": [
+      "+1246"
+    ],
+    "currencyCode": [
+      "BBD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Bridgetown",
+    "flag": {
+      "emoji": "🇧🇧",
+      "svg": "https://flagcdn.com/bb.svg"
+    },
+    "names": {
+      "common": "Barbados",
+      "official": "Barbados"
+    }
+  },
+  {
+    "code": "BY",
+    "alpha3Code": "BLR",
+    "numericCode": "112",
+    "callingCodes": [
+      "+375"
+    ],
+    "currencyCode": [
+      "BYR"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Minsk",
+    "flag": {
+      "emoji": "🇧🇾",
+      "svg": "https://flagcdn.com/by.svg"
+    },
+    "names": {
+      "common": "Belarus",
+      "official": "Republic of Belarus"
+    }
+  },
+  {
+    "code": "BE",
+    "alpha3Code": "BEL",
+    "numericCode": "056",
+    "callingCodes": [
+      "+32"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Brussels",
+    "flag": {
+      "emoji": "🇧🇪",
+      "svg": "https://flagcdn.com/be.svg"
+    },
+    "names": {
+      "common": "Belgium",
+      "official": "Kingdom of Belgium"
+    }
+  },
+  {
+    "code": "BZ",
+    "alpha3Code": "BLZ",
+    "numericCode": "084",
+    "callingCodes": [
+      "+501"
+    ],
+    "currencyCode": [
+      "BZD"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "capital": "Belmopan",
+    "flag": {
+      "emoji": "🇧🇿",
+      "svg": "https://flagcdn.com/bz.svg"
+    },
+    "names": {
+      "common": "Belize",
+      "official": "Belize"
+    }
+  },
+  {
+    "code": "BJ",
+    "alpha3Code": "BEN",
+    "numericCode": "204",
+    "callingCodes": [
+      "+229"
+    ],
+    "currencyCode": [
+      "XOF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Porto-Novo",
+    "flag": {
+      "emoji": "🇧🇯",
+      "svg": "https://flagcdn.com/bj.svg"
+    },
+    "names": {
+      "common": "Benin",
+      "official": "Republic of Benin"
+    }
+  },
+  {
+    "code": "BM",
+    "alpha3Code": "BMU",
+    "numericCode": "060",
+    "callingCodes": [
+      "+1441"
+    ],
+    "currencyCode": [
+      "BMD"
+    ],
+    "region": "Americas",
+    "subregion": "Northern America",
+    "capital": "Hamilton",
+    "flag": {
+      "emoji": "🇧🇲",
+      "svg": "https://flagcdn.com/bm.svg"
+    },
+    "names": {
+      "common": "Bermuda",
+      "official": "Bermuda"
+    }
+  },
+  {
+    "code": "BT",
+    "alpha3Code": "BTN",
+    "numericCode": "064",
+    "callingCodes": [
+      "+975"
+    ],
+    "currencyCode": [
+      "BTN",
+      "INR"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Thimphu",
+    "flag": {
+      "emoji": "🇧🇹",
+      "svg": "https://flagcdn.com/bt.svg"
+    },
+    "names": {
+      "common": "Bhutan",
+      "official": "Kingdom of Bhutan"
+    }
+  },
+  {
+    "code": "BO",
+    "alpha3Code": "BOL",
+    "numericCode": "068",
+    "callingCodes": [
+      "+591"
+    ],
+    "currencyCode": [
+      "BOB",
+      "BOV"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Sucre",
+    "flag": {
+      "emoji": "🇧🇴",
+      "svg": "https://flagcdn.com/bo.svg"
+    },
+    "names": {
+      "common": "Bolivia",
+      "official": "Plurinational State of Bolivia"
+    }
+  },
+  {
+    "code": "BQ",
+    "alpha3Code": "BES",
+    "numericCode": "535",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇧🇶",
+      "svg": "https://flagcdn.com/bq.svg"
+    },
+    "names": {
+      "common": "Bonaire, Sint Eustatius and Saba",
+      "official": "Bonaire, Sint Eustatius and Saba"
+    }
+  },
+  {
+    "code": "BA",
+    "alpha3Code": "BIH",
+    "numericCode": "070",
+    "callingCodes": [
+      "+387"
+    ],
+    "currencyCode": [
+      "BAM"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Sarajevo",
+    "flag": {
+      "emoji": "🇧🇦",
+      "svg": "https://flagcdn.com/ba.svg"
+    },
+    "names": {
+      "common": "Bosnia and Herzegovina",
+      "official": "Republic of Bosnia and Herzegovina"
+    }
+  },
+  {
+    "code": "BW",
+    "alpha3Code": "BWA",
+    "numericCode": "072",
+    "callingCodes": [
+      "+267"
+    ],
+    "currencyCode": [
+      "BWP"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Gaborone",
+    "flag": {
+      "emoji": "🇧🇼",
+      "svg": "https://flagcdn.com/bw.svg"
+    },
+    "names": {
+      "common": "Botswana",
+      "official": "Republic of Botswana"
+    }
+  },
+  {
+    "code": "BV",
+    "alpha3Code": "BVT",
+    "numericCode": "074",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇧🇻",
+      "svg": "https://flagcdn.com/bv.svg"
+    },
+    "names": {
+      "common": "Bouvet Island",
+      "official": "Bouvet Island"
+    }
+  },
+  {
+    "code": "BR",
+    "alpha3Code": "BRA",
+    "numericCode": "076",
+    "callingCodes": [
+      "+55"
+    ],
+    "currencyCode": [
+      "BRL"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Brasília",
+    "flag": {
+      "emoji": "🇧🇷",
+      "svg": "https://flagcdn.com/br.svg"
+    },
+    "names": {
+      "common": "Brazil",
+      "official": "Federative Republic of Brazil"
+    }
+  },
+  {
+    "code": "IO",
+    "alpha3Code": "IOT",
+    "numericCode": "086",
+    "callingCodes": [
+      "+246"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Diego Garcia",
+    "flag": {
+      "emoji": "🇮🇴",
+      "svg": "https://flagcdn.com/io.svg"
+    },
+    "names": {
+      "common": "British Indian Ocean Territory",
+      "official": "British Indian Ocean Territory"
+    }
+  },
+  {
+    "code": "BN",
+    "alpha3Code": "BRN",
+    "numericCode": "096",
+    "callingCodes": [
+      "+673"
+    ],
+    "currencyCode": [
+      "BND"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Bandar Seri Begawan",
+    "flag": {
+      "emoji": "🇧🇳",
+      "svg": "https://flagcdn.com/bn.svg"
+    },
+    "names": {
+      "common": "Brunei",
+      "official": "Brunei Darussalam"
+    }
+  },
+  {
+    "code": "BG",
+    "alpha3Code": "BGR",
+    "numericCode": "100",
+    "callingCodes": [
+      "+359"
+    ],
+    "currencyCode": [
+      "BGN"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Sofia",
+    "flag": {
+      "emoji": "🇧🇬",
+      "svg": "https://flagcdn.com/bg.svg"
+    },
+    "names": {
+      "common": "Bulgaria",
+      "official": "Republic of Bulgaria"
+    }
+  },
+  {
+    "code": "BF",
+    "alpha3Code": "BFA",
+    "numericCode": "854",
+    "callingCodes": [
+      "+226"
+    ],
+    "currencyCode": [
+      "XOF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Ouagadougou",
+    "flag": {
+      "emoji": "🇧🇫",
+      "svg": "https://flagcdn.com/bf.svg"
+    },
+    "names": {
+      "common": "Burkina Faso",
+      "official": "Burkina Faso"
+    }
+  },
+  {
+    "code": "BI",
+    "alpha3Code": "BDI",
+    "numericCode": "108",
+    "callingCodes": [
+      "+257"
+    ],
+    "currencyCode": [
+      "BIF"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Bujumbura",
+    "flag": {
+      "emoji": "🇧🇮",
+      "svg": "https://flagcdn.com/bi.svg"
+    },
+    "names": {
+      "common": "Burundi",
+      "official": "Republic of Burundi"
+    }
+  },
+  {
+    "code": "CV",
+    "alpha3Code": "CPV",
+    "numericCode": "132",
+    "callingCodes": [
+      "+238"
+    ],
+    "currencyCode": [
+      "CVE"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Praia",
+    "flag": {
+      "emoji": "🇨🇻",
+      "svg": "https://flagcdn.com/cv.svg"
+    },
+    "names": {
+      "common": "Cape Verde",
+      "official": "Republic of Cabo Verde"
+    }
+  },
+  {
+    "code": "KH",
+    "alpha3Code": "KHM",
+    "numericCode": "116",
+    "callingCodes": [
+      "+855"
+    ],
+    "currencyCode": [
+      "KHR"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Phnom Penh",
+    "flag": {
+      "emoji": "🇰🇭",
+      "svg": "https://flagcdn.com/kh.svg"
+    },
+    "names": {
+      "common": "Cambodia",
+      "official": "Kingdom of Cambodia"
+    }
+  },
+  {
+    "code": "CM",
+    "alpha3Code": "CMR",
+    "numericCode": "120",
+    "callingCodes": [
+      "+237"
+    ],
+    "currencyCode": [
+      "XAF"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Yaoundé",
+    "flag": {
+      "emoji": "🇨🇲",
+      "svg": "https://flagcdn.com/cm.svg"
+    },
+    "names": {
+      "common": "Cameroon",
+      "official": "Republic of Cameroon"
+    }
+  },
+  {
+    "code": "CA",
+    "alpha3Code": "CAN",
+    "numericCode": "124",
+    "callingCodes": [
+      "+1"
+    ],
+    "currencyCode": [
+      "CAD"
+    ],
+    "region": "Americas",
+    "subregion": "Northern America",
+    "capital": "Ottawa",
+    "flag": {
+      "emoji": "🇨🇦",
+      "svg": "https://flagcdn.com/ca.svg"
+    },
+    "names": {
+      "common": "Canada",
+      "official": "Canada"
+    }
+  },
+  {
+    "code": "KY",
+    "alpha3Code": "CYM",
+    "numericCode": "136",
+    "callingCodes": [
+      "+1345"
+    ],
+    "currencyCode": [
+      "KYD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "George Town",
+    "flag": {
+      "emoji": "🇰🇾",
+      "svg": "https://flagcdn.com/ky.svg"
+    },
+    "names": {
+      "common": "Cayman Islands",
+      "official": "Cayman Islands"
+    }
+  },
+  {
+    "code": "CF",
+    "alpha3Code": "CAF",
+    "numericCode": "140",
+    "callingCodes": [
+      "+236"
+    ],
+    "currencyCode": [
+      "XAF"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Bangui",
+    "flag": {
+      "emoji": "🇨🇫",
+      "svg": "https://flagcdn.com/cf.svg"
+    },
+    "names": {
+      "common": "Central African Republic",
+      "official": "Central African Republic"
+    }
+  },
+  {
+    "code": "TD",
+    "alpha3Code": "TCD",
+    "numericCode": "148",
+    "callingCodes": [
+      "+235"
+    ],
+    "currencyCode": [
+      "XAF"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "N'Djamena",
+    "flag": {
+      "emoji": "🇹🇩",
+      "svg": "https://flagcdn.com/td.svg"
+    },
+    "names": {
+      "common": "Chad",
+      "official": "Republic of Chad"
+    }
+  },
+  {
+    "code": "CL",
+    "alpha3Code": "CHL",
+    "numericCode": "152",
+    "callingCodes": [
+      "+56"
+    ],
+    "currencyCode": [
+      "CLF",
+      "CLP"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Santiago",
+    "flag": {
+      "emoji": "🇨🇱",
+      "svg": "https://flagcdn.com/cl.svg"
+    },
+    "names": {
+      "common": "Chile",
+      "official": "Republic of Chile"
+    }
+  },
+  {
+    "code": "CN",
+    "alpha3Code": "CHN",
+    "numericCode": "156",
+    "callingCodes": [
+      "+86"
+    ],
+    "currencyCode": [
+      "CNY"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Beijing",
+    "flag": {
+      "emoji": "🇨🇳",
+      "svg": "https://flagcdn.com/cn.svg"
+    },
+    "names": {
+      "common": "China",
+      "official": "People's Republic of China"
+    }
+  },
+  {
+    "code": "CX",
+    "alpha3Code": "CXR",
+    "numericCode": "162",
+    "callingCodes": [
+      "+61"
+    ],
+    "currencyCode": [
+      "AUD"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "capital": "Flying Fish Cove",
+    "flag": {
+      "emoji": "🇨🇽",
+      "svg": "https://flagcdn.com/cx.svg"
+    },
+    "names": {
+      "common": "Christmas Island",
+      "official": "Christmas Island"
+    }
+  },
+  {
+    "code": "CC",
+    "alpha3Code": "CCK",
+    "numericCode": "166",
+    "callingCodes": [
+      "+61"
+    ],
+    "currencyCode": [
+      "AUD"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "capital": "West Island",
+    "flag": {
+      "emoji": "🇨🇨",
+      "svg": "https://flagcdn.com/cc.svg"
+    },
+    "names": {
+      "common": "Cocos (Keeling) Islands",
+      "official": "Cocos (Keeling) Islands"
+    }
+  },
+  {
+    "code": "CO",
+    "alpha3Code": "COL",
+    "numericCode": "170",
+    "callingCodes": [
+      "+57"
+    ],
+    "currencyCode": [
+      "COP"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Bogotá",
+    "flag": {
+      "emoji": "🇨🇴",
+      "svg": "https://flagcdn.com/co.svg"
+    },
+    "names": {
+      "common": "Colombia",
+      "official": "Republic of Colombia"
+    }
+  },
+  {
+    "code": "KM",
+    "alpha3Code": "COM",
+    "numericCode": "174",
+    "callingCodes": [
+      "+269"
+    ],
+    "currencyCode": [
+      "KMF"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Moroni",
+    "flag": {
+      "emoji": "🇰🇲",
+      "svg": "https://flagcdn.com/km.svg"
+    },
+    "names": {
+      "common": "Comoros",
+      "official": "Union of the Comoros"
+    }
+  },
+  {
+    "code": "CG",
+    "alpha3Code": "COG",
+    "numericCode": "178",
+    "callingCodes": [
+      "+242"
+    ],
+    "currencyCode": [
+      "XAF"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Brazzaville",
+    "flag": {
+      "emoji": "🇨🇬",
+      "svg": "https://flagcdn.com/cg.svg"
+    },
+    "names": {
+      "common": "Republic of the Congo",
+      "official": "Republic of the Congo"
+    }
+  },
+  {
+    "code": "CD",
+    "alpha3Code": "COD",
+    "numericCode": "180",
+    "callingCodes": [
+      "+243"
+    ],
+    "currencyCode": [
+      "CDF"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Kinshasa",
+    "flag": {
+      "emoji": "🇨🇩",
+      "svg": "https://flagcdn.com/cd.svg"
+    },
+    "names": {
+      "common": "Democratic Republic of the Congo",
+      "official": "Congo, The Democratic Republic of the"
+    }
+  },
+  {
+    "code": "CK",
+    "alpha3Code": "COK",
+    "numericCode": "184",
+    "callingCodes": [
+      "+682"
+    ],
+    "currencyCode": [
+      "NZD"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Avarua",
+    "flag": {
+      "emoji": "🇨🇰",
+      "svg": "https://flagcdn.com/ck.svg"
+    },
+    "names": {
+      "common": "Cook Islands",
+      "official": "Cook Islands"
+    }
+  },
+  {
+    "code": "CR",
+    "alpha3Code": "CRI",
+    "numericCode": "188",
+    "callingCodes": [
+      "+506"
+    ],
+    "currencyCode": [
+      "CRC"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "capital": "San José",
+    "flag": {
+      "emoji": "🇨🇷",
+      "svg": "https://flagcdn.com/cr.svg"
+    },
+    "names": {
+      "common": "Costa Rica",
+      "official": "Republic of Costa Rica"
+    }
+  },
+  {
+    "code": "HR",
+    "alpha3Code": "HRV",
+    "numericCode": "191",
+    "callingCodes": [
+      "+385"
+    ],
+    "currencyCode": [
+      "HRK"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Zagreb",
+    "flag": {
+      "emoji": "🇭🇷",
+      "svg": "https://flagcdn.com/hr.svg"
+    },
+    "names": {
+      "common": "Croatia",
+      "official": "Republic of Croatia"
+    }
+  },
+  {
+    "code": "CU",
+    "alpha3Code": "CUB",
+    "numericCode": "192",
+    "callingCodes": [
+      "+53"
+    ],
+    "currencyCode": [
+      "CUC",
+      "CUP"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Havana",
+    "flag": {
+      "emoji": "🇨🇺",
+      "svg": "https://flagcdn.com/cu.svg"
+    },
+    "names": {
+      "common": "Cuba",
+      "official": "Republic of Cuba"
+    }
+  },
+  {
+    "code": "CW",
+    "alpha3Code": "CUW",
+    "numericCode": "531",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇨🇼",
+      "svg": "https://flagcdn.com/cw.svg"
+    },
+    "names": {
+      "common": "Curaçao",
+      "official": "Curaçao"
+    }
+  },
+  {
+    "code": "CY",
+    "alpha3Code": "CYP",
+    "numericCode": "196",
+    "callingCodes": [
+      "+357"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Nicosia",
+    "flag": {
+      "emoji": "🇨🇾",
+      "svg": "https://flagcdn.com/cy.svg"
+    },
+    "names": {
+      "common": "Cyprus",
+      "official": "Republic of Cyprus"
+    }
+  },
+  {
+    "code": "CZ",
+    "alpha3Code": "CZE",
+    "numericCode": "203",
+    "callingCodes": [
+      "+420"
+    ],
+    "currencyCode": [
+      "CZK"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Prague",
+    "flag": {
+      "emoji": "🇨🇿",
+      "svg": "https://flagcdn.com/cz.svg"
+    },
+    "names": {
+      "common": "Czech Republic",
+      "official": "Czech Republic"
+    }
+  },
+  {
+    "code": "CI",
+    "alpha3Code": "CIV",
+    "numericCode": "384",
+    "callingCodes": [
+      "+225"
+    ],
+    "currencyCode": [
+      "XOF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Yamoussoukro",
+    "flag": {
+      "emoji": "🇨🇮",
+      "svg": "https://flagcdn.com/ci.svg"
+    },
+    "names": {
+      "common": "Ivory Coast",
+      "official": "Republic of Côte d'Ivoire"
+    }
+  },
+  {
+    "code": "DK",
+    "alpha3Code": "DNK",
+    "numericCode": "208",
+    "callingCodes": [
+      "+45"
+    ],
+    "currencyCode": [
+      "DKK"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Copenhagen",
+    "flag": {
+      "emoji": "🇩🇰",
+      "svg": "https://flagcdn.com/dk.svg"
+    },
+    "names": {
+      "common": "Denmark",
+      "official": "Kingdom of Denmark"
+    }
+  },
+  {
+    "code": "DJ",
+    "alpha3Code": "DJI",
+    "numericCode": "262",
+    "callingCodes": [
+      "+253"
+    ],
+    "currencyCode": [
+      "DJF"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Djibouti",
+    "flag": {
+      "emoji": "🇩🇯",
+      "svg": "https://flagcdn.com/dj.svg"
+    },
+    "names": {
+      "common": "Djibouti",
+      "official": "Republic of Djibouti"
+    }
+  },
+  {
+    "code": "DM",
+    "alpha3Code": "DMA",
+    "numericCode": "212",
+    "callingCodes": [
+      "+1767"
+    ],
+    "currencyCode": [
+      "XCD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Roseau",
+    "flag": {
+      "emoji": "🇩🇲",
+      "svg": "https://flagcdn.com/dm.svg"
+    },
+    "names": {
+      "common": "Dominica",
+      "official": "Commonwealth of Dominica"
+    }
+  },
+  {
+    "code": "DO",
+    "alpha3Code": "DOM",
+    "numericCode": "214",
+    "callingCodes": [
+      "+1809",
+      "+1829",
+      "+1849"
+    ],
+    "currencyCode": [
+      "DOP"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Santo Domingo",
+    "flag": {
+      "emoji": "🇩🇴",
+      "svg": "https://flagcdn.com/do.svg"
+    },
+    "names": {
+      "common": "Dominican Republic",
+      "official": "Dominican Republic"
+    }
+  },
+  {
+    "code": "EC",
+    "alpha3Code": "ECU",
+    "numericCode": "218",
+    "callingCodes": [
+      "+593"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Quito",
+    "flag": {
+      "emoji": "🇪🇨",
+      "svg": "https://flagcdn.com/ec.svg"
+    },
+    "names": {
+      "common": "Ecuador",
+      "official": "Republic of Ecuador"
+    }
+  },
+  {
+    "code": "EG",
+    "alpha3Code": "EGY",
+    "numericCode": "818",
+    "callingCodes": [
+      "+20"
+    ],
+    "currencyCode": [
+      "EGP"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Cairo",
+    "flag": {
+      "emoji": "🇪🇬",
+      "svg": "https://flagcdn.com/eg.svg"
+    },
+    "names": {
+      "common": "Egypt",
+      "official": "Arab Republic of Egypt"
+    }
+  },
+  {
+    "code": "SV",
+    "alpha3Code": "SLV",
+    "numericCode": "222",
+    "callingCodes": [
+      "+503"
+    ],
+    "currencyCode": [
+      "SVC",
+      "USD"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "capital": "San Salvador",
+    "flag": {
+      "emoji": "🇸🇻",
+      "svg": "https://flagcdn.com/sv.svg"
+    },
+    "names": {
+      "common": "El Salvador",
+      "official": "Republic of El Salvador"
+    }
+  },
+  {
+    "code": "GQ",
+    "alpha3Code": "GNQ",
+    "numericCode": "226",
+    "callingCodes": [
+      "+240"
+    ],
+    "currencyCode": [
+      "XAF"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Malabo",
+    "flag": {
+      "emoji": "🇬🇶",
+      "svg": "https://flagcdn.com/gq.svg"
+    },
+    "names": {
+      "common": "Equatorial Guinea",
+      "official": "Republic of Equatorial Guinea"
+    }
+  },
+  {
+    "code": "ER",
+    "alpha3Code": "ERI",
+    "numericCode": "232",
+    "callingCodes": [
+      "+291"
+    ],
+    "currencyCode": [
+      "ERN"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Asmara",
+    "flag": {
+      "emoji": "🇪🇷",
+      "svg": "https://flagcdn.com/er.svg"
+    },
+    "names": {
+      "common": "Eritrea",
+      "official": "the State of Eritrea"
+    }
+  },
+  {
+    "code": "EE",
+    "alpha3Code": "EST",
+    "numericCode": "233",
+    "callingCodes": [
+      "+372"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Tallinn",
+    "flag": {
+      "emoji": "🇪🇪",
+      "svg": "https://flagcdn.com/ee.svg"
+    },
+    "names": {
+      "common": "Estonia",
+      "official": "Republic of Estonia"
+    }
+  },
+  {
+    "code": "SZ",
+    "alpha3Code": "SWZ",
+    "numericCode": "748",
+    "callingCodes": [
+      "+268"
+    ],
+    "currencyCode": [
+      "SZL"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Lobamba",
+    "flag": {
+      "emoji": "🇸🇿",
+      "svg": "https://flagcdn.com/sz.svg"
+    },
+    "names": {
+      "common": "Swaziland",
+      "official": "Kingdom of Eswatini"
+    }
+  },
+  {
+    "code": "ET",
+    "alpha3Code": "ETH",
+    "numericCode": "231",
+    "callingCodes": [
+      "+251"
+    ],
+    "currencyCode": [
+      "ETB"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Addis Ababa",
+    "flag": {
+      "emoji": "🇪🇹",
+      "svg": "https://flagcdn.com/et.svg"
+    },
+    "names": {
+      "common": "Ethiopia",
+      "official": "Federal Democratic Republic of Ethiopia"
+    }
+  },
+  {
+    "code": "FK",
+    "alpha3Code": "FLK",
+    "numericCode": "238",
+    "callingCodes": [
+      "+500"
+    ],
+    "currencyCode": [
+      "FKP"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Stanley",
+    "flag": {
+      "emoji": "🇫🇰",
+      "svg": "https://flagcdn.com/fk.svg"
+    },
+    "names": {
+      "common": "Falkland Islands",
+      "official": "Falkland Islands (Malvinas)"
+    }
+  },
+  {
+    "code": "FO",
+    "alpha3Code": "FRO",
+    "numericCode": "234",
+    "callingCodes": [
+      "+298"
+    ],
+    "currencyCode": [
+      "DKK"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Tórshavn",
+    "flag": {
+      "emoji": "🇫🇴",
+      "svg": "https://flagcdn.com/fo.svg"
+    },
+    "names": {
+      "common": "Faroe Islands",
+      "official": "Faroe Islands"
+    }
+  },
+  {
+    "code": "FJ",
+    "alpha3Code": "FJI",
+    "numericCode": "242",
+    "callingCodes": [
+      "+679"
+    ],
+    "currencyCode": [
+      "FJD"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Suva",
+    "flag": {
+      "emoji": "🇫🇯",
+      "svg": "https://flagcdn.com/fj.svg"
+    },
+    "names": {
+      "common": "Fiji",
+      "official": "Republic of Fiji"
+    }
+  },
+  {
+    "code": "FI",
+    "alpha3Code": "FIN",
+    "numericCode": "246",
+    "callingCodes": [
+      "+358"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Helsinki",
+    "flag": {
+      "emoji": "🇫🇮",
+      "svg": "https://flagcdn.com/fi.svg"
+    },
+    "names": {
+      "common": "Finland",
+      "official": "Republic of Finland"
+    }
+  },
+  {
+    "code": "FR",
+    "alpha3Code": "FRA",
+    "numericCode": "250",
+    "callingCodes": [
+      "+33"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Paris",
+    "flag": {
+      "emoji": "🇫🇷",
+      "svg": "https://flagcdn.com/fr.svg"
+    },
+    "names": {
+      "common": "France",
+      "official": "French Republic"
+    }
+  },
+  {
+    "code": "GF",
+    "alpha3Code": "GUF",
+    "numericCode": "254",
+    "callingCodes": [
+      "+594"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Cayenne",
+    "flag": {
+      "emoji": "🇬🇫",
+      "svg": "https://flagcdn.com/gf.svg"
+    },
+    "names": {
+      "common": "French Guiana",
+      "official": "French Guiana"
+    }
+  },
+  {
+    "code": "PF",
+    "alpha3Code": "PYF",
+    "numericCode": "258",
+    "callingCodes": [
+      "+689"
+    ],
+    "currencyCode": [
+      "XPF"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Papeetē",
+    "flag": {
+      "emoji": "🇵🇫",
+      "svg": "https://flagcdn.com/pf.svg"
+    },
+    "names": {
+      "common": "French Polynesia",
+      "official": "French Polynesia"
+    }
+  },
+  {
+    "code": "TF",
+    "alpha3Code": "ATF",
+    "numericCode": "260",
+    "callingCodes": [],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": null,
+    "subregion": null,
+    "capital": "Port-aux-Français",
+    "flag": {
+      "emoji": "🇹🇫",
+      "svg": "https://flagcdn.com/tf.svg"
+    },
+    "names": {
+      "common": "French Southern and Antarctic Lands",
+      "official": "French Southern Territories"
+    }
+  },
+  {
+    "code": "GA",
+    "alpha3Code": "GAB",
+    "numericCode": "266",
+    "callingCodes": [
+      "+241"
+    ],
+    "currencyCode": [
+      "XAF"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Libreville",
+    "flag": {
+      "emoji": "🇬🇦",
+      "svg": "https://flagcdn.com/ga.svg"
+    },
+    "names": {
+      "common": "Gabon",
+      "official": "Gabonese Republic"
+    }
+  },
+  {
+    "code": "GM",
+    "alpha3Code": "GMB",
+    "numericCode": "270",
+    "callingCodes": [
+      "+220"
+    ],
+    "currencyCode": [
+      "GMD"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Banjul",
+    "flag": {
+      "emoji": "🇬🇲",
+      "svg": "https://flagcdn.com/gm.svg"
+    },
+    "names": {
+      "common": "The Gambia",
+      "official": "Republic of the Gambia"
+    }
+  },
+  {
+    "code": "GE",
+    "alpha3Code": "GEO",
+    "numericCode": "268",
+    "callingCodes": [
+      "+995"
+    ],
+    "currencyCode": [
+      "GEL"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Tbilisi",
+    "flag": {
+      "emoji": "🇬🇪",
+      "svg": "https://flagcdn.com/ge.svg"
+    },
+    "names": {
+      "common": "Georgia",
+      "official": "Georgia"
+    }
+  },
+  {
+    "code": "DE",
+    "alpha3Code": "DEU",
+    "numericCode": "276",
+    "callingCodes": [
+      "+49"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Berlin",
+    "flag": {
+      "emoji": "🇩🇪",
+      "svg": "https://flagcdn.com/de.svg"
+    },
+    "names": {
+      "common": "Germany",
+      "official": "Federal Republic of Germany"
+    }
+  },
+  {
+    "code": "GH",
+    "alpha3Code": "GHA",
+    "numericCode": "288",
+    "callingCodes": [
+      "+233"
+    ],
+    "currencyCode": [
+      "GHS"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Accra",
+    "flag": {
+      "emoji": "🇬🇭",
+      "svg": "https://flagcdn.com/gh.svg"
+    },
+    "names": {
+      "common": "Ghana",
+      "official": "Republic of Ghana"
+    }
+  },
+  {
+    "code": "GI",
+    "alpha3Code": "GIB",
+    "numericCode": "292",
+    "callingCodes": [
+      "+350"
+    ],
+    "currencyCode": [
+      "GIP"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Gibraltar",
+    "flag": {
+      "emoji": "🇬🇮",
+      "svg": "https://flagcdn.com/gi.svg"
+    },
+    "names": {
+      "common": "Gibraltar",
+      "official": "Gibraltar"
+    }
+  },
+  {
+    "code": "GR",
+    "alpha3Code": "GRC",
+    "numericCode": "300",
+    "callingCodes": [
+      "+30"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Athens",
+    "flag": {
+      "emoji": "🇬🇷",
+      "svg": "https://flagcdn.com/gr.svg"
+    },
+    "names": {
+      "common": "Greece",
+      "official": "Hellenic Republic"
+    }
+  },
+  {
+    "code": "GL",
+    "alpha3Code": "GRL",
+    "numericCode": "304",
+    "callingCodes": [
+      "+299"
+    ],
+    "currencyCode": [
+      "DKK"
+    ],
+    "region": "Americas",
+    "subregion": "Northern America",
+    "capital": "Nuuk",
+    "flag": {
+      "emoji": "🇬🇱",
+      "svg": "https://flagcdn.com/gl.svg"
+    },
+    "names": {
+      "common": "Greenland",
+      "official": "Greenland"
+    }
+  },
+  {
+    "code": "GD",
+    "alpha3Code": "GRD",
+    "numericCode": "308",
+    "callingCodes": [
+      "+1473"
+    ],
+    "currencyCode": [
+      "XCD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "St. George's",
+    "flag": {
+      "emoji": "🇬🇩",
+      "svg": "https://flagcdn.com/gd.svg"
+    },
+    "names": {
+      "common": "Grenada",
+      "official": "Grenada"
+    }
+  },
+  {
+    "code": "GP",
+    "alpha3Code": "GLP",
+    "numericCode": "312",
+    "callingCodes": [
+      "+590"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Basse-Terre",
+    "flag": {
+      "emoji": "🇬🇵",
+      "svg": "https://flagcdn.com/gp.svg"
+    },
+    "names": {
+      "common": "Guadeloupe",
+      "official": "Guadeloupe"
+    }
+  },
+  {
+    "code": "GU",
+    "alpha3Code": "GUM",
+    "numericCode": "316",
+    "callingCodes": [
+      "+1671"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Hagåtña",
+    "flag": {
+      "emoji": "🇬🇺",
+      "svg": "https://flagcdn.com/gu.svg"
+    },
+    "names": {
+      "common": "Guam",
+      "official": "Guam"
+    }
+  },
+  {
+    "code": "GT",
+    "alpha3Code": "GTM",
+    "numericCode": "320",
+    "callingCodes": [
+      "+502"
+    ],
+    "currencyCode": [
+      "GTQ"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "capital": "Guatemala City",
+    "flag": {
+      "emoji": "🇬🇹",
+      "svg": "https://flagcdn.com/gt.svg"
+    },
+    "names": {
+      "common": "Guatemala",
+      "official": "Republic of Guatemala"
+    }
+  },
+  {
+    "code": "GG",
+    "alpha3Code": "GGY",
+    "numericCode": "831",
+    "callingCodes": [
+      "+44"
+    ],
+    "currencyCode": [
+      "GBP"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "St. Peter Port",
+    "flag": {
+      "emoji": "🇬🇬",
+      "svg": "https://flagcdn.com/gg.svg"
+    },
+    "names": {
+      "common": "Guernsey",
+      "official": "Guernsey"
+    }
+  },
+  {
+    "code": "GN",
+    "alpha3Code": "GIN",
+    "numericCode": "324",
+    "callingCodes": [
+      "+224"
+    ],
+    "currencyCode": [
+      "GNF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Conakry",
+    "flag": {
+      "emoji": "🇬🇳",
+      "svg": "https://flagcdn.com/gn.svg"
+    },
+    "names": {
+      "common": "Guinea",
+      "official": "Republic of Guinea"
+    }
+  },
+  {
+    "code": "GW",
+    "alpha3Code": "GNB",
+    "numericCode": "624",
+    "callingCodes": [
+      "+245"
+    ],
+    "currencyCode": [
+      "XOF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Bissau",
+    "flag": {
+      "emoji": "🇬🇼",
+      "svg": "https://flagcdn.com/gw.svg"
+    },
+    "names": {
+      "common": "Guinea-Bissau",
+      "official": "Republic of Guinea-Bissau"
+    }
+  },
+  {
+    "code": "GY",
+    "alpha3Code": "GUY",
+    "numericCode": "328",
+    "callingCodes": [
+      "+592"
+    ],
+    "currencyCode": [
+      "GYD"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Georgetown",
+    "flag": {
+      "emoji": "🇬🇾",
+      "svg": "https://flagcdn.com/gy.svg"
+    },
+    "names": {
+      "common": "Guyana",
+      "official": "Republic of Guyana"
+    }
+  },
+  {
+    "code": "HT",
+    "alpha3Code": "HTI",
+    "numericCode": "332",
+    "callingCodes": [
+      "+509"
+    ],
+    "currencyCode": [
+      "HTG",
+      "USD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Port-au-Prince",
+    "flag": {
+      "emoji": "🇭🇹",
+      "svg": "https://flagcdn.com/ht.svg"
+    },
+    "names": {
+      "common": "Haiti",
+      "official": "Republic of Haiti"
+    }
+  },
+  {
+    "code": "HM",
+    "alpha3Code": "HMD",
+    "numericCode": "334",
+    "callingCodes": [],
+    "currencyCode": [
+      "AUD"
+    ],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇭🇲",
+      "svg": "https://flagcdn.com/hm.svg"
+    },
+    "names": {
+      "common": "Heard Island and McDonald Islands",
+      "official": "Heard Island and McDonald Islands"
+    }
+  },
+  {
+    "code": "VA",
+    "alpha3Code": "VAT",
+    "numericCode": "336",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇻🇦",
+      "svg": "https://flagcdn.com/va.svg"
+    },
+    "names": {
+      "common": "Holy See (Vatican City State)",
+      "official": "Holy See (Vatican City State)"
+    }
+  },
+  {
+    "code": "HN",
+    "alpha3Code": "HND",
+    "numericCode": "340",
+    "callingCodes": [
+      "+504"
+    ],
+    "currencyCode": [
+      "HNL"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "capital": "Tegucigalpa",
+    "flag": {
+      "emoji": "🇭🇳",
+      "svg": "https://flagcdn.com/hn.svg"
+    },
+    "names": {
+      "common": "Honduras",
+      "official": "Republic of Honduras"
+    }
+  },
+  {
+    "code": "HK",
+    "alpha3Code": "HKG",
+    "numericCode": "344",
+    "callingCodes": [
+      "+852"
+    ],
+    "currencyCode": [
+      "HKD"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "City of Victoria",
+    "flag": {
+      "emoji": "🇭🇰",
+      "svg": "https://flagcdn.com/hk.svg"
+    },
+    "names": {
+      "common": "Hong Kong",
+      "official": "Hong Kong Special Administrative Region of China"
+    }
+  },
+  {
+    "code": "HU",
+    "alpha3Code": "HUN",
+    "numericCode": "348",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇭🇺",
+      "svg": "https://flagcdn.com/hu.svg"
+    },
+    "names": {
+      "common": "Hungary",
+      "official": "Hungary"
+    }
+  },
+  {
+    "code": "IS",
+    "alpha3Code": "ISL",
+    "numericCode": "352",
+    "callingCodes": [
+      "+354"
+    ],
+    "currencyCode": [
+      "ISK"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Reykjavik",
+    "flag": {
+      "emoji": "🇮🇸",
+      "svg": "https://flagcdn.com/is.svg"
+    },
+    "names": {
+      "common": "Iceland",
+      "official": "Republic of Iceland"
+    }
+  },
+  {
+    "code": "IN",
+    "alpha3Code": "IND",
+    "numericCode": "356",
+    "callingCodes": [
+      "+91"
+    ],
+    "currencyCode": [
+      "INR"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "New Delhi",
+    "flag": {
+      "emoji": "🇮🇳",
+      "svg": "https://flagcdn.com/in.svg"
+    },
+    "names": {
+      "common": "India",
+      "official": "Republic of India"
+    }
+  },
+  {
+    "code": "ID",
+    "alpha3Code": "IDN",
+    "numericCode": "360",
+    "callingCodes": [
+      "+62"
+    ],
+    "currencyCode": [
+      "IDR"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Jakarta",
+    "flag": {
+      "emoji": "🇮🇩",
+      "svg": "https://flagcdn.com/id.svg"
+    },
+    "names": {
+      "common": "Indonesia",
+      "official": "Republic of Indonesia"
+    }
+  },
+  {
+    "code": "IR",
+    "alpha3Code": "IRN",
+    "numericCode": "364",
+    "callingCodes": [
+      "+98"
+    ],
+    "currencyCode": [
+      "IRR"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Tehran",
+    "flag": {
+      "emoji": "🇮🇷",
+      "svg": "https://flagcdn.com/ir.svg"
+    },
+    "names": {
+      "common": "Iran",
+      "official": "Islamic Republic of Iran"
+    }
+  },
+  {
+    "code": "IQ",
+    "alpha3Code": "IRQ",
+    "numericCode": "368",
+    "callingCodes": [
+      "+964"
+    ],
+    "currencyCode": [
+      "IQD"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Baghdad",
+    "flag": {
+      "emoji": "🇮🇶",
+      "svg": "https://flagcdn.com/iq.svg"
+    },
+    "names": {
+      "common": "Iraq",
+      "official": "Republic of Iraq"
+    }
+  },
+  {
+    "code": "IE",
+    "alpha3Code": "IRL",
+    "numericCode": "372",
+    "callingCodes": [
+      "+353"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Dublin",
+    "flag": {
+      "emoji": "🇮🇪",
+      "svg": "https://flagcdn.com/ie.svg"
+    },
+    "names": {
+      "common": "Ireland",
+      "official": "Ireland"
+    }
+  },
+  {
+    "code": "IM",
+    "alpha3Code": "IMN",
+    "numericCode": "833",
+    "callingCodes": [
+      "+44"
+    ],
+    "currencyCode": [
+      "GBP"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Douglas",
+    "flag": {
+      "emoji": "🇮🇲",
+      "svg": "https://flagcdn.com/im.svg"
+    },
+    "names": {
+      "common": "Isle of Man",
+      "official": "Isle of Man"
+    }
+  },
+  {
+    "code": "IL",
+    "alpha3Code": "ISR",
+    "numericCode": "376",
+    "callingCodes": [
+      "+972"
+    ],
+    "currencyCode": [
+      "ILS"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Jerusalem",
+    "flag": {
+      "emoji": "🇮🇱",
+      "svg": "https://flagcdn.com/il.svg"
+    },
+    "names": {
+      "common": "Israel",
+      "official": "State of Israel"
+    }
+  },
+  {
+    "code": "IT",
+    "alpha3Code": "ITA",
+    "numericCode": "380",
+    "callingCodes": [
+      "+39"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Rome",
+    "flag": {
+      "emoji": "🇮🇹",
+      "svg": "https://flagcdn.com/it.svg"
+    },
+    "names": {
+      "common": "Italy",
+      "official": "Italian Republic"
+    }
+  },
+  {
+    "code": "JM",
+    "alpha3Code": "JAM",
+    "numericCode": "388",
+    "callingCodes": [
+      "+1876"
+    ],
+    "currencyCode": [
+      "JMD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Kingston",
+    "flag": {
+      "emoji": "🇯🇲",
+      "svg": "https://flagcdn.com/jm.svg"
+    },
+    "names": {
+      "common": "Jamaica",
+      "official": "Jamaica"
+    }
+  },
+  {
+    "code": "JP",
+    "alpha3Code": "JPN",
+    "numericCode": "392",
+    "callingCodes": [
+      "+81"
+    ],
+    "currencyCode": [
+      "JPY"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Tokyo",
+    "flag": {
+      "emoji": "🇯🇵",
+      "svg": "https://flagcdn.com/jp.svg"
+    },
+    "names": {
+      "common": "Japan",
+      "official": "Japan"
+    }
+  },
+  {
+    "code": "JE",
+    "alpha3Code": "JEY",
+    "numericCode": "832",
+    "callingCodes": [
+      "+44"
+    ],
+    "currencyCode": [
+      "GBP"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Saint Helier",
+    "flag": {
+      "emoji": "🇯🇪",
+      "svg": "https://flagcdn.com/je.svg"
+    },
+    "names": {
+      "common": "Jersey",
+      "official": "Jersey"
+    }
+  },
+  {
+    "code": "JO",
+    "alpha3Code": "JOR",
+    "numericCode": "400",
+    "callingCodes": [
+      "+962"
+    ],
+    "currencyCode": [
+      "JOD"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Amman",
+    "flag": {
+      "emoji": "🇯🇴",
+      "svg": "https://flagcdn.com/jo.svg"
+    },
+    "names": {
+      "common": "Jordan",
+      "official": "Hashemite Kingdom of Jordan"
+    }
+  },
+  {
+    "code": "KZ",
+    "alpha3Code": "KAZ",
+    "numericCode": "398",
+    "callingCodes": [
+      "+76",
+      "+77"
+    ],
+    "currencyCode": [
+      "KZT"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Astana",
+    "flag": {
+      "emoji": "🇰🇿",
+      "svg": "https://flagcdn.com/kz.svg"
+    },
+    "names": {
+      "common": "Kazakhstan",
+      "official": "Republic of Kazakhstan"
+    }
+  },
+  {
+    "code": "KE",
+    "alpha3Code": "KEN",
+    "numericCode": "404",
+    "callingCodes": [
+      "+254"
+    ],
+    "currencyCode": [
+      "KES"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Nairobi",
+    "flag": {
+      "emoji": "🇰🇪",
+      "svg": "https://flagcdn.com/ke.svg"
+    },
+    "names": {
+      "common": "Kenya",
+      "official": "Republic of Kenya"
+    }
+  },
+  {
+    "code": "KI",
+    "alpha3Code": "KIR",
+    "numericCode": "296",
+    "callingCodes": [
+      "+686"
+    ],
+    "currencyCode": [
+      "AUD"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "South Tarawa",
+    "flag": {
+      "emoji": "🇰🇮",
+      "svg": "https://flagcdn.com/ki.svg"
+    },
+    "names": {
+      "common": "Kiribati",
+      "official": "Republic of Kiribati"
+    }
+  },
+  {
+    "code": "KP",
+    "alpha3Code": "PRK",
+    "numericCode": "408",
+    "callingCodes": [
+      "+850"
+    ],
+    "currencyCode": [
+      "KPW"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Pyongyang",
+    "flag": {
+      "emoji": "🇰🇵",
+      "svg": "https://flagcdn.com/kp.svg"
+    },
+    "names": {
+      "common": "North Korea",
+      "official": "Democratic People's Republic of Korea"
+    }
+  },
+  {
+    "code": "KR",
+    "alpha3Code": "KOR",
+    "numericCode": "410",
+    "callingCodes": [
+      "+82"
+    ],
+    "currencyCode": [
+      "KRW"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Seoul",
+    "flag": {
+      "emoji": "🇰🇷",
+      "svg": "https://flagcdn.com/kr.svg"
+    },
+    "names": {
+      "common": "South Korea",
+      "official": "Korea, Republic of"
+    }
+  },
+  {
+    "code": "KW",
+    "alpha3Code": "KWT",
+    "numericCode": "414",
+    "callingCodes": [
+      "+965"
+    ],
+    "currencyCode": [
+      "KWD"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Kuwait City",
+    "flag": {
+      "emoji": "🇰🇼",
+      "svg": "https://flagcdn.com/kw.svg"
+    },
+    "names": {
+      "common": "Kuwait",
+      "official": "State of Kuwait"
+    }
+  },
+  {
+    "code": "KG",
+    "alpha3Code": "KGZ",
+    "numericCode": "417",
+    "callingCodes": [
+      "+996"
+    ],
+    "currencyCode": [
+      "KGS"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Bishkek",
+    "flag": {
+      "emoji": "🇰🇬",
+      "svg": "https://flagcdn.com/kg.svg"
+    },
+    "names": {
+      "common": "Kyrgyzstan",
+      "official": "Kyrgyz Republic"
+    }
+  },
+  {
+    "code": "LA",
+    "alpha3Code": "LAO",
+    "numericCode": "418",
+    "callingCodes": [
+      "+856"
+    ],
+    "currencyCode": [
+      "LAK"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Vientiane",
+    "flag": {
+      "emoji": "🇱🇦",
+      "svg": "https://flagcdn.com/la.svg"
+    },
+    "names": {
+      "common": "Laos",
+      "official": "Lao People's Democratic Republic"
+    }
+  },
+  {
+    "code": "LV",
+    "alpha3Code": "LVA",
+    "numericCode": "428",
+    "callingCodes": [
+      "+371"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Riga",
+    "flag": {
+      "emoji": "🇱🇻",
+      "svg": "https://flagcdn.com/lv.svg"
+    },
+    "names": {
+      "common": "Latvia",
+      "official": "Republic of Latvia"
+    }
+  },
+  {
+    "code": "LB",
+    "alpha3Code": "LBN",
+    "numericCode": "422",
+    "callingCodes": [
+      "+961"
+    ],
+    "currencyCode": [
+      "LBP"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Beirut",
+    "flag": {
+      "emoji": "🇱🇧",
+      "svg": "https://flagcdn.com/lb.svg"
+    },
+    "names": {
+      "common": "Lebanon",
+      "official": "Lebanese Republic"
+    }
+  },
+  {
+    "code": "LS",
+    "alpha3Code": "LSO",
+    "numericCode": "426",
+    "callingCodes": [
+      "+266"
+    ],
+    "currencyCode": [
+      "LSL",
+      "ZAR"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Maseru",
+    "flag": {
+      "emoji": "🇱🇸",
+      "svg": "https://flagcdn.com/ls.svg"
+    },
+    "names": {
+      "common": "Lesotho",
+      "official": "Kingdom of Lesotho"
+    }
+  },
+  {
+    "code": "LR",
+    "alpha3Code": "LBR",
+    "numericCode": "430",
+    "callingCodes": [
+      "+231"
+    ],
+    "currencyCode": [
+      "LRD"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Monrovia",
+    "flag": {
+      "emoji": "🇱🇷",
+      "svg": "https://flagcdn.com/lr.svg"
+    },
+    "names": {
+      "common": "Liberia",
+      "official": "Republic of Liberia"
+    }
+  },
+  {
+    "code": "LY",
+    "alpha3Code": "LBY",
+    "numericCode": "434",
+    "callingCodes": [
+      "+218"
+    ],
+    "currencyCode": [
+      "LYD"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Tripoli",
+    "flag": {
+      "emoji": "🇱🇾",
+      "svg": "https://flagcdn.com/ly.svg"
+    },
+    "names": {
+      "common": "Libya",
+      "official": "Libya"
+    }
+  },
+  {
+    "code": "LI",
+    "alpha3Code": "LIE",
+    "numericCode": "438",
+    "callingCodes": [
+      "+423"
+    ],
+    "currencyCode": [
+      "CHF"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Vaduz",
+    "flag": {
+      "emoji": "🇱🇮",
+      "svg": "https://flagcdn.com/li.svg"
+    },
+    "names": {
+      "common": "Liechtenstein",
+      "official": "Principality of Liechtenstein"
+    }
+  },
+  {
+    "code": "LT",
+    "alpha3Code": "LTU",
+    "numericCode": "440",
+    "callingCodes": [
+      "+370"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Vilnius",
+    "flag": {
+      "emoji": "🇱🇹",
+      "svg": "https://flagcdn.com/lt.svg"
+    },
+    "names": {
+      "common": "Lithuania",
+      "official": "Republic of Lithuania"
+    }
+  },
+  {
+    "code": "LU",
+    "alpha3Code": "LUX",
+    "numericCode": "442",
+    "callingCodes": [
+      "+352"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Luxembourg",
+    "flag": {
+      "emoji": "🇱🇺",
+      "svg": "https://flagcdn.com/lu.svg"
+    },
+    "names": {
+      "common": "Luxembourg",
+      "official": "Grand Duchy of Luxembourg"
+    }
+  },
+  {
+    "code": "MO",
+    "alpha3Code": "MAC",
+    "numericCode": "446",
+    "callingCodes": [
+      "+853"
+    ],
+    "currencyCode": [
+      "MOP"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": null,
+    "flag": {
+      "emoji": "🇲🇴",
+      "svg": "https://flagcdn.com/mo.svg"
+    },
+    "names": {
+      "common": "Macau",
+      "official": "Macao Special Administrative Region of China"
+    }
+  },
+  {
+    "code": "MG",
+    "alpha3Code": "MDG",
+    "numericCode": "450",
+    "callingCodes": [
+      "+261"
+    ],
+    "currencyCode": [
+      "MGA"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Antananarivo",
+    "flag": {
+      "emoji": "🇲🇬",
+      "svg": "https://flagcdn.com/mg.svg"
+    },
+    "names": {
+      "common": "Madagascar",
+      "official": "Republic of Madagascar"
+    }
+  },
+  {
+    "code": "MW",
+    "alpha3Code": "MWI",
+    "numericCode": "454",
+    "callingCodes": [
+      "+265"
+    ],
+    "currencyCode": [
+      "MWK"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Lilongwe",
+    "flag": {
+      "emoji": "🇲🇼",
+      "svg": "https://flagcdn.com/mw.svg"
+    },
+    "names": {
+      "common": "Malawi",
+      "official": "Republic of Malawi"
+    }
+  },
+  {
+    "code": "MY",
+    "alpha3Code": "MYS",
+    "numericCode": "458",
+    "callingCodes": [
+      "+60"
+    ],
+    "currencyCode": [
+      "MYR"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Kuala Lumpur",
+    "flag": {
+      "emoji": "🇲🇾",
+      "svg": "https://flagcdn.com/my.svg"
+    },
+    "names": {
+      "common": "Malaysia",
+      "official": "Malaysia"
+    }
+  },
+  {
+    "code": "MV",
+    "alpha3Code": "MDV",
+    "numericCode": "462",
+    "callingCodes": [
+      "+960"
+    ],
+    "currencyCode": [
+      "MVR"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Malé",
+    "flag": {
+      "emoji": "🇲🇻",
+      "svg": "https://flagcdn.com/mv.svg"
+    },
+    "names": {
+      "common": "Maldives",
+      "official": "Republic of Maldives"
+    }
+  },
+  {
+    "code": "ML",
+    "alpha3Code": "MLI",
+    "numericCode": "466",
+    "callingCodes": [
+      "+223"
+    ],
+    "currencyCode": [
+      "XOF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Bamako",
+    "flag": {
+      "emoji": "🇲🇱",
+      "svg": "https://flagcdn.com/ml.svg"
+    },
+    "names": {
+      "common": "Mali",
+      "official": "Republic of Mali"
+    }
+  },
+  {
+    "code": "MT",
+    "alpha3Code": "MLT",
+    "numericCode": "470",
+    "callingCodes": [
+      "+356"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Valletta",
+    "flag": {
+      "emoji": "🇲🇹",
+      "svg": "https://flagcdn.com/mt.svg"
+    },
+    "names": {
+      "common": "Malta",
+      "official": "Republic of Malta"
+    }
+  },
+  {
+    "code": "MH",
+    "alpha3Code": "MHL",
+    "numericCode": "584",
+    "callingCodes": [
+      "+692"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Majuro",
+    "flag": {
+      "emoji": "🇲🇭",
+      "svg": "https://flagcdn.com/mh.svg"
+    },
+    "names": {
+      "common": "Marshall Islands",
+      "official": "Republic of the Marshall Islands"
+    }
+  },
+  {
+    "code": "MQ",
+    "alpha3Code": "MTQ",
+    "numericCode": "474",
+    "callingCodes": [
+      "+596"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Fort-de-France",
+    "flag": {
+      "emoji": "🇲🇶",
+      "svg": "https://flagcdn.com/mq.svg"
+    },
+    "names": {
+      "common": "Martinique",
+      "official": "Martinique"
+    }
+  },
+  {
+    "code": "MR",
+    "alpha3Code": "MRT",
+    "numericCode": "478",
+    "callingCodes": [
+      "+222"
+    ],
+    "currencyCode": [
+      "MRO"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Nouakchott",
+    "flag": {
+      "emoji": "🇲🇷",
+      "svg": "https://flagcdn.com/mr.svg"
+    },
+    "names": {
+      "common": "Mauritania",
+      "official": "Islamic Republic of Mauritania"
+    }
+  },
+  {
+    "code": "MU",
+    "alpha3Code": "MUS",
+    "numericCode": "480",
+    "callingCodes": [
+      "+230"
+    ],
+    "currencyCode": [
+      "MUR"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Port Louis",
+    "flag": {
+      "emoji": "🇲🇺",
+      "svg": "https://flagcdn.com/mu.svg"
+    },
+    "names": {
+      "common": "Mauritius",
+      "official": "Republic of Mauritius"
+    }
+  },
+  {
+    "code": "YT",
+    "alpha3Code": "MYT",
+    "numericCode": "175",
+    "callingCodes": [
+      "+262"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Mamoudzou",
+    "flag": {
+      "emoji": "🇾🇹",
+      "svg": "https://flagcdn.com/yt.svg"
+    },
+    "names": {
+      "common": "Mayotte",
+      "official": "Mayotte"
+    }
+  },
+  {
+    "code": "MX",
+    "alpha3Code": "MEX",
+    "numericCode": "484",
+    "callingCodes": [
+      "+52"
+    ],
+    "currencyCode": [
+      "MXN"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "capital": "Mexico City",
+    "flag": {
+      "emoji": "🇲🇽",
+      "svg": "https://flagcdn.com/mx.svg"
+    },
+    "names": {
+      "common": "Mexico",
+      "official": "United Mexican States"
+    }
+  },
+  {
+    "code": "FM",
+    "alpha3Code": "FSM",
+    "numericCode": "583",
+    "callingCodes": [
+      "+691"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Palikir",
+    "flag": {
+      "emoji": "🇫🇲",
+      "svg": "https://flagcdn.com/fm.svg"
+    },
+    "names": {
+      "common": "Federated States of Micronesia",
+      "official": "Federated States of Micronesia"
+    }
+  },
+  {
+    "code": "MD",
+    "alpha3Code": "MDA",
+    "numericCode": "498",
+    "callingCodes": [
+      "+373"
+    ],
+    "currencyCode": [
+      "MDL"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Chișinău",
+    "flag": {
+      "emoji": "🇲🇩",
+      "svg": "https://flagcdn.com/md.svg"
+    },
+    "names": {
+      "common": "Moldova",
+      "official": "Republic of Moldova"
+    }
+  },
+  {
+    "code": "MC",
+    "alpha3Code": "MCO",
+    "numericCode": "492",
+    "callingCodes": [
+      "+377"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Monaco",
+    "flag": {
+      "emoji": "🇲🇨",
+      "svg": "https://flagcdn.com/mc.svg"
+    },
+    "names": {
+      "common": "Monaco",
+      "official": "Principality of Monaco"
+    }
+  },
+  {
+    "code": "MN",
+    "alpha3Code": "MNG",
+    "numericCode": "496",
+    "callingCodes": [
+      "+976"
+    ],
+    "currencyCode": [
+      "MNT"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Ulan Bator",
+    "flag": {
+      "emoji": "🇲🇳",
+      "svg": "https://flagcdn.com/mn.svg"
+    },
+    "names": {
+      "common": "Mongolia",
+      "official": "Mongolia"
+    }
+  },
+  {
+    "code": "ME",
+    "alpha3Code": "MNE",
+    "numericCode": "499",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇲🇪",
+      "svg": "https://flagcdn.com/me.svg"
+    },
+    "names": {
+      "common": "Montenegro",
+      "official": "Montenegro"
+    }
+  },
+  {
+    "code": "MS",
+    "alpha3Code": "MSR",
+    "numericCode": "500",
+    "callingCodes": [
+      "+1664"
+    ],
+    "currencyCode": [
+      "XCD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Plymouth",
+    "flag": {
+      "emoji": "🇲🇸",
+      "svg": "https://flagcdn.com/ms.svg"
+    },
+    "names": {
+      "common": "Montserrat",
+      "official": "Montserrat"
+    }
+  },
+  {
+    "code": "MA",
+    "alpha3Code": "MAR",
+    "numericCode": "504",
+    "callingCodes": [
+      "+212"
+    ],
+    "currencyCode": [
+      "MAD"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Rabat",
+    "flag": {
+      "emoji": "🇲🇦",
+      "svg": "https://flagcdn.com/ma.svg"
+    },
+    "names": {
+      "common": "Morocco",
+      "official": "Kingdom of Morocco"
+    }
+  },
+  {
+    "code": "MZ",
+    "alpha3Code": "MOZ",
+    "numericCode": "508",
+    "callingCodes": [
+      "+258"
+    ],
+    "currencyCode": [
+      "MZN"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Maputo",
+    "flag": {
+      "emoji": "🇲🇿",
+      "svg": "https://flagcdn.com/mz.svg"
+    },
+    "names": {
+      "common": "Mozambique",
+      "official": "Republic of Mozambique"
+    }
+  },
+  {
+    "code": "MM",
+    "alpha3Code": "MMR",
+    "numericCode": "104",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇲🇲",
+      "svg": "https://flagcdn.com/mm.svg"
+    },
+    "names": {
+      "common": "Myanmar",
+      "official": "Republic of Myanmar"
+    }
+  },
+  {
+    "code": "NA",
+    "alpha3Code": "NAM",
+    "numericCode": "516",
+    "callingCodes": [
+      "+264"
+    ],
+    "currencyCode": [
+      "NAD",
+      "ZAR"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Windhoek",
+    "flag": {
+      "emoji": "🇳🇦",
+      "svg": "https://flagcdn.com/na.svg"
+    },
+    "names": {
+      "common": "Namibia",
+      "official": "Republic of Namibia"
+    }
+  },
+  {
+    "code": "NR",
+    "alpha3Code": "NRU",
+    "numericCode": "520",
+    "callingCodes": [
+      "+674"
+    ],
+    "currencyCode": [
+      "AUD"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Yaren",
+    "flag": {
+      "emoji": "🇳🇷",
+      "svg": "https://flagcdn.com/nr.svg"
+    },
+    "names": {
+      "common": "Nauru",
+      "official": "Republic of Nauru"
+    }
+  },
+  {
+    "code": "NP",
+    "alpha3Code": "NPL",
+    "numericCode": "524",
+    "callingCodes": [
+      "+977"
+    ],
+    "currencyCode": [
+      "NPR"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Kathmandu",
+    "flag": {
+      "emoji": "🇳🇵",
+      "svg": "https://flagcdn.com/np.svg"
+    },
+    "names": {
+      "common": "Nepal",
+      "official": "Federal Democratic Republic of Nepal"
+    }
+  },
+  {
+    "code": "NL",
+    "alpha3Code": "NLD",
+    "numericCode": "528",
+    "callingCodes": [
+      "+31"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Amsterdam",
+    "flag": {
+      "emoji": "🇳🇱",
+      "svg": "https://flagcdn.com/nl.svg"
+    },
+    "names": {
+      "common": "Netherlands",
+      "official": "Kingdom of the Netherlands"
+    }
+  },
+  {
+    "code": "NC",
+    "alpha3Code": "NCL",
+    "numericCode": "540",
+    "callingCodes": [
+      "+687"
+    ],
+    "currencyCode": [
+      "XPF"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Nouméa",
+    "flag": {
+      "emoji": "🇳🇨",
+      "svg": "https://flagcdn.com/nc.svg"
+    },
+    "names": {
+      "common": "New Caledonia",
+      "official": "New Caledonia"
+    }
+  },
+  {
+    "code": "NZ",
+    "alpha3Code": "NZL",
+    "numericCode": "554",
+    "callingCodes": [
+      "+64"
+    ],
+    "currencyCode": [
+      "NZD"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "capital": "Wellington",
+    "flag": {
+      "emoji": "🇳🇿",
+      "svg": "https://flagcdn.com/nz.svg"
+    },
+    "names": {
+      "common": "New Zealand",
+      "official": "New Zealand"
+    }
+  },
+  {
+    "code": "NI",
+    "alpha3Code": "NIC",
+    "numericCode": "558",
+    "callingCodes": [
+      "+505"
+    ],
+    "currencyCode": [
+      "NIO"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "capital": "Managua",
+    "flag": {
+      "emoji": "🇳🇮",
+      "svg": "https://flagcdn.com/ni.svg"
+    },
+    "names": {
+      "common": "Nicaragua",
+      "official": "Republic of Nicaragua"
+    }
+  },
+  {
+    "code": "NE",
+    "alpha3Code": "NER",
+    "numericCode": "562",
+    "callingCodes": [
+      "+227"
+    ],
+    "currencyCode": [
+      "XOF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Niamey",
+    "flag": {
+      "emoji": "🇳🇪",
+      "svg": "https://flagcdn.com/ne.svg"
+    },
+    "names": {
+      "common": "Niger",
+      "official": "Republic of the Niger"
+    }
+  },
+  {
+    "code": "NG",
+    "alpha3Code": "NGA",
+    "numericCode": "566",
+    "callingCodes": [
+      "+234"
+    ],
+    "currencyCode": [
+      "NGN"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Abuja",
+    "flag": {
+      "emoji": "🇳🇬",
+      "svg": "https://flagcdn.com/ng.svg"
+    },
+    "names": {
+      "common": "Nigeria",
+      "official": "Federal Republic of Nigeria"
+    }
+  },
+  {
+    "code": "NU",
+    "alpha3Code": "NIU",
+    "numericCode": "570",
+    "callingCodes": [
+      "+683"
+    ],
+    "currencyCode": [
+      "NZD"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Alofi",
+    "flag": {
+      "emoji": "🇳🇺",
+      "svg": "https://flagcdn.com/nu.svg"
+    },
+    "names": {
+      "common": "Niue",
+      "official": "Niue"
+    }
+  },
+  {
+    "code": "NF",
+    "alpha3Code": "NFK",
+    "numericCode": "574",
+    "callingCodes": [
+      "+672"
+    ],
+    "currencyCode": [
+      "AUD"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "capital": "Kingston",
+    "flag": {
+      "emoji": "🇳🇫",
+      "svg": "https://flagcdn.com/nf.svg"
+    },
+    "names": {
+      "common": "Norfolk Island",
+      "official": "Norfolk Island"
+    }
+  },
+  {
+    "code": "MK",
+    "alpha3Code": "MKD",
+    "numericCode": "807",
+    "callingCodes": [
+      "+389"
+    ],
+    "currencyCode": [
+      "MKD"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Skopje",
+    "flag": {
+      "emoji": "🇲🇰",
+      "svg": "https://flagcdn.com/mk.svg"
+    },
+    "names": {
+      "common": "Republic of Macedonia",
+      "official": "Republic of North Macedonia"
+    }
+  },
+  {
+    "code": "MP",
+    "alpha3Code": "MNP",
+    "numericCode": "580",
+    "callingCodes": [
+      "+1670"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Saipan",
+    "flag": {
+      "emoji": "🇲🇵",
+      "svg": "https://flagcdn.com/mp.svg"
+    },
+    "names": {
+      "common": "Northern Mariana Islands",
+      "official": "Commonwealth of the Northern Mariana Islands"
+    }
+  },
+  {
+    "code": "NO",
+    "alpha3Code": "NOR",
+    "numericCode": "578",
+    "callingCodes": [
+      "+47"
+    ],
+    "currencyCode": [
+      "NOK"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Oslo",
+    "flag": {
+      "emoji": "🇳🇴",
+      "svg": "https://flagcdn.com/no.svg"
+    },
+    "names": {
+      "common": "Norway",
+      "official": "Kingdom of Norway"
+    }
+  },
+  {
+    "code": "OM",
+    "alpha3Code": "OMN",
+    "numericCode": "512",
+    "callingCodes": [
+      "+968"
+    ],
+    "currencyCode": [
+      "OMR"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Muscat",
+    "flag": {
+      "emoji": "🇴🇲",
+      "svg": "https://flagcdn.com/om.svg"
+    },
+    "names": {
+      "common": "Oman",
+      "official": "Sultanate of Oman"
+    }
+  },
+  {
+    "code": "PK",
+    "alpha3Code": "PAK",
+    "numericCode": "586",
+    "callingCodes": [
+      "+92"
+    ],
+    "currencyCode": [
+      "PKR"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Islamabad",
+    "flag": {
+      "emoji": "🇵🇰",
+      "svg": "https://flagcdn.com/pk.svg"
+    },
+    "names": {
+      "common": "Pakistan",
+      "official": "Islamic Republic of Pakistan"
+    }
+  },
+  {
+    "code": "PW",
+    "alpha3Code": "PLW",
+    "numericCode": "585",
+    "callingCodes": [
+      "+680"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Ngerulmud",
+    "flag": {
+      "emoji": "🇵🇼",
+      "svg": "https://flagcdn.com/pw.svg"
+    },
+    "names": {
+      "common": "Palau",
+      "official": "Republic of Palau"
+    }
+  },
+  {
+    "code": "PS",
+    "alpha3Code": "PSE",
+    "numericCode": "275",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇵🇸",
+      "svg": "https://flagcdn.com/ps.svg"
+    },
+    "names": {
+      "common": "Palestine, State of",
+      "official": "the State of Palestine"
+    }
+  },
+  {
+    "code": "PA",
+    "alpha3Code": "PAN",
+    "numericCode": "591",
+    "callingCodes": [
+      "+507"
+    ],
+    "currencyCode": [
+      "PAB",
+      "USD"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "capital": "Panama City",
+    "flag": {
+      "emoji": "🇵🇦",
+      "svg": "https://flagcdn.com/pa.svg"
+    },
+    "names": {
+      "common": "Panama",
+      "official": "Republic of Panama"
+    }
+  },
+  {
+    "code": "PG",
+    "alpha3Code": "PNG",
+    "numericCode": "598",
+    "callingCodes": [
+      "+675"
+    ],
+    "currencyCode": [
+      "PGK"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Port Moresby",
+    "flag": {
+      "emoji": "🇵🇬",
+      "svg": "https://flagcdn.com/pg.svg"
+    },
+    "names": {
+      "common": "Papua New Guinea",
+      "official": "Independent State of Papua New Guinea"
+    }
+  },
+  {
+    "code": "PY",
+    "alpha3Code": "PRY",
+    "numericCode": "600",
+    "callingCodes": [
+      "+595"
+    ],
+    "currencyCode": [
+      "PYG"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Asunción",
+    "flag": {
+      "emoji": "🇵🇾",
+      "svg": "https://flagcdn.com/py.svg"
+    },
+    "names": {
+      "common": "Paraguay",
+      "official": "Republic of Paraguay"
+    }
+  },
+  {
+    "code": "PE",
+    "alpha3Code": "PER",
+    "numericCode": "604",
+    "callingCodes": [
+      "+51"
+    ],
+    "currencyCode": [
+      "PEN"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Lima",
+    "flag": {
+      "emoji": "🇵🇪",
+      "svg": "https://flagcdn.com/pe.svg"
+    },
+    "names": {
+      "common": "Peru",
+      "official": "Republic of Peru"
+    }
+  },
+  {
+    "code": "PH",
+    "alpha3Code": "PHL",
+    "numericCode": "608",
+    "callingCodes": [
+      "+63"
+    ],
+    "currencyCode": [
+      "PHP"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Manila",
+    "flag": {
+      "emoji": "🇵🇭",
+      "svg": "https://flagcdn.com/ph.svg"
+    },
+    "names": {
+      "common": "Philippines",
+      "official": "Republic of the Philippines"
+    }
+  },
+  {
+    "code": "PN",
+    "alpha3Code": "PCN",
+    "numericCode": "612",
+    "callingCodes": [
+      "+64"
+    ],
+    "currencyCode": [
+      "NZD"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Adamstown",
+    "flag": {
+      "emoji": "🇵🇳",
+      "svg": "https://flagcdn.com/pn.svg"
+    },
+    "names": {
+      "common": "Pitcairn Islands",
+      "official": "Pitcairn"
+    }
+  },
+  {
+    "code": "PL",
+    "alpha3Code": "POL",
+    "numericCode": "616",
+    "callingCodes": [
+      "+48"
+    ],
+    "currencyCode": [
+      "PLN"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Warsaw",
+    "flag": {
+      "emoji": "🇵🇱",
+      "svg": "https://flagcdn.com/pl.svg"
+    },
+    "names": {
+      "common": "Poland",
+      "official": "Republic of Poland"
+    }
+  },
+  {
+    "code": "PT",
+    "alpha3Code": "PRT",
+    "numericCode": "620",
+    "callingCodes": [
+      "+351"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Lisbon",
+    "flag": {
+      "emoji": "🇵🇹",
+      "svg": "https://flagcdn.com/pt.svg"
+    },
+    "names": {
+      "common": "Portugal",
+      "official": "Portuguese Republic"
+    }
+  },
+  {
+    "code": "PR",
+    "alpha3Code": "PRI",
+    "numericCode": "630",
+    "callingCodes": [
+      "+1787",
+      "+1939"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "San Juan",
+    "flag": {
+      "emoji": "🇵🇷",
+      "svg": "https://flagcdn.com/pr.svg"
+    },
+    "names": {
+      "common": "Puerto Rico",
+      "official": "Puerto Rico"
+    }
+  },
+  {
+    "code": "QA",
+    "alpha3Code": "QAT",
+    "numericCode": "634",
+    "callingCodes": [
+      "+974"
+    ],
+    "currencyCode": [
+      "QAR"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Doha",
+    "flag": {
+      "emoji": "🇶🇦",
+      "svg": "https://flagcdn.com/qa.svg"
+    },
+    "names": {
+      "common": "Qatar",
+      "official": "State of Qatar"
+    }
+  },
+  {
+    "code": "RO",
+    "alpha3Code": "ROU",
+    "numericCode": "642",
+    "callingCodes": [
+      "+40"
+    ],
+    "currencyCode": [
+      "RON"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Bucharest",
+    "flag": {
+      "emoji": "🇷🇴",
+      "svg": "https://flagcdn.com/ro.svg"
+    },
+    "names": {
+      "common": "Romania",
+      "official": "Romania"
+    }
+  },
+  {
+    "code": "RU",
+    "alpha3Code": "RUS",
+    "numericCode": "643",
+    "callingCodes": [
+      "+7"
+    ],
+    "currencyCode": [
+      "RUB"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Moscow",
+    "flag": {
+      "emoji": "🇷🇺",
+      "svg": "https://flagcdn.com/ru.svg"
+    },
+    "names": {
+      "common": "Russia",
+      "official": "Russian Federation"
+    }
+  },
+  {
+    "code": "RW",
+    "alpha3Code": "RWA",
+    "numericCode": "646",
+    "callingCodes": [
+      "+250"
+    ],
+    "currencyCode": [
+      "RWF"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Kigali",
+    "flag": {
+      "emoji": "🇷🇼",
+      "svg": "https://flagcdn.com/rw.svg"
+    },
+    "names": {
+      "common": "Rwanda",
+      "official": "Rwandese Republic"
+    }
+  },
+  {
+    "code": "RE",
+    "alpha3Code": "REU",
+    "numericCode": "638",
+    "callingCodes": [
+      "+262"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Saint-Denis",
+    "flag": {
+      "emoji": "🇷🇪",
+      "svg": "https://flagcdn.com/re.svg"
+    },
+    "names": {
+      "common": "Réunion",
+      "official": "Réunion"
+    }
+  },
+  {
+    "code": "BL",
+    "alpha3Code": "BLM",
+    "numericCode": "652",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇧🇱",
+      "svg": "https://flagcdn.com/bl.svg"
+    },
+    "names": {
+      "common": "Saint Barthélemy",
+      "official": "Saint Barthélemy"
+    }
+  },
+  {
+    "code": "SH",
+    "alpha3Code": "SHN",
+    "numericCode": "654",
+    "callingCodes": [
+      "+290"
+    ],
+    "currencyCode": [
+      "SHP"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Jamestown",
+    "flag": {
+      "emoji": "🇸🇭",
+      "svg": "https://flagcdn.com/sh.svg"
+    },
+    "names": {
+      "common": "Saint Helena",
+      "official": "Saint Helena, Ascension and Tristan da Cunha"
+    }
+  },
+  {
+    "code": "KN",
+    "alpha3Code": "KNA",
+    "numericCode": "659",
+    "callingCodes": [
+      "+1869"
+    ],
+    "currencyCode": [
+      "XCD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Basseterre",
+    "flag": {
+      "emoji": "🇰🇳",
+      "svg": "https://flagcdn.com/kn.svg"
+    },
+    "names": {
+      "common": "Saint Kitts and Nevis",
+      "official": "Saint Kitts and Nevis"
+    }
+  },
+  {
+    "code": "LC",
+    "alpha3Code": "LCA",
+    "numericCode": "662",
+    "callingCodes": [
+      "+1758"
+    ],
+    "currencyCode": [
+      "XCD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Castries",
+    "flag": {
+      "emoji": "🇱🇨",
+      "svg": "https://flagcdn.com/lc.svg"
+    },
+    "names": {
+      "common": "Saint Lucia",
+      "official": "Saint Lucia"
+    }
+  },
+  {
+    "code": "MF",
+    "alpha3Code": "MAF",
+    "numericCode": "663",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇲🇫",
+      "svg": "https://flagcdn.com/mf.svg"
+    },
+    "names": {
+      "common": "Saint Martin (French part)",
+      "official": "Saint Martin (French part)"
+    }
+  },
+  {
+    "code": "PM",
+    "alpha3Code": "SPM",
+    "numericCode": "666",
+    "callingCodes": [
+      "+508"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Americas",
+    "subregion": "Northern America",
+    "capital": "Saint-Pierre",
+    "flag": {
+      "emoji": "🇵🇲",
+      "svg": "https://flagcdn.com/pm.svg"
+    },
+    "names": {
+      "common": "Saint Pierre and Miquelon",
+      "official": "Saint Pierre and Miquelon"
+    }
+  },
+  {
+    "code": "VC",
+    "alpha3Code": "VCT",
+    "numericCode": "670",
+    "callingCodes": [
+      "+1784"
+    ],
+    "currencyCode": [
+      "XCD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Kingstown",
+    "flag": {
+      "emoji": "🇻🇨",
+      "svg": "https://flagcdn.com/vc.svg"
+    },
+    "names": {
+      "common": "Saint Vincent and the Grenadines",
+      "official": "Saint Vincent and the Grenadines"
+    }
+  },
+  {
+    "code": "WS",
+    "alpha3Code": "WSM",
+    "numericCode": "882",
+    "callingCodes": [
+      "+685"
+    ],
+    "currencyCode": [
+      "WST"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Apia",
+    "flag": {
+      "emoji": "🇼🇸",
+      "svg": "https://flagcdn.com/ws.svg"
+    },
+    "names": {
+      "common": "Samoa",
+      "official": "Independent State of Samoa"
+    }
+  },
+  {
+    "code": "SM",
+    "alpha3Code": "SMR",
+    "numericCode": "674",
+    "callingCodes": [
+      "+378"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "City of San Marino",
+    "flag": {
+      "emoji": "🇸🇲",
+      "svg": "https://flagcdn.com/sm.svg"
+    },
+    "names": {
+      "common": "San Marino",
+      "official": "Republic of San Marino"
+    }
+  },
+  {
+    "code": "ST",
+    "alpha3Code": "STP",
+    "numericCode": "678",
+    "callingCodes": [
+      "+239"
+    ],
+    "currencyCode": [
+      "STD"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "São Tomé",
+    "flag": {
+      "emoji": "🇸🇹",
+      "svg": "https://flagcdn.com/st.svg"
+    },
+    "names": {
+      "common": "São Tomé and Príncipe",
+      "official": "Democratic Republic of Sao Tome and Principe"
+    }
+  },
+  {
+    "code": "SA",
+    "alpha3Code": "SAU",
+    "numericCode": "682",
+    "callingCodes": [
+      "+966"
+    ],
+    "currencyCode": [
+      "SAR"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Riyadh",
+    "flag": {
+      "emoji": "🇸🇦",
+      "svg": "https://flagcdn.com/sa.svg"
+    },
+    "names": {
+      "common": "Saudi Arabia",
+      "official": "Kingdom of Saudi Arabia"
+    }
+  },
+  {
+    "code": "SN",
+    "alpha3Code": "SEN",
+    "numericCode": "686",
+    "callingCodes": [
+      "+221"
+    ],
+    "currencyCode": [
+      "XOF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Dakar",
+    "flag": {
+      "emoji": "🇸🇳",
+      "svg": "https://flagcdn.com/sn.svg"
+    },
+    "names": {
+      "common": "Senegal",
+      "official": "Republic of Senegal"
+    }
+  },
+  {
+    "code": "RS",
+    "alpha3Code": "SRB",
+    "numericCode": "688",
+    "callingCodes": [
+      "+381"
+    ],
+    "currencyCode": [
+      "RSD"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Belgrade",
+    "flag": {
+      "emoji": "🇷🇸",
+      "svg": "https://flagcdn.com/rs.svg"
+    },
+    "names": {
+      "common": "Serbia",
+      "official": "Republic of Serbia"
+    }
+  },
+  {
+    "code": "SC",
+    "alpha3Code": "SYC",
+    "numericCode": "690",
+    "callingCodes": [
+      "+248"
+    ],
+    "currencyCode": [
+      "SCR"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Victoria",
+    "flag": {
+      "emoji": "🇸🇨",
+      "svg": "https://flagcdn.com/sc.svg"
+    },
+    "names": {
+      "common": "Seychelles",
+      "official": "Republic of Seychelles"
+    }
+  },
+  {
+    "code": "SL",
+    "alpha3Code": "SLE",
+    "numericCode": "694",
+    "callingCodes": [
+      "+232"
+    ],
+    "currencyCode": [
+      "SLL"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Freetown",
+    "flag": {
+      "emoji": "🇸🇱",
+      "svg": "https://flagcdn.com/sl.svg"
+    },
+    "names": {
+      "common": "Sierra Leone",
+      "official": "Republic of Sierra Leone"
+    }
+  },
+  {
+    "code": "SG",
+    "alpha3Code": "SGP",
+    "numericCode": "702",
+    "callingCodes": [
+      "+65"
+    ],
+    "currencyCode": [
+      "SGD"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Singapore",
+    "flag": {
+      "emoji": "🇸🇬",
+      "svg": "https://flagcdn.com/sg.svg"
+    },
+    "names": {
+      "common": "Singapore",
+      "official": "Republic of Singapore"
+    }
+  },
+  {
+    "code": "SX",
+    "alpha3Code": "SXM",
+    "numericCode": "534",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇸🇽",
+      "svg": "https://flagcdn.com/sx.svg"
+    },
+    "names": {
+      "common": "Sint Maarten (Dutch part)",
+      "official": "Sint Maarten (Dutch part)"
+    }
+  },
+  {
+    "code": "SK",
+    "alpha3Code": "SVK",
+    "numericCode": "703",
+    "callingCodes": [
+      "+421"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Bratislava",
+    "flag": {
+      "emoji": "🇸🇰",
+      "svg": "https://flagcdn.com/sk.svg"
+    },
+    "names": {
+      "common": "Slovakia",
+      "official": "Slovak Republic"
+    }
+  },
+  {
+    "code": "SI",
+    "alpha3Code": "SVN",
+    "numericCode": "705",
+    "callingCodes": [
+      "+386"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Ljubljana",
+    "flag": {
+      "emoji": "🇸🇮",
+      "svg": "https://flagcdn.com/si.svg"
+    },
+    "names": {
+      "common": "Slovenia",
+      "official": "Republic of Slovenia"
+    }
+  },
+  {
+    "code": "SB",
+    "alpha3Code": "SLB",
+    "numericCode": "090",
+    "callingCodes": [
+      "+677"
+    ],
+    "currencyCode": [
+      "SBD"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Honiara",
+    "flag": {
+      "emoji": "🇸🇧",
+      "svg": "https://flagcdn.com/sb.svg"
+    },
+    "names": {
+      "common": "Solomon Islands",
+      "official": "Solomon Islands"
+    }
+  },
+  {
+    "code": "SO",
+    "alpha3Code": "SOM",
+    "numericCode": "706",
+    "callingCodes": [
+      "+252"
+    ],
+    "currencyCode": [
+      "SOS"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Mogadishu",
+    "flag": {
+      "emoji": "🇸🇴",
+      "svg": "https://flagcdn.com/so.svg"
+    },
+    "names": {
+      "common": "Somalia",
+      "official": "Federal Republic of Somalia"
+    }
+  },
+  {
+    "code": "ZA",
+    "alpha3Code": "ZAF",
+    "numericCode": "710",
+    "callingCodes": [
+      "+27"
+    ],
+    "currencyCode": [
+      "ZAR"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Pretoria",
+    "flag": {
+      "emoji": "🇿🇦",
+      "svg": "https://flagcdn.com/za.svg"
+    },
+    "names": {
+      "common": "South Africa",
+      "official": "Republic of South Africa"
+    }
+  },
+  {
+    "code": "GS",
+    "alpha3Code": "SGS",
+    "numericCode": "239",
+    "callingCodes": [
+      "+500"
+    ],
+    "currencyCode": [
+      "GBP"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "King Edward Point",
+    "flag": {
+      "emoji": "🇬🇸",
+      "svg": "https://flagcdn.com/gs.svg"
+    },
+    "names": {
+      "common": "South Georgia",
+      "official": "South Georgia and the South Sandwich Islands"
+    }
+  },
+  {
+    "code": "SS",
+    "alpha3Code": "SSD",
+    "numericCode": "728",
+    "callingCodes": [
+      "+211"
+    ],
+    "currencyCode": [
+      "SSP"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Juba",
+    "flag": {
+      "emoji": "🇸🇸",
+      "svg": "https://flagcdn.com/ss.svg"
+    },
+    "names": {
+      "common": "South Sudan",
+      "official": "Republic of South Sudan"
+    }
+  },
+  {
+    "code": "ES",
+    "alpha3Code": "ESP",
+    "numericCode": "724",
+    "callingCodes": [
+      "+34"
+    ],
+    "currencyCode": [
+      "EUR"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Madrid",
+    "flag": {
+      "emoji": "🇪🇸",
+      "svg": "https://flagcdn.com/es.svg"
+    },
+    "names": {
+      "common": "Spain",
+      "official": "Kingdom of Spain"
+    }
+  },
+  {
+    "code": "LK",
+    "alpha3Code": "LKA",
+    "numericCode": "144",
+    "callingCodes": [
+      "+94"
+    ],
+    "currencyCode": [
+      "LKR"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Colombo",
+    "flag": {
+      "emoji": "🇱🇰",
+      "svg": "https://flagcdn.com/lk.svg"
+    },
+    "names": {
+      "common": "Sri Lanka",
+      "official": "Democratic Socialist Republic of Sri Lanka"
+    }
+  },
+  {
+    "code": "SD",
+    "alpha3Code": "SDN",
+    "numericCode": "729",
+    "callingCodes": [
+      "+249"
+    ],
+    "currencyCode": [
+      "SDG"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Khartoum",
+    "flag": {
+      "emoji": "🇸🇩",
+      "svg": "https://flagcdn.com/sd.svg"
+    },
+    "names": {
+      "common": "Sudan",
+      "official": "Republic of the Sudan"
+    }
+  },
+  {
+    "code": "SR",
+    "alpha3Code": "SUR",
+    "numericCode": "740",
+    "callingCodes": [
+      "+597"
+    ],
+    "currencyCode": [
+      "SRD"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Paramaribo",
+    "flag": {
+      "emoji": "🇸🇷",
+      "svg": "https://flagcdn.com/sr.svg"
+    },
+    "names": {
+      "common": "Suriname",
+      "official": "Republic of Suriname"
+    }
+  },
+  {
+    "code": "SJ",
+    "alpha3Code": "SJM",
+    "numericCode": "744",
+    "callingCodes": [
+      "+4779"
+    ],
+    "currencyCode": [
+      "NOK"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Longyearbyen",
+    "flag": {
+      "emoji": "🇸🇯",
+      "svg": "https://flagcdn.com/sj.svg"
+    },
+    "names": {
+      "common": "Svalbard and Jan Mayen",
+      "official": "Svalbard and Jan Mayen"
+    }
+  },
+  {
+    "code": "SE",
+    "alpha3Code": "SWE",
+    "numericCode": "752",
+    "callingCodes": [
+      "+46"
+    ],
+    "currencyCode": [
+      "SEK"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Stockholm",
+    "flag": {
+      "emoji": "🇸🇪",
+      "svg": "https://flagcdn.com/se.svg"
+    },
+    "names": {
+      "common": "Sweden",
+      "official": "Kingdom of Sweden"
+    }
+  },
+  {
+    "code": "CH",
+    "alpha3Code": "CHE",
+    "numericCode": "756",
+    "callingCodes": [
+      "+41"
+    ],
+    "currencyCode": [
+      "CHE",
+      "CHF",
+      "CHW"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Bern",
+    "flag": {
+      "emoji": "🇨🇭",
+      "svg": "https://flagcdn.com/ch.svg"
+    },
+    "names": {
+      "common": "Switzerland",
+      "official": "Swiss Confederation"
+    }
+  },
+  {
+    "code": "SY",
+    "alpha3Code": "SYR",
+    "numericCode": "760",
+    "callingCodes": [
+      "+963"
+    ],
+    "currencyCode": [
+      "SYP"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Damascus",
+    "flag": {
+      "emoji": "🇸🇾",
+      "svg": "https://flagcdn.com/sy.svg"
+    },
+    "names": {
+      "common": "Syria",
+      "official": "Syrian Arab Republic"
+    }
+  },
+  {
+    "code": "TW",
+    "alpha3Code": "TWN",
+    "numericCode": "158",
+    "callingCodes": [
+      "+886"
+    ],
+    "currencyCode": [
+      "TWD"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Taipei",
+    "flag": {
+      "emoji": "🇹🇼",
+      "svg": "https://flagcdn.com/tw.svg"
+    },
+    "names": {
+      "common": "Taiwan",
+      "official": "Taiwan, Province of China"
+    }
+  },
+  {
+    "code": "TJ",
+    "alpha3Code": "TJK",
+    "numericCode": "762",
+    "callingCodes": [
+      "+992"
+    ],
+    "currencyCode": [
+      "TJS"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Dushanbe",
+    "flag": {
+      "emoji": "🇹🇯",
+      "svg": "https://flagcdn.com/tj.svg"
+    },
+    "names": {
+      "common": "Tajikistan",
+      "official": "Republic of Tajikistan"
+    }
+  },
+  {
+    "code": "TZ",
+    "alpha3Code": "TZA",
+    "numericCode": "834",
+    "callingCodes": [
+      "+255"
+    ],
+    "currencyCode": [
+      "TZS"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Dodoma",
+    "flag": {
+      "emoji": "🇹🇿",
+      "svg": "https://flagcdn.com/tz.svg"
+    },
+    "names": {
+      "common": "Tanzania",
+      "official": "United Republic of Tanzania"
+    }
+  },
+  {
+    "code": "TH",
+    "alpha3Code": "THA",
+    "numericCode": "764",
+    "callingCodes": [
+      "+66"
+    ],
+    "currencyCode": [
+      "THB"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Bangkok",
+    "flag": {
+      "emoji": "🇹🇭",
+      "svg": "https://flagcdn.com/th.svg"
+    },
+    "names": {
+      "common": "Thailand",
+      "official": "Kingdom of Thailand"
+    }
+  },
+  {
+    "code": "TL",
+    "alpha3Code": "TLS",
+    "numericCode": "626",
+    "callingCodes": [
+      "+670"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Dili",
+    "flag": {
+      "emoji": "🇹🇱",
+      "svg": "https://flagcdn.com/tl.svg"
+    },
+    "names": {
+      "common": "East Timor",
+      "official": "Democratic Republic of Timor-Leste"
+    }
+  },
+  {
+    "code": "TG",
+    "alpha3Code": "TGO",
+    "numericCode": "768",
+    "callingCodes": [
+      "+228"
+    ],
+    "currencyCode": [
+      "XOF"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Lomé",
+    "flag": {
+      "emoji": "🇹🇬",
+      "svg": "https://flagcdn.com/tg.svg"
+    },
+    "names": {
+      "common": "Togo",
+      "official": "Togolese Republic"
+    }
+  },
+  {
+    "code": "TK",
+    "alpha3Code": "TKL",
+    "numericCode": "772",
+    "callingCodes": [
+      "+690"
+    ],
+    "currencyCode": [
+      "NZD"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Fakaofo",
+    "flag": {
+      "emoji": "🇹🇰",
+      "svg": "https://flagcdn.com/tk.svg"
+    },
+    "names": {
+      "common": "Tokelau",
+      "official": "Tokelau"
+    }
+  },
+  {
+    "code": "TO",
+    "alpha3Code": "TON",
+    "numericCode": "776",
+    "callingCodes": [
+      "+676"
+    ],
+    "currencyCode": [
+      "TOP"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Nuku'alofa",
+    "flag": {
+      "emoji": "🇹🇴",
+      "svg": "https://flagcdn.com/to.svg"
+    },
+    "names": {
+      "common": "Tonga",
+      "official": "Kingdom of Tonga"
+    }
+  },
+  {
+    "code": "TT",
+    "alpha3Code": "TTO",
+    "numericCode": "780",
+    "callingCodes": [
+      "+1868"
+    ],
+    "currencyCode": [
+      "TTD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Port of Spain",
+    "flag": {
+      "emoji": "🇹🇹",
+      "svg": "https://flagcdn.com/tt.svg"
+    },
+    "names": {
+      "common": "Trinidad and Tobago",
+      "official": "Republic of Trinidad and Tobago"
+    }
+  },
+  {
+    "code": "TN",
+    "alpha3Code": "TUN",
+    "numericCode": "788",
+    "callingCodes": [
+      "+216"
+    ],
+    "currencyCode": [
+      "TND"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Tunis",
+    "flag": {
+      "emoji": "🇹🇳",
+      "svg": "https://flagcdn.com/tn.svg"
+    },
+    "names": {
+      "common": "Tunisia",
+      "official": "Republic of Tunisia"
+    }
+  },
+  {
+    "code": "TM",
+    "alpha3Code": "TKM",
+    "numericCode": "795",
+    "callingCodes": [
+      "+993"
+    ],
+    "currencyCode": [
+      "TMT"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Ashgabat",
+    "flag": {
+      "emoji": "🇹🇲",
+      "svg": "https://flagcdn.com/tm.svg"
+    },
+    "names": {
+      "common": "Turkmenistan",
+      "official": "Turkmenistan"
+    }
+  },
+  {
+    "code": "TC",
+    "alpha3Code": "TCA",
+    "numericCode": "796",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇹🇨",
+      "svg": "https://flagcdn.com/tc.svg"
+    },
+    "names": {
+      "common": "Turks and Caicos Islands",
+      "official": "Turks and Caicos Islands"
+    }
+  },
+  {
+    "code": "TV",
+    "alpha3Code": "TUV",
+    "numericCode": "798",
+    "callingCodes": [
+      "+688"
+    ],
+    "currencyCode": [
+      "AUD"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Funafuti",
+    "flag": {
+      "emoji": "🇹🇻",
+      "svg": "https://flagcdn.com/tv.svg"
+    },
+    "names": {
+      "common": "Tuvalu",
+      "official": "Tuvalu"
+    }
+  },
+  {
+    "code": "TR",
+    "alpha3Code": "TUR",
+    "numericCode": "792",
+    "callingCodes": [
+      "+90"
+    ],
+    "currencyCode": [
+      "TRY"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Ankara",
+    "flag": {
+      "emoji": "🇹🇷",
+      "svg": "https://flagcdn.com/tr.svg"
+    },
+    "names": {
+      "common": "Turkey",
+      "official": "Republic of Türkiye"
+    }
+  },
+  {
+    "code": "UG",
+    "alpha3Code": "UGA",
+    "numericCode": "800",
+    "callingCodes": [
+      "+256"
+    ],
+    "currencyCode": [
+      "UGX"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Kampala",
+    "flag": {
+      "emoji": "🇺🇬",
+      "svg": "https://flagcdn.com/ug.svg"
+    },
+    "names": {
+      "common": "Uganda",
+      "official": "Republic of Uganda"
+    }
+  },
+  {
+    "code": "UA",
+    "alpha3Code": "UKR",
+    "numericCode": "804",
+    "callingCodes": [
+      "+380"
+    ],
+    "currencyCode": [
+      "UAH"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Kiev",
+    "flag": {
+      "emoji": "🇺🇦",
+      "svg": "https://flagcdn.com/ua.svg"
+    },
+    "names": {
+      "common": "Ukraine",
+      "official": "Ukraine"
+    }
+  },
+  {
+    "code": "AE",
+    "alpha3Code": "ARE",
+    "numericCode": "784",
+    "callingCodes": [
+      "+971"
+    ],
+    "currencyCode": [
+      "AED"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Abu Dhabi",
+    "flag": {
+      "emoji": "🇦🇪",
+      "svg": "https://flagcdn.com/ae.svg"
+    },
+    "names": {
+      "common": "United Arab Emirates",
+      "official": "United Arab Emirates"
+    }
+  },
+  {
+    "code": "GB",
+    "alpha3Code": "GBR",
+    "numericCode": "826",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇬🇧",
+      "svg": "https://flagcdn.com/gb.svg"
+    },
+    "names": {
+      "common": "Wales",
+      "official": "United Kingdom of Great Britain and Northern Ireland"
+    }
+  },
+  {
+    "code": "US",
+    "alpha3Code": "USA",
+    "numericCode": "840",
+    "callingCodes": [
+      "+1"
+    ],
+    "currencyCode": [
+      "USD",
+      "USN",
+      "USS"
+    ],
+    "region": "Americas",
+    "subregion": "Northern America",
+    "capital": "Washington D.C.",
+    "flag": {
+      "emoji": "🇺🇸",
+      "svg": "https://flagcdn.com/us.svg"
+    },
+    "names": {
+      "common": "United States",
+      "official": "United States of America"
+    }
+  },
+  {
+    "code": "UM",
+    "alpha3Code": "UMI",
+    "numericCode": "581",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇺🇲",
+      "svg": "https://flagcdn.com/um.svg"
+    },
+    "names": {
+      "common": "United States Minor Outlying Islands",
+      "official": "United States Minor Outlying Islands"
+    }
+  },
+  {
+    "code": "UY",
+    "alpha3Code": "URY",
+    "numericCode": "858",
+    "callingCodes": [
+      "+598"
+    ],
+    "currencyCode": [
+      "UYI",
+      "UYU"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Montevideo",
+    "flag": {
+      "emoji": "🇺🇾",
+      "svg": "https://flagcdn.com/uy.svg"
+    },
+    "names": {
+      "common": "Uruguay",
+      "official": "Eastern Republic of Uruguay"
+    }
+  },
+  {
+    "code": "UZ",
+    "alpha3Code": "UZB",
+    "numericCode": "860",
+    "callingCodes": [
+      "+998"
+    ],
+    "currencyCode": [
+      "UZS"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Tashkent",
+    "flag": {
+      "emoji": "🇺🇿",
+      "svg": "https://flagcdn.com/uz.svg"
+    },
+    "names": {
+      "common": "Uzbekistan",
+      "official": "Republic of Uzbekistan"
+    }
+  },
+  {
+    "code": "VU",
+    "alpha3Code": "VUT",
+    "numericCode": "548",
+    "callingCodes": [
+      "+678"
+    ],
+    "currencyCode": [
+      "VUV"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Port Vila",
+    "flag": {
+      "emoji": "🇻🇺",
+      "svg": "https://flagcdn.com/vu.svg"
+    },
+    "names": {
+      "common": "Vanuatu",
+      "official": "Republic of Vanuatu"
+    }
+  },
+  {
+    "code": "VE",
+    "alpha3Code": "VEN",
+    "numericCode": "862",
+    "callingCodes": [
+      "+58"
+    ],
+    "currencyCode": [
+      "VEF"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "capital": "Caracas",
+    "flag": {
+      "emoji": "🇻🇪",
+      "svg": "https://flagcdn.com/ve.svg"
+    },
+    "names": {
+      "common": "Venezuela",
+      "official": "Bolivarian Republic of Venezuela"
+    }
+  },
+  {
+    "code": "VN",
+    "alpha3Code": "VNM",
+    "numericCode": "704",
+    "callingCodes": [
+      "+84"
+    ],
+    "currencyCode": [
+      "VND"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Hanoi",
+    "flag": {
+      "emoji": "🇻🇳",
+      "svg": "https://flagcdn.com/vn.svg"
+    },
+    "names": {
+      "common": "Vietnam",
+      "official": "Socialist Republic of Viet Nam"
+    }
+  },
+  {
+    "code": "VG",
+    "alpha3Code": "VGB",
+    "numericCode": "092",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇻🇬",
+      "svg": "https://flagcdn.com/vg.svg"
+    },
+    "names": {
+      "common": "Virgin Islands, British",
+      "official": "British Virgin Islands"
+    }
+  },
+  {
+    "code": "VI",
+    "alpha3Code": "VIR",
+    "numericCode": "850",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇻🇮",
+      "svg": "https://flagcdn.com/vi.svg"
+    },
+    "names": {
+      "common": "Virgin Islands, U.S.",
+      "official": "Virgin Islands of the United States"
+    }
+  },
+  {
+    "code": "WF",
+    "alpha3Code": "WLF",
+    "numericCode": "876",
+    "callingCodes": [
+      "+681"
+    ],
+    "currencyCode": [
+      "XPF"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Mata-Utu",
+    "flag": {
+      "emoji": "🇼🇫",
+      "svg": "https://flagcdn.com/wf.svg"
+    },
+    "names": {
+      "common": "Wallis and Futuna",
+      "official": "Wallis and Futuna"
+    }
+  },
+  {
+    "code": "EH",
+    "alpha3Code": "ESH",
+    "numericCode": "732",
+    "callingCodes": [
+      "+212"
+    ],
+    "currencyCode": [
+      "MAD",
+      "DZD",
+      "MRO"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "El Aaiún",
+    "flag": {
+      "emoji": "🇪🇭",
+      "svg": "https://flagcdn.com/eh.svg"
+    },
+    "names": {
+      "common": "Western Sahara",
+      "official": "Western Sahara"
+    }
+  },
+  {
+    "code": "YE",
+    "alpha3Code": "YEM",
+    "numericCode": "887",
+    "callingCodes": [
+      "+967"
+    ],
+    "currencyCode": [
+      "YER"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Sana'a",
+    "flag": {
+      "emoji": "🇾🇪",
+      "svg": "https://flagcdn.com/ye.svg"
+    },
+    "names": {
+      "common": "Yemen",
+      "official": "Republic of Yemen"
+    }
+  },
+  {
+    "code": "ZM",
+    "alpha3Code": "ZMB",
+    "numericCode": "894",
+    "callingCodes": [
+      "+260"
+    ],
+    "currencyCode": [
+      "ZMK"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Lusaka",
+    "flag": {
+      "emoji": "🇿🇲",
+      "svg": "https://flagcdn.com/zm.svg"
+    },
+    "names": {
+      "common": "Zambia",
+      "official": "Republic of Zambia"
+    }
+  },
+  {
+    "code": "ZW",
+    "alpha3Code": "ZWE",
+    "numericCode": "716",
+    "callingCodes": [
+      "+263"
+    ],
+    "currencyCode": [
+      "USD"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Harare",
+    "flag": {
+      "emoji": "🇿🇼",
+      "svg": "https://flagcdn.com/zw.svg"
+    },
+    "names": {
+      "common": "Zimbabwe",
+      "official": "Republic of Zimbabwe"
+    }
+  },
+  {
+    "code": "AX",
+    "alpha3Code": "ALA",
+    "numericCode": "248",
+    "callingCodes": [],
+    "currencyCode": [],
+    "region": null,
+    "subregion": null,
+    "capital": null,
+    "flag": {
+      "emoji": "🇦🇽",
+      "svg": "https://flagcdn.com/ax.svg"
+    },
+    "names": {
+      "common": "Åland Islands",
+      "official": "Åland Islands"
+    }
+  }
+]
