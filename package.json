@@ -12,12 +12,14 @@
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
     },
     "./countries": {
       "types": "./dist/countries/index.d.ts",
       "import": "./dist/countries/index.js",
-      "require": "./dist/countries/index.cjs"
+      "require": "./dist/countries/index.cjs",
+      "default": "./dist/countries/index.js"
     }
   },
   "files": [
@@ -28,9 +30,11 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
+    "validate:countries":"tsx scripts/validate-countries.ts",
+    "validate:currencies":"tsx scripts/validate-currencies.ts",
+    "validate:data": "npm run validate:countries && npm run validate:currencies",
     "build": "npm run clean && tsup",
-    "prepack": "npm run typecheck && npm test && npm run build",
-    "validate:data": "tsx scripts/validate-countries.ts"
+    "prepack": "npm run validate:data && npm run typecheck && npm test && npm run build"
   },
   "devDependencies": {
     "tsup": "^8.0.0",

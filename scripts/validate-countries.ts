@@ -1,6 +1,6 @@
 import { countries } from '../src/countries';
 
-function assert(
+export function assert(
   condition: boolean,
   message: string,
 ): asserts condition {
@@ -111,7 +111,7 @@ function validateCountries(): void {
   }
 
   console.log(
-    `Validated ${countries.length} country records.`,
+    `Validated ${countries.length} country records successfully.`,
   );
 }
 
