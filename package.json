@@ -1,6 +1,6 @@
 {
   "name": "open-reference-data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Open reference datasets for JavaScript and TypeScript applications",
   "license": "MIT",
   "type": "module",
@@ -30,8 +30,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validate:countries":"tsx scripts/validate-countries.ts",
-    "validate:currencies":"tsx scripts/validate-currencies.ts",
+    "validate:countries": "tsx scripts/validate-countries.ts",
+    "validate:currencies": "tsx scripts/validate-currencies.ts",
     "validate:data": "npm run validate:countries && npm run validate:currencies",
     "build": "npm run clean && tsup",
     "prepack": "npm run validate:data && npm run typecheck && npm test && npm run build"
