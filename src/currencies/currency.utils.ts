@@ -27,15 +27,18 @@ export function searchCurrencies(query: string): Currency[] | [] {
 
     const normalizedQuery = query.trim().toLocaleLowerCase();
 
+    console.log("Before", normalizedQuery);
+    console.log("After", normalizedQuery);
+
     if (!normalizedQuery) {
         return [];
     }
 
-    return currencies.filter(currency => {
+    return currencies.filter(currency =>
         currency.code.toLocaleLowerCase().includes(normalizedQuery) ||
-            currency.name.toLocaleLowerCase().includes(normalizedQuery) ||
-            currency.symbol.includes(normalizedQuery)
-    })
+        currency.name.toLocaleLowerCase().includes(normalizedQuery) ||
+        currency.symbol.includes(normalizedQuery)
+    )
 
 }
 
