@@ -137,6 +137,28 @@ Bank reference data and logo assets for financial applications.
 | `getBanks(ids)` | Retrieve multiple banks by id |
 | `getBanksCount()` | Get the number of bank records |
 
+### 💳 Credit Card Networks
+
+Credit card network reference data for payment applications.
+
+**Use cases**
+
+- 💳 Card brand selection components
+- 🧾 Checkout and billing interfaces
+- 📊 Payment dashboards
+- 🔍 Transaction categorization
+
+**Available utilities**
+
+| Function | Description |
+|---|---|
+| `getCreditCardNetworkById(id)` | Find by network id |
+| `getCreditCardNetworkByName(name)` | Find by network name |
+| `searchCreditCardNetworks(query)` | Search by id or name |
+| `getCreditCardNetworks()` | Get all network records |
+| `getCreditCardNetworks(ids)` | Retrieve multiple networks by id |
+| `getCreditCardNetworksCount()` | Get the number of network records |
+
 ---
 
 ## 🧾 Data sources and attribution

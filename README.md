@@ -4,7 +4,7 @@
 
 ## ✨ Features
 
-- Country, currency, and bank reference data
+- Country, currency, bank, and credit card network reference data
 - Country identifiers, names, calling codes, geographic fields, and flag references
 - Currency codes, names, and symbols
 - Bank records and bank logo assets (local + CDN)

@@ -52,6 +52,12 @@
       "import": "./dist/banks/index.js",
       "require": "./dist/banks/index.cjs",
       "default": "./dist/banks/index.js"
+    },
+    "./credit-card-networks": {
+      "types": "./dist/credit-card-networks/index.d.ts",
+      "import": "./dist/credit-card-networks/index.js",
+      "require": "./dist/credit-card-networks/index.cjs",
+      "default": "./dist/credit-card-networks/index.js"
     }
   },
   "files": [
@@ -66,9 +72,10 @@
     "validate:countries": "tsx scripts/validate-countries.ts",
     "validate:currencies": "tsx scripts/validate-currencies.ts",
     "validate:banks": "tsx scripts/validate-banks.ts",
-    "validate:data": "npm run validate:countries && npm run validate:currencies && npm run validate:banks",
+    "validate:data": "npm run validate:countries && npm run validate:currencies && npm run validate:banks && npm run validate:credit-card-networks",
     "build": "npm run clean && tsup",
-    "prepack": "npm run validate:data && npm run typecheck && npm test && npm run build"
+    "prepack": "npm run validate:data && npm run typecheck && npm test && npm run build",
+    "validate:credit-card-networks": "tsx scripts/validate-credit-card-networks.ts"
   },
   "devDependencies": {
     "tsup": "^8.0.0",

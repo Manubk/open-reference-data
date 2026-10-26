@@ -1,0 +1,128 @@
+[
+  {
+    "id": "visa",
+    "name": "Visa",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/visa/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "mastercard",
+    "name": "Mastercard",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/mastercard/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "american-express",
+    "name": "American Express",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/american-express/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "discover",
+    "name": "Discover",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/discover/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "diners-club",
+    "name": "Diners Club International",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/diners-club/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "jcb",
+    "name": "JCB",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/jcb/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "unionpay",
+    "name": "UnionPay",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/unionpay/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "rupay",
+    "name": "RuPay",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/rupay/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "elo",
+    "name": "Elo",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/elo/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "hipercard",
+    "name": "Hipercard",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/hipercard/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "cartes-bancaires",
+    "name": "Cartes Bancaires",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/cartes-bancaires/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "troy",
+    "name": "Troy",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/troy/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "mir",
+    "name": "Mir",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/mir/logo.svg"
+      }
+    }
+  },
+  {
+    "id": "cabal",
+    "name": "Cabal",
+    "logo": {
+      "svg": {
+        "cdn": "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/cabal/logo.svg"
+      }
+    }
+  }
+]

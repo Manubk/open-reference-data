@@ -6,6 +6,7 @@ export default defineConfig({
     'countries/index': 'src/countries/index.ts',
     'currencies/index': 'src/currencies/index.ts',
     'banks/index': 'src/banks/index.ts',
+    'credit-card-networks/index': 'src/credit-card-networks/index.ts',
   },
 
   format: ['esm', 'cjs'],

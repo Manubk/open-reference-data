@@ -52,3 +52,24 @@ interface BankLogoAsset {
   cdn?: string;
 }
 ```
+
+
+## Credit Card Network
+
+```typescript
+interface CreditCardNetwork {
+  id: string;
+  name: string;
+  logo?: CreditCardNetworkLogo;
+}
+
+interface CreditCardNetworkLogo {
+  svg?: CreditCardNetworkLogoAsset;
+  png?: CreditCardNetworkLogoAsset;
+}
+
+interface CreditCardNetworkLogoAsset {
+  local?: string;
+  cdn?: string;
+}
+```

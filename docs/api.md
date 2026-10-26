@@ -605,6 +605,45 @@ Get the number of bank records.
 
 ---
 
+## 11. Credit Card Networks
+
+Credit card networks are exposed through `creditCardNetworks` and lookup helpers.
+
+```typescript
+import {
+  creditCardNetworks,
+  creditCardNetworkLogos,
+  getCreditCardNetworkById,
+  getCreditCardNetworkByName,
+  searchCreditCardNetworks,
+  getCreditCardNetworks,
+  getCreditCardNetworksByIds,
+  getCreditCardNetworksCount,
+} from "open-reference-data";
+```
+
+### `getCreditCardNetworkById(id)`
+
+Find a credit card network by its lowercase slug id.
+
+### `getCreditCardNetworkByName(name)`
+
+Find a credit card network by its exact name (case-insensitive).
+
+### `searchCreditCardNetworks(query)`
+
+Search credit card networks by id or name.
+
+### `getCreditCardNetworks()` / `getCreditCardNetworks(ids)`
+
+Get all networks or filter by a list of ids.
+
+### `getCreditCardNetworksCount()`
+
+Get the number of credit card network records.
+
+---
+
 - 🚀 **Getting Started** — installation and first steps
 - 📚 **API Reference** — this document
 - 📝 **README** — project overview

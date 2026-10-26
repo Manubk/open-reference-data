@@ -9907,9 +9907,295 @@ function searchBanks(query) {
   );
 }
 
+// data/credit-card-networks/credit-card-networks.json
+var credit_card_networks_default = [
+  {
+    id: "visa",
+    name: "Visa",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/visa/logo.svg"
+      }
+    }
+  },
+  {
+    id: "mastercard",
+    name: "Mastercard",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/mastercard/logo.svg"
+      }
+    }
+  },
+  {
+    id: "american-express",
+    name: "American Express",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/american-express/logo.svg"
+      }
+    }
+  },
+  {
+    id: "discover",
+    name: "Discover",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/discover/logo.svg"
+      }
+    }
+  },
+  {
+    id: "diners-club",
+    name: "Diners Club International",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/diners-club/logo.svg"
+      }
+    }
+  },
+  {
+    id: "jcb",
+    name: "JCB",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/jcb/logo.svg"
+      }
+    }
+  },
+  {
+    id: "unionpay",
+    name: "UnionPay",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/unionpay/logo.svg"
+      }
+    }
+  },
+  {
+    id: "rupay",
+    name: "RuPay",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/rupay/logo.svg"
+      }
+    }
+  },
+  {
+    id: "elo",
+    name: "Elo",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/elo/logo.svg"
+      }
+    }
+  },
+  {
+    id: "hipercard",
+    name: "Hipercard",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/hipercard/logo.svg"
+      }
+    }
+  },
+  {
+    id: "cartes-bancaires",
+    name: "Cartes Bancaires",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/cartes-bancaires/logo.svg"
+      }
+    }
+  },
+  {
+    id: "troy",
+    name: "Troy",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/troy/logo.svg"
+      }
+    }
+  },
+  {
+    id: "mir",
+    name: "Mir",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/mir/logo.svg"
+      }
+    }
+  },
+  {
+    id: "cabal",
+    name: "Cabal",
+    logo: {
+      svg: {
+        cdn: "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos/cabal/logo.svg"
+      }
+    }
+  }
+];
+
+// src/credit-card-networks/credit-card-network-logos.ts
+var LOCAL_BASE2 = "../../assets/credit-card-networks-logos";
+var CDN_BASE2 = "https://cdn.jsdelivr.net/npm/open-reference-data@2.0.0/assets/credit-card-networks-logos";
+var creditCardNetworkLogos = {
+  "american-express": {
+    svg: {
+      local: `${LOCAL_BASE2}/american-express/logo.svg`,
+      cdn: `${CDN_BASE2}/american-express/logo.svg`
+    }
+  },
+  "cabal": {
+    svg: {
+      local: `${LOCAL_BASE2}/cabal/logo.svg`,
+      cdn: `${CDN_BASE2}/cabal/logo.svg`
+    }
+  },
+  "cartes-bancaires": {
+    svg: {
+      local: `${LOCAL_BASE2}/cartes-bancaires/logo.svg`,
+      cdn: `${CDN_BASE2}/cartes-bancaires/logo.svg`
+    }
+  },
+  "diners-club": {
+    svg: {
+      local: `${LOCAL_BASE2}/diners-club/logo.svg`,
+      cdn: `${CDN_BASE2}/diners-club/logo.svg`
+    }
+  },
+  "discover": {
+    svg: {
+      local: `${LOCAL_BASE2}/discover/logo.svg`,
+      cdn: `${CDN_BASE2}/discover/logo.svg`
+    }
+  },
+  "elo": {
+    svg: {
+      local: `${LOCAL_BASE2}/elo/logo.svg`,
+      cdn: `${CDN_BASE2}/elo/logo.svg`
+    }
+  },
+  "hipercard": {
+    svg: {
+      local: `${LOCAL_BASE2}/hipercard/logo.svg`,
+      cdn: `${CDN_BASE2}/hipercard/logo.svg`
+    }
+  },
+  "jcb": {
+    svg: {
+      local: `${LOCAL_BASE2}/jcb/logo.svg`,
+      cdn: `${CDN_BASE2}/jcb/logo.svg`
+    }
+  },
+  "mastercard": {
+    svg: {
+      local: `${LOCAL_BASE2}/mastercard/logo.svg`,
+      cdn: `${CDN_BASE2}/mastercard/logo.svg`
+    }
+  },
+  "mir": {
+    svg: {
+      local: `${LOCAL_BASE2}/mir/logo.svg`,
+      cdn: `${CDN_BASE2}/mir/logo.svg`
+    }
+  },
+  "rupay": {
+    svg: {
+      local: `${LOCAL_BASE2}/rupay/logo.svg`,
+      cdn: `${CDN_BASE2}/rupay/logo.svg`
+    }
+  },
+  "troy": {
+    svg: {
+      local: `${LOCAL_BASE2}/troy/logo.svg`,
+      cdn: `${CDN_BASE2}/troy/logo.svg`
+    }
+  },
+  "unionpay": {
+    svg: {
+      local: `${LOCAL_BASE2}/unionpay/logo.svg`,
+      cdn: `${CDN_BASE2}/unionpay/logo.svg`
+    }
+  },
+  "visa": {
+    svg: {
+      local: `${LOCAL_BASE2}/visa/logo.svg`,
+      cdn: `${CDN_BASE2}/visa/logo.svg`
+    }
+  }
+};
+
+// src/credit-card-networks/credit-card-networks.ts
+var creditCardNetworks = credit_card_networks_default.map((network) => ({
+  ...network,
+  logo: creditCardNetworkLogos[network.id] ?? network.logo
+}));
+var creditNetworks = creditCardNetworks;
+
+// src/credit-card-networks/credit-card-network.utils.ts
+function getCreditCardNetworksCount() {
+  return creditCardNetworks.length;
+}
+function getCreditCardNetworks(ids) {
+  if (ids === void 0) {
+    return creditCardNetworks;
+  }
+  if (ids.length === 0) {
+    return [];
+  }
+  const normalizedIds = new Set(
+    ids.filter((id) => typeof id === "string").map((id) => id.trim().toLowerCase()).filter(Boolean)
+  );
+  if (normalizedIds.size === 0) {
+    return [];
+  }
+  return creditCardNetworks.filter(
+    (network) => normalizedIds.has(network.id.toLowerCase())
+  );
+}
+function getCreditCardNetworksByIds(ids) {
+  return getCreditCardNetworks(ids);
+}
+function getCreditCardNetworkById(id) {
+  const normalizedId = id.trim().toLowerCase();
+  if (!normalizedId) {
+    return void 0;
+  }
+  return creditCardNetworks.find(
+    (network) => network.id.toLowerCase() === normalizedId
+  );
+}
+function getCreditCardNetworkByName(name) {
+  const normalizedName = name.trim().toLowerCase();
+  if (!normalizedName) {
+    return void 0;
+  }
+  return creditCardNetworks.find(
+    (network) => network.name.trim().toLowerCase() === normalizedName
+  );
+}
+function searchCreditCardNetworks(query) {
+  const normalizedQuery = query.trim().toLowerCase();
+  if (!normalizedQuery) {
+    return [];
+  }
+  return creditCardNetworks.filter(
+    (network) => network.id.toLowerCase().includes(normalizedQuery) || network.name.toLowerCase().includes(normalizedQuery)
+  );
+}
+
+// src/credit-card-networks/credit-card-network-logo.ts
+var creditCardNetworkLogo = creditCardNetworkLogos;
+
 exports.bankLogos = bankLogos;
 exports.banks = banks;
 exports.countries = countries;
+exports.creditCardNetworkLogo = creditCardNetworkLogo;
+exports.creditCardNetworkLogos = creditCardNetworkLogos;
+exports.creditCardNetworks = creditCardNetworks;
+exports.creditNetworks = creditNetworks;
 exports.currencies = currencies;
 exports.getBankByCode = getBankByCode;
 exports.getBankById = getBankById;
@@ -9920,12 +10206,18 @@ exports.getBanksCount = getBanksCount;
 exports.getCountryByAlpha3Code = getCountryByAlpha3Code;
 exports.getCountryByCode = getCountryByCode;
 exports.getCountryByNumericCode = getCountryByNumericCode;
+exports.getCreditCardNetworkById = getCreditCardNetworkById;
+exports.getCreditCardNetworkByName = getCreditCardNetworkByName;
+exports.getCreditCardNetworks = getCreditCardNetworks;
+exports.getCreditCardNetworksByIds = getCreditCardNetworksByIds;
+exports.getCreditCardNetworksCount = getCreditCardNetworksCount;
 exports.getCurrencies = getCurrencies;
 exports.getCurrenciesCount = getCurrenciesCount;
 exports.getCurrencyByCode = getCurrencyByCode;
 exports.getCurrencyByName = getCurrencyByName;
 exports.searchBanks = searchBanks;
 exports.searchCountries = searchCountries;
+exports.searchCreditCardNetworks = searchCreditCardNetworks;
 exports.searchCurrencies = searchCurrencies;
 //# sourceMappingURL=index.cjs.map
 //# sourceMappingURL=index.cjs.map

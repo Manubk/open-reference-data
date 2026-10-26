@@ -41,3 +41,21 @@ export type {
     BankLogo,
     BankLogoAsset,
 } from './banks/bank.types';
+export {
+    creditCardNetworks,
+    creditNetworks,
+    creditCardNetworkLogos,
+    creditCardNetworkLogo,
+    getCreditCardNetworks,
+    getCreditCardNetworksByIds,
+    getCreditCardNetworksCount,
+    getCreditCardNetworkById,
+    getCreditCardNetworkByName,
+    searchCreditCardNetworks,
+} from './credit-card-networks';
+
+export type {
+    CreditCardNetwork,
+    CreditCardNetworkLogo,
+    CreditCardNetworkLogoAsset,
+} from './credit-card-networks/credit-card-network.types';
