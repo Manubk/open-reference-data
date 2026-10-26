@@ -5464,10 +5464,4468 @@ function searchCountries(query) {
   });
 }
 
+// data/currencies/currencies.json
+var currencies_default = [
+  { code: "AED", numericCode: "784", symbol: "\u062F.\u0625", name: "United Arab Emirates Dirham", minorUnit: 2 },
+  { code: "AFN", numericCode: "971", symbol: "\u060B", name: "Afghan Afghani", minorUnit: 2 },
+  { code: "ALL", numericCode: "008", symbol: "L", name: "Albanian Lek", minorUnit: 2 },
+  { code: "AMD", numericCode: "051", symbol: "\u058F", name: "Armenian Dram", minorUnit: 2 },
+  { code: "AOA", numericCode: "973", symbol: "Kz", name: "Angolan Kwanza", minorUnit: 2 },
+  { code: "ARS", numericCode: "032", symbol: "$", name: "Argentine Peso", minorUnit: 2 },
+  { code: "AUD", numericCode: "036", symbol: "A$", name: "Australian Dollar", minorUnit: 2 },
+  { code: "AWG", numericCode: "533", symbol: "\u0192", name: "Aruban Florin", minorUnit: 2 },
+  { code: "AZN", numericCode: "944", symbol: "\u20BC", name: "Azerbaijani Manat", minorUnit: 2 },
+  { code: "BAM", numericCode: "977", symbol: "KM", name: "Bosnia and Herzegovina Convertible Mark", minorUnit: 2 },
+  { code: "BBD", numericCode: "052", symbol: "Bds$", name: "Barbadian Dollar", minorUnit: 2 },
+  { code: "BDT", numericCode: "050", symbol: "\u09F3", name: "Bangladeshi Taka", minorUnit: 2 },
+  { code: "BHD", numericCode: "048", symbol: "\u062F.\u0628", name: "Bahraini Dinar", minorUnit: 3 },
+  { code: "BIF", numericCode: "108", symbol: "FBu", name: "Burundian Franc", minorUnit: 0 },
+  { code: "BMD", numericCode: "060", symbol: "BD$", name: "Bermudian Dollar", minorUnit: 2 },
+  { code: "BND", numericCode: "096", symbol: "B$", name: "Brunei Dollar", minorUnit: 2 },
+  { code: "BOB", numericCode: "068", symbol: "Bs.", name: "Bolivian Boliviano", minorUnit: 2 },
+  { code: "BRL", numericCode: "986", symbol: "R$", name: "Brazilian Real", minorUnit: 2 },
+  { code: "BSD", numericCode: "044", symbol: "$", name: "Bahamian Dollar", minorUnit: 2 },
+  { code: "BTN", numericCode: "064", symbol: "Nu.", name: "Bhutanese Ngultrum", minorUnit: 2 },
+  { code: "BWP", numericCode: "072", symbol: "P", name: "Botswana Pula", minorUnit: 2 },
+  { code: "BYN", numericCode: "933", symbol: "Br", name: "Belarusian Ruble", minorUnit: 2 },
+  { code: "BZD", numericCode: "084", symbol: "BZ$", name: "Belize Dollar", minorUnit: 2 },
+  { code: "CAD", numericCode: "124", symbol: "CA$", name: "Canadian Dollar", minorUnit: 2 },
+  { code: "CDF", numericCode: "976", symbol: "FC", name: "Congolese Franc", minorUnit: 2 },
+  { code: "CHF", numericCode: "756", symbol: "CHF", name: "Swiss Franc", minorUnit: 2 },
+  { code: "CLP", numericCode: "152", symbol: "$", name: "Chilean Peso", minorUnit: 0 },
+  { code: "CNY", numericCode: "156", symbol: "\xA5", name: "Chinese Yuan", minorUnit: 2 },
+  { code: "COP", numericCode: "170", symbol: "$", name: "Colombian Peso", minorUnit: 2 },
+  { code: "CRC", numericCode: "188", symbol: "\u20A1", name: "Costa Rican Col\xF3n", minorUnit: 2 },
+  { code: "CUP", numericCode: "192", symbol: "$", name: "Cuban Peso", minorUnit: 2 },
+  { code: "CVE", numericCode: "132", symbol: "$", name: "Cape Verdean Escudo", minorUnit: 2 },
+  { code: "CZK", numericCode: "203", symbol: "K\u010D", name: "Czech Koruna", minorUnit: 2 },
+  { code: "DJF", numericCode: "262", symbol: "Fdj", name: "Djiboutian Franc", minorUnit: 0 },
+  { code: "DKK", numericCode: "208", symbol: "kr", name: "Danish Krone", minorUnit: 2 },
+  { code: "DOP", numericCode: "214", symbol: "RD$", name: "Dominican Peso", minorUnit: 2 },
+  { code: "DZD", numericCode: "012", symbol: "\u062F\u062C", name: "Algerian Dinar", minorUnit: 2 },
+  { code: "EGP", numericCode: "818", symbol: "\xA3", name: "Egyptian Pound", minorUnit: 2 },
+  { code: "ERN", numericCode: "232", symbol: "Nfk", name: "Eritrean Nakfa", minorUnit: 2 },
+  { code: "ETB", numericCode: "230", symbol: "Br", name: "Ethiopian Birr", minorUnit: 2 },
+  { code: "EUR", numericCode: "978", symbol: "\u20AC", name: "Euro", minorUnit: 2 },
+  { code: "FJD", numericCode: "242", symbol: "FJ$", name: "Fijian Dollar", minorUnit: 2 },
+  { code: "FKP", numericCode: "238", symbol: "\xA3", name: "Falkland Islands Pound", minorUnit: 2 },
+  { code: "GBP", numericCode: "826", symbol: "\xA3", name: "Pound Sterling", minorUnit: 2 },
+  { code: "GEL", numericCode: "981", symbol: "\u20BE", name: "Georgian Lari", minorUnit: 2 },
+  { code: "GHS", numericCode: "936", symbol: "\u20B5", name: "Ghanaian Cedi", minorUnit: 2 },
+  { code: "GIP", numericCode: "292", symbol: "\xA3", name: "Gibraltar Pound", minorUnit: 2 },
+  { code: "GMD", numericCode: "270", symbol: "D", name: "Gambian Dalasi", minorUnit: 2 },
+  { code: "GNF", numericCode: "324", symbol: "FG", name: "Guinean Franc", minorUnit: 0 },
+  { code: "GTQ", numericCode: "320", symbol: "Q", name: "Guatemalan Quetzal", minorUnit: 2 },
+  { code: "GYD", numericCode: "328", symbol: "$", name: "Guyanese Dollar", minorUnit: 2 },
+  { code: "HKD", numericCode: "344", symbol: "HK$", name: "Hong Kong Dollar", minorUnit: 2 },
+  { code: "HNL", numericCode: "340", symbol: "L", name: "Honduran Lempira", minorUnit: 2 },
+  { code: "HTG", numericCode: "332", symbol: "G", name: "Haitian Gourde", minorUnit: 2 },
+  { code: "HUF", numericCode: "348", symbol: "Ft", name: "Hungarian Forint", minorUnit: 2 },
+  { code: "IDR", numericCode: "360", symbol: "Rp", name: "Indonesian Rupiah", minorUnit: 2 },
+  { code: "ILS", numericCode: "376", symbol: "\u20AA", name: "Israeli New Shekel", minorUnit: 2 },
+  { code: "INR", numericCode: "356", symbol: "\u20B9", name: "Indian Rupee", minorUnit: 2 },
+  { code: "IQD", numericCode: "368", symbol: "\u0639.\u062F", name: "Iraqi Dinar", minorUnit: 3 },
+  { code: "IRR", numericCode: "364", symbol: "\uFDFC", name: "Iranian Rial", minorUnit: 2 },
+  { code: "ISK", numericCode: "352", symbol: "kr", name: "Icelandic Kr\xF3na", minorUnit: 0 },
+  { code: "JMD", numericCode: "388", symbol: "J$", name: "Jamaican Dollar", minorUnit: 2 },
+  { code: "JOD", numericCode: "400", symbol: "\u062F.\u0627", name: "Jordanian Dinar", minorUnit: 3 },
+  { code: "JPY", numericCode: "392", symbol: "\xA5", name: "Japanese Yen", minorUnit: 0 },
+  { code: "KES", numericCode: "404", symbol: "KSh", name: "Kenyan Shilling", minorUnit: 2 },
+  { code: "KGS", numericCode: "417", symbol: "\u0441", name: "Kyrgyzstani Som", minorUnit: 2 },
+  { code: "KHR", numericCode: "116", symbol: "\u17DB", name: "Cambodian Riel", minorUnit: 2 },
+  { code: "KMF", numericCode: "174", symbol: "CF", name: "Comorian Franc", minorUnit: 0 },
+  { code: "KPW", numericCode: "408", symbol: "\u20A9", name: "North Korean Won", minorUnit: 2 },
+  { code: "KRW", numericCode: "410", symbol: "\u20A9", name: "South Korean Won", minorUnit: 0 },
+  { code: "KWD", numericCode: "414", symbol: "\u062F.\u0643", name: "Kuwaiti Dinar", minorUnit: 3 },
+  { code: "KYD", numericCode: "136", symbol: "$", name: "Cayman Islands Dollar", minorUnit: 2 },
+  { code: "KZT", numericCode: "398", symbol: "\u20B8", name: "Kazakhstani Tenge", minorUnit: 2 },
+  { code: "LAK", numericCode: "418", symbol: "\u20AD", name: "Lao Kip", minorUnit: 2 },
+  { code: "LBP", numericCode: "422", symbol: "\u0644.\u0644", name: "Lebanese Pound", minorUnit: 2 },
+  { code: "LKR", numericCode: "144", symbol: "Rs", name: "Sri Lankan Rupee", minorUnit: 2 },
+  { code: "LRD", numericCode: "430", symbol: "$", name: "Liberian Dollar", minorUnit: 2 },
+  { code: "LSL", numericCode: "426", symbol: "L", name: "Lesotho Loti", minorUnit: 2 },
+  { code: "LYD", numericCode: "434", symbol: "\u0644.\u062F", name: "Libyan Dinar", minorUnit: 3 },
+  { code: "MAD", numericCode: "504", symbol: "\u062F.\u0645.", name: "Moroccan Dirham", minorUnit: 2 },
+  { code: "MDL", numericCode: "498", symbol: "L", name: "Moldovan Leu", minorUnit: 2 },
+  { code: "MGA", numericCode: "969", symbol: "Ar", name: "Malagasy Ariary", minorUnit: 2 },
+  { code: "MKD", numericCode: "807", symbol: "\u0434\u0435\u043D", name: "Macedonian Denar", minorUnit: 2 },
+  { code: "MMK", numericCode: "104", symbol: "K", name: "Myanmar Kyat", minorUnit: 2 },
+  { code: "MNT", numericCode: "496", symbol: "\u20AE", name: "Mongolian T\xF6gr\xF6g", minorUnit: 2 },
+  { code: "MOP", numericCode: "446", symbol: "MOP$", name: "Macanese Pataca", minorUnit: 2 },
+  { code: "MRU", numericCode: "929", symbol: "UM", name: "Mauritanian Ouguiya", minorUnit: 2 },
+  { code: "MUR", numericCode: "480", symbol: "\u20A8", name: "Mauritian Rupee", minorUnit: 2 },
+  { code: "MVR", numericCode: "462", symbol: "Rf", name: "Maldivian Rufiyaa", minorUnit: 2 },
+  { code: "MWK", numericCode: "454", symbol: "MK", name: "Malawian Kwacha", minorUnit: 2 },
+  { code: "MXN", numericCode: "484", symbol: "MX$", name: "Mexican Peso", minorUnit: 2 },
+  { code: "MYR", numericCode: "458", symbol: "RM", name: "Malaysian Ringgit", minorUnit: 2 },
+  { code: "MZN", numericCode: "943", symbol: "MT", name: "Mozambican Metical", minorUnit: 2 },
+  { code: "NAD", numericCode: "516", symbol: "N$", name: "Namibian Dollar", minorUnit: 2 },
+  { code: "NGN", numericCode: "566", symbol: "\u20A6", name: "Nigerian Naira", minorUnit: 2 },
+  { code: "NIO", numericCode: "558", symbol: "C$", name: "Nicaraguan C\xF3rdoba", minorUnit: 2 },
+  { code: "NOK", numericCode: "578", symbol: "kr", name: "Norwegian Krone", minorUnit: 2 },
+  { code: "NPR", numericCode: "524", symbol: "\u20A8", name: "Nepalese Rupee", minorUnit: 2 },
+  { code: "NZD", numericCode: "554", symbol: "NZ$", name: "New Zealand Dollar", minorUnit: 2 },
+  { code: "OMR", numericCode: "512", symbol: "\u0631.\u0639.", name: "Omani Rial", minorUnit: 3 },
+  { code: "PAB", numericCode: "590", symbol: "B/.", name: "Panamanian Balboa", minorUnit: 2 },
+  { code: "PEN", numericCode: "604", symbol: "S/.", name: "Peruvian Sol", minorUnit: 2 },
+  { code: "PGK", numericCode: "598", symbol: "K", name: "Papua New Guinean Kina", minorUnit: 2 },
+  { code: "PHP", numericCode: "608", symbol: "\u20B1", name: "Philippine Peso", minorUnit: 2 },
+  { code: "PKR", numericCode: "586", symbol: "\u20A8", name: "Pakistani Rupee", minorUnit: 2 },
+  { code: "PLN", numericCode: "985", symbol: "z\u0142", name: "Polish Z\u0142oty", minorUnit: 2 },
+  { code: "PYG", numericCode: "600", symbol: "\u20B2", name: "Paraguayan Guaran\xED", minorUnit: 0 },
+  { code: "QAR", numericCode: "634", symbol: "\u0631.\u0642", name: "Qatari Riyal", minorUnit: 2 },
+  { code: "RON", numericCode: "946", symbol: "lei", name: "Romanian Leu", minorUnit: 2 },
+  { code: "RSD", numericCode: "941", symbol: "\u0434\u0438\u043D.", name: "Serbian Dinar", minorUnit: 2 },
+  { code: "RUB", numericCode: "643", symbol: "\u20BD", name: "Russian Ruble", minorUnit: 2 },
+  { code: "RWF", numericCode: "646", symbol: "FRw", name: "Rwandan Franc", minorUnit: 0 },
+  { code: "SAR", numericCode: "682", symbol: "\u0631.\u0633", name: "Saudi Riyal", minorUnit: 2 },
+  { code: "SBD", numericCode: "090", symbol: "SI$", name: "Solomon Islands Dollar", minorUnit: 2 },
+  { code: "SCR", numericCode: "690", symbol: "\u20A8", name: "Seychellois Rupee", minorUnit: 2 },
+  { code: "SDG", numericCode: "938", symbol: "\u062C.\u0633.", name: "Sudanese Pound", minorUnit: 2 },
+  { code: "SEK", numericCode: "752", symbol: "kr", name: "Swedish Krona", minorUnit: 2 },
+  { code: "SGD", numericCode: "702", symbol: "S$", name: "Singapore Dollar", minorUnit: 2 },
+  { code: "SHP", numericCode: "654", symbol: "\xA3", name: "Saint Helena Pound", minorUnit: 2 },
+  { code: "SLE", numericCode: "925", symbol: "Le", name: "Sierra Leonean Leone", minorUnit: 2 },
+  { code: "SOS", numericCode: "706", symbol: "Sh", name: "Somali Shilling", minorUnit: 2 },
+  { code: "SRD", numericCode: "968", symbol: "$", name: "Surinamese Dollar", minorUnit: 2 },
+  { code: "SSP", numericCode: "728", symbol: "\xA3", name: "South Sudanese Pound", minorUnit: 2 },
+  { code: "STN", numericCode: "930", symbol: "Db", name: "S\xE3o Tom\xE9 and Pr\xEDncipe Dobra", minorUnit: 2 },
+  { code: "SYP", numericCode: "760", symbol: "\xA3", name: "Syrian Pound", minorUnit: 2 },
+  { code: "SZL", numericCode: "748", symbol: "E", name: "Eswatini Lilangeni", minorUnit: 2 },
+  { code: "THB", numericCode: "764", symbol: "\u0E3F", name: "Thai Baht", minorUnit: 2 },
+  { code: "TJS", numericCode: "972", symbol: "SM", name: "Tajikistani Somoni", minorUnit: 2 },
+  { code: "TMT", numericCode: "934", symbol: "m", name: "Turkmenistani Manat", minorUnit: 2 },
+  { code: "TND", numericCode: "788", symbol: "\u062F.\u062A", name: "Tunisian Dinar", minorUnit: 3 },
+  { code: "TOP", numericCode: "776", symbol: "T$", name: "Tongan Pa\u02BBanga", minorUnit: 2 },
+  { code: "TRY", numericCode: "949", symbol: "\u20BA", name: "Turkish Lira", minorUnit: 2 },
+  { code: "TTD", numericCode: "780", symbol: "TT$", name: "Trinidad and Tobago Dollar", minorUnit: 2 },
+  { code: "TWD", numericCode: "901", symbol: "NT$", name: "New Taiwan Dollar", minorUnit: 2 },
+  { code: "TZS", numericCode: "834", symbol: "TSh", name: "Tanzanian Shilling", minorUnit: 2 },
+  { code: "UAH", numericCode: "980", symbol: "\u20B4", name: "Ukrainian Hryvnia", minorUnit: 2 },
+  { code: "UGX", numericCode: "800", symbol: "USh", name: "Ugandan Shilling", minorUnit: 0 },
+  { code: "USD", numericCode: "840", symbol: "$", name: "United States Dollar", minorUnit: 2 },
+  { code: "UYU", numericCode: "858", symbol: "$U", name: "Uruguayan Peso", minorUnit: 2 },
+  { code: "UZS", numericCode: "860", symbol: "so'm", name: "Uzbekistani So\u02BBm", minorUnit: 2 },
+  { code: "VES", numericCode: "928", symbol: "Bs.", name: "Venezuelan Bol\xEDvar", minorUnit: 2 },
+  { code: "VND", numericCode: "704", symbol: "\u20AB", name: "Vietnamese \u0110\u1ED3ng", minorUnit: 0 },
+  { code: "VUV", numericCode: "548", symbol: "VT", name: "Vanuatu Vatu", minorUnit: 0 },
+  { code: "WST", numericCode: "882", symbol: "WS$", name: "Samoan T\u0101l\u0101", minorUnit: 2 },
+  { code: "XAF", numericCode: "950", symbol: "FCFA", name: "Central African CFA Franc", minorUnit: 0 },
+  { code: "XCD", numericCode: "951", symbol: "EC$", name: "East Caribbean Dollar", minorUnit: 2 },
+  { code: "XCG", numericCode: "532", symbol: "Cg", name: "Caribbean Guilder", minorUnit: 2 },
+  { code: "XOF", numericCode: "952", symbol: "CFA", name: "West African CFA Franc", minorUnit: 0 },
+  { code: "XPF", numericCode: "953", symbol: "\u20A3", name: "CFP Franc", minorUnit: 0 },
+  { code: "YER", numericCode: "886", symbol: "\uFDFC", name: "Yemeni Rial", minorUnit: 2 },
+  { code: "ZAR", numericCode: "710", symbol: "R", name: "South African Rand", minorUnit: 2 },
+  { code: "ZMW", numericCode: "967", symbol: "ZK", name: "Zambian Kwacha", minorUnit: 2 },
+  { code: "ZWG", numericCode: "924", symbol: "ZiG", name: "Zimbabwe Gold", minorUnit: 2 }
+];
+
+// src/currencies/currencies.ts
+var currencies = currencies_default;
+
+// src/currencies/currency.utils.ts
+function getCurrencyByCode(code) {
+  const normalizedCode = code.trim().toLocaleLowerCase();
+  if (!normalizedCode) {
+    return void 0;
+  }
+  return currencies.find((currency) => currency.code.toLocaleLowerCase() === normalizedCode);
+}
+function getCurrencyByName(name) {
+  const normalizedName = name.trim().toLocaleLowerCase();
+  if (!normalizedName) {
+    return void 0;
+  }
+  return currencies.find((currency) => currency.name.toLocaleLowerCase() === normalizedName);
+}
+function searchCurrencies(query) {
+  const normalizedQuery = query.trim().toLocaleLowerCase();
+  if (!normalizedQuery) {
+    return [];
+  }
+  return currencies.filter(
+    (currency) => currency.code.toLocaleLowerCase().includes(normalizedQuery) || currency.name.toLocaleLowerCase().includes(normalizedQuery) || (currency.symbol?.includes(normalizedQuery) ?? false)
+  );
+}
+function getCurrenciesCount() {
+  return currencies.length;
+}
+function getCurrencies(codes) {
+  if (!codes || codes.length === 0) {
+    return [];
+  }
+  const normalizedCodes = new Set(
+    codes.map((code) => code.trim().toUpperCase())
+  );
+  return currencies.filter(
+    (currency) => normalizedCodes.has(currency.code.toUpperCase())
+  );
+}
+
+// data/banks/banks.json
+var banks_default = [
+  {
+    id: "axis-bank",
+    name: "Axis Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/utib/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/utib/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/utib/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/utib/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "bandhan-bank",
+    name: "Bandhan Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bdbl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bdbl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bdbl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bdbl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "city-union-bank",
+    name: "City Union Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ciub/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ciub/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ciub/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ciub/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "dhanlaxmi-bank",
+    name: "Dhanlaxmi Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/indian-bank/dhanlaxmi.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "federal-bank",
+    name: "Federal Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/fdrl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/fdrl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/fdrl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/fdrl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "hdfc-bank",
+    name: "HDFC Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hdfc/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hdfc/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hdfc/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hdfc/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "indusind-bank",
+    name: "IndusInd Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/indb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/indb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/indb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/indb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "karur-vysya-bank",
+    name: "Karur Vysya Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kvbl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kvbl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kvbl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kvbl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "south-indian-bank",
+    name: "South Indian Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sibl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sibl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sibl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sibl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "yes-bank",
+    name: "YES Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/yesb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/yesb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/yesb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/yesb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "idbi-bank",
+    name: "IDBI Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibkl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibkl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibkl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibkl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "bank-of-baroda",
+    name: "Bank of Baroda",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/barb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/barb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/barb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/barb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "bank-of-india",
+    name: "Bank of India",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bkid/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bkid/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bkid/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bkid/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "bank-of-maharashtra",
+    name: "Bank of Maharashtra",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mahb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mahb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mahb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mahb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "canara-bank",
+    name: "Canara Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/cnrb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/cnrb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/cnrb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/cnrb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "central-bank-of-india",
+    name: "Central Bank of India",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/cbin/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/cbin/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/cbin/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/cbin/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "indian-bank",
+    name: "Indian Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/idib/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/idib/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/idib/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/idib/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "indian-overseas-bank",
+    name: "Indian Overseas Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ioba/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ioba/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ioba/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ioba/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "punjab-and-sind-bank",
+    name: "Punjab & Sind Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/psib/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/psib/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/psib/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/psib/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "punjab-national-bank",
+    name: "Punjab National Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/punb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/punb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/punb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/punb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "state-bank-of-india",
+    name: "State Bank of India",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sbin/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sbin/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sbin/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sbin/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "uco-bank",
+    name: "UCO Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ucba/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ucba/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ucba/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ucba/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "union-bank-of-india",
+    name: "Union Bank of India",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ubin/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ubin/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ubin/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ubin/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "esaf-small-finance-bank",
+    name: "ESAF Small Finance Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/esmf/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/esmf/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/esmf/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/esmf/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "airtel-payments-bank",
+    name: "Airtel Payments Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/airp/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/airp/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/airp/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/airp/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "india-post-payments-bank",
+    name: "India Post Payments Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ipos/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ipos/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ipos/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ipos/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "fino-payments-bank",
+    name: "FINO Payments Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/fino/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/fino/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/fino/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/fino/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "paytm-payments-bank",
+    name: "Paytm Payments Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/pytm/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/pytm/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/pytm/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/pytm/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "jio-payments-bank",
+    name: "Jio Payments Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jiop/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jiop/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jiop/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jiop/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "commonwealth-bank",
+    name: "Commonwealth Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/commonwealth.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "national-australia-bank",
+    name: "National Australia Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/nab.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "westpac",
+    name: "Westpac",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/westpac.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "american-express",
+    name: "American Express",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/american-express.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "bank-of-america",
+    name: "Bank of America",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bofa/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bofa/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bofa/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bofa/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "citibank",
+    name: "Citibank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/citi/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/citi/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/citi/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/citi/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "jpmorgan-chase",
+    name: "JPMorgan Chase",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/chase.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "wells-fargo",
+    name: "Wells Fargo",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/wells.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "barclays",
+    name: "Barclays",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/barclays.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "hsbc",
+    name: "HSBC",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hsbc/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hsbc/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hsbc/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hsbc/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "natwest-group",
+    name: "NatWest Group",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/natwest.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "mizuho",
+    name: "Mizuho Corporate Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/mizuho.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "mufg-bank",
+    name: "MUFG Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/botm/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/botm/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/botm/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/botm/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "dbs-bank",
+    name: "DBS Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/dbs.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "ocbc-bank",
+    name: "OCBC Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/ocbc.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "united-overseas-bank",
+    name: "United Overseas Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/uovb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/uovb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/uovb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/uovb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "abu-dhabi-commercial-bank",
+    name: "Abu Dhabi Commercial Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/adcb.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "emirates-nbd",
+    name: "Emirates NBD",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/emirates-nbd.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "first-abu-dhabi-bank",
+    name: "First Abu Dhabi Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nbad/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nbad/logo.png"
+        }
+      }
+    }
+  },
+  {
+    id: "bank-of-china",
+    name: "Bank of China",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/boc.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "icbc",
+    name: "Industrial & Commercial Bank of China",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/icbc.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "industrial-bank-of-korea",
+    name: "Industrial Bank of Korea",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibko/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibko/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibko/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibko/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "keb-hana-bank",
+    name: "KEB Hana Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/hana.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "kookmin-bank",
+    name: "Kookmin Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/kookmin.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "shinhan-bank",
+    name: "Shinhan Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/shbk/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/shbk/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/shbk/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/shbk/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "woori-bank",
+    name: "Woori Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hvbk/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hvbk/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hvbk/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/hvbk/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "bnp-paribas",
+    name: "BNP Paribas",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bnpa/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bnpa/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bnpa/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bnpa/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "credit-agricole-cib",
+    name: "Cr\xE9dit Agricole CIB",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/cacib.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "credit-suisse",
+    name: "Credit Suisse",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/credit-suisse.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "ubs",
+    name: "UBS",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/ubs.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "royal-bank-of-canada",
+    name: "Royal Bank of Canada",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/rbc.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "scotiabank",
+    name: "Scotiabank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nosc/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nosc/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nosc/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nosc/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "td-bank",
+    name: "TD Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/td.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "bank-of-bahrain-and-kuwait",
+    name: "Bank of Bahrain and Kuwait",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bbkm/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bbkm/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bbkm/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bbkm/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "sonali-bank",
+    name: "Sonali Bank",
+    logo: {
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sbld/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sbld/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "saxo-bank",
+    name: "Saxo Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/saxo.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "deutsche-bank",
+    name: "Deutsche Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/deut/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/deut/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/deut/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/deut/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "maybank-indonesia",
+    name: "Bank Maybank Indonesia",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibbk/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibbk/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibbk/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ibbk/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "abn-amro",
+    name: "ABN AMRO",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/abn-amro.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "rabobank",
+    name: "Rabobank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/rabo/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/rabo/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/rabo/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/rabo/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "doha-bank",
+    name: "Doha Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/doha.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "qatar-national-bank",
+    name: "Qatar National Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/qnba/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/qnba/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/qnba/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/qnba/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "sberbank",
+    name: "Sberbank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sabr/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sabr/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sabr/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sabr/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "firstrand-bank",
+    name: "FirstRand Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/firn/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/firn/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/firn/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/firn/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "bank-of-ceylon",
+    name: "Bank of Ceylon",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bcey/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bcey/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bcey/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/bcey/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "handelsbanken",
+    name: "Handelsbanken",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/handelsbanken.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "krung-thai-bank",
+    name: "Krung Thai Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://raw.githubusercontent.com/auraveni/global-bank-logos/main/assets/bank/international-bank/krungthai.svg"
+        }
+      },
+      icon: {}
+    }
+  },
+  {
+    id: "ab-bank",
+    name: "AB Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/abbl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/abbl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/abbl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/abbl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "natwest-markets",
+    name: "NatWest Markets",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/abna/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/abna/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/abna/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/abna/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "anz-banking-group",
+    name: "Australia and New Zealand Banking Group",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/anzb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/anzb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/anzb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/anzb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "au-small-finance-bank-limited",
+    name: "AU Small Finance Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/aubl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/aubl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/aubl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/aubl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "barclays-bank",
+    name: "Barclays Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/barc/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/barc/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/barc/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/barc/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "capital-small-finance-bank",
+    name: "Capital Small Finance Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/clbl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/clbl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/clbl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/clbl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "csb-bank-limited",
+    name: "CSB Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/csbk/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/csbk/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/csbk/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/csbk/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "ctbc-bank",
+    name: "CTBC Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ctcb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ctcb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ctcb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ctcb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "dbs-bank-india",
+    name: "DBS Bank India",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dbss/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dbss/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dbss/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dbss/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "dcb-bank-limited",
+    name: "DCB Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dcbl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dcbl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dcbl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dcbl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "dhanlakshmi-bank",
+    name: "Dhanlakshmi Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dlxb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dlxb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dlxb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/dlxb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "emirates-nbd-bank",
+    name: "Emirates NBD Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ebil/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ebil/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ebil/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ebil/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "equitas-small-finance-bank",
+    name: "Equitas Small Finance Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/esfb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/esfb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/esfb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/esfb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "industrial-and-commercial-bank-of-china",
+    name: "Industrial and Commercial Bank of China",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/icbk/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/icbk/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/icbk/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/icbk/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "icici-bank-limited",
+    name: "ICICI Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/icic/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/icic/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/icic/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/icic/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "idfc-first-bank-limited",
+    name: "IDFC First Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/idfb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/idfb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/idfb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/idfb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "jammu-and-kashmir-bank",
+    name: "Jammu & Kashmir Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jaka/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jaka/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jaka/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jaka/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "jana-small-finance-bank",
+    name: "Jana Small Finance Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jsfb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jsfb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jsfb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/jsfb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "karnataka-bank-limited",
+    name: "Karnataka Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/karb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/karb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/karb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/karb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "kb-kookmin-bank",
+    name: "KB Kookmin Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kbkb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kbkb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kbkb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kbkb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "kotak-mahindra-bank-limited",
+    name: "Kotak Mahindra Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kkbk/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kkbk/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kkbk/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/kkbk/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "hana-bank",
+    name: "Hana Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/koex/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/koex/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/koex/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/koex/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "mizuho-bank",
+    name: "Mizuho Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mhcb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mhcb/logo.png"
+        }
+      }
+    }
+  },
+  {
+    id: "mashreq-bank",
+    name: "Mashreq Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mshq/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mshq/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mshq/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/mshq/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "slice-small-finance-bank",
+    name: "slice Small Finance Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nesf/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nesf/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nesf/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/nesf/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "the-nainital-bank-limited",
+    name: "The Nainital Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ntbl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ntbl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ntbl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ntbl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "rbl-bank-limited",
+    name: "RBL Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ratn/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ratn/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ratn/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ratn/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "standard-chartered-bank",
+    name: "Standard Chartered Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/scbl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/scbl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/scbl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/scbl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "sumitomo-mitsui-banking-corporation",
+    name: "Sumitomo Mitsui Banking Corporation",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/smbc/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/smbc/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/smbc/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/smbc/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "shivalik-small-finance-bank",
+    name: "Shivalik Small Finance Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/smcb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/smcb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/smcb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/smcb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "sbm-bank-india",
+    name: "SBM Bank India",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/stcb/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/stcb/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/stcb/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/stcb/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "suryoday-small-finance-bank",
+    name: "Suryoday Small Finance Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sury/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sury/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sury/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/sury/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "tamilnad-mercantile-bank-limited",
+    name: "Tamilnad Mercantile Bank Limited",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/tmbl/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/tmbl/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/tmbl/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/tmbl/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "ujjivan-small-finance-bank-ltd",
+    name: "Ujjivan Small Finance Bank Ltd",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ujvn/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ujvn/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ujvn/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/ujvn/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "unity-small-finance-bank",
+    name: "Unity Small Finance Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/unba/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/unba/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/unba/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/unba/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "utkarsh-small-finance-bank",
+    name: "Utkarsh Small Finance Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/utks/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/utks/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/utks/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/utks/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "j-p-morgan-chase-bank",
+    name: "J.P. Morgan Chase Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/chas/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/chas/logo.png"
+        }
+      }
+    }
+  },
+  {
+    id: "cr-dit-agricole-corporate-and-investment-bank",
+    name: "Cr\xE9dit Agricole Corporate and Investment Bank",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/crly/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/crly/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/crly/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/crly/symbol.png"
+        }
+      }
+    }
+  },
+  {
+    id: "soci-t-g-n-rale",
+    name: "Soci\xE9t\xE9 G\xE9n\xE9rale",
+    logo: {
+      logo: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/soge/logo.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/soge/logo.png"
+        }
+      },
+      icon: {
+        svg: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/soge/symbol.svg"
+        },
+        png: {
+          cdn: "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos/soge/symbol.png"
+        }
+      }
+    }
+  }
+];
+
+// src/banks/banks.ts
+var banks = banks_default;
+
+// src/banks/bank-logos.ts
+var LOCAL_BASE = "../../assets/bank-logos";
+var CDN_BASE = "https://cdn.jsdelivr.net/gh/praveenpuglia/indian-banks@3f23351ce2262900e645d5ba6e9eee052847ce01/assets/logos";
+var bankLogos = {
+  "ab-bank": {
+    // AB Bank; source slug: abbl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/ab-bank/logo.svg`,
+        cdn: `${CDN_BASE}/abbl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/ab-bank/logo.png`,
+        cdn: `${CDN_BASE}/abbl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/ab-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/abbl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/ab-bank/symbol.png`,
+        cdn: `${CDN_BASE}/abbl/symbol.png`
+      }
+    }
+  },
+  "natwest-markets": {
+    // NatWest Markets; source slug: abna
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/natwest-markets/logo.svg`,
+        cdn: `${CDN_BASE}/abna/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/natwest-markets/logo.png`,
+        cdn: `${CDN_BASE}/abna/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/natwest-markets/symbol.svg`,
+        cdn: `${CDN_BASE}/abna/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/natwest-markets/symbol.png`,
+        cdn: `${CDN_BASE}/abna/symbol.png`
+      }
+    }
+  },
+  "airtel-payments-bank": {
+    // Airtel Payments Bank; source slug: airp
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/airtel-payments-bank/logo.svg`,
+        cdn: `${CDN_BASE}/airp/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/airtel-payments-bank/logo.png`,
+        cdn: `${CDN_BASE}/airp/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/airtel-payments-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/airp/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/airtel-payments-bank/symbol.png`,
+        cdn: `${CDN_BASE}/airp/symbol.png`
+      }
+    }
+  },
+  "anz-banking-group": {
+    // Australia and New Zealand Banking Group; source slug: anzb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/anz-banking-group/logo.svg`,
+        cdn: `${CDN_BASE}/anzb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/anz-banking-group/logo.png`,
+        cdn: `${CDN_BASE}/anzb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/anz-banking-group/symbol.svg`,
+        cdn: `${CDN_BASE}/anzb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/anz-banking-group/symbol.png`,
+        cdn: `${CDN_BASE}/anzb/symbol.png`
+      }
+    }
+  },
+  "au-small-finance-bank-limited": {
+    // AU Small Finance Bank Limited; source slug: aubl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/au-small-finance-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/aubl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/au-small-finance-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/aubl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/au-small-finance-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/aubl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/au-small-finance-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/aubl/symbol.png`
+      }
+    }
+  },
+  "bank-of-baroda": {
+    // Bank of Baroda; source slug: barb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-baroda/logo.svg`,
+        cdn: `${CDN_BASE}/barb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-baroda/logo.png`,
+        cdn: `${CDN_BASE}/barb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-baroda/symbol.svg`,
+        cdn: `${CDN_BASE}/barb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-baroda/symbol.png`,
+        cdn: `${CDN_BASE}/barb/symbol.png`
+      }
+    }
+  },
+  "barclays-bank": {
+    // Barclays Bank; source slug: barc
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/barclays-bank/logo.svg`,
+        cdn: `${CDN_BASE}/barc/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/barclays-bank/logo.png`,
+        cdn: `${CDN_BASE}/barc/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/barclays-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/barc/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/barclays-bank/symbol.png`,
+        cdn: `${CDN_BASE}/barc/symbol.png`
+      }
+    }
+  },
+  "bank-of-bahrain-and-kuwait": {
+    // Bank of Bahrain and Kuwait; source slug: bbkm
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-bahrain-and-kuwait/logo.svg`,
+        cdn: `${CDN_BASE}/bbkm/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-bahrain-and-kuwait/logo.png`,
+        cdn: `${CDN_BASE}/bbkm/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-bahrain-and-kuwait/symbol.svg`,
+        cdn: `${CDN_BASE}/bbkm/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-bahrain-and-kuwait/symbol.png`,
+        cdn: `${CDN_BASE}/bbkm/symbol.png`
+      }
+    }
+  },
+  "bank-of-ceylon": {
+    // Bank of Ceylon; source slug: bcey
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-ceylon/logo.svg`,
+        cdn: `${CDN_BASE}/bcey/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-ceylon/logo.png`,
+        cdn: `${CDN_BASE}/bcey/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-ceylon/symbol.svg`,
+        cdn: `${CDN_BASE}/bcey/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-ceylon/symbol.png`,
+        cdn: `${CDN_BASE}/bcey/symbol.png`
+      }
+    }
+  },
+  "bandhan-bank": {
+    // Bandhan Bank; source slug: bdbl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/bandhan-bank/logo.svg`,
+        cdn: `${CDN_BASE}/bdbl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bandhan-bank/logo.png`,
+        cdn: `${CDN_BASE}/bdbl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/bandhan-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/bdbl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bandhan-bank/symbol.png`,
+        cdn: `${CDN_BASE}/bdbl/symbol.png`
+      }
+    }
+  },
+  "bank-of-india": {
+    // Bank of India; source slug: bkid
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-india/logo.svg`,
+        cdn: `${CDN_BASE}/bkid/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-india/logo.png`,
+        cdn: `${CDN_BASE}/bkid/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-india/symbol.svg`,
+        cdn: `${CDN_BASE}/bkid/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-india/symbol.png`,
+        cdn: `${CDN_BASE}/bkid/symbol.png`
+      }
+    }
+  },
+  "bnp-paribas": {
+    // BNP Paribas; source slug: bnpa
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/bnp-paribas/logo.svg`,
+        cdn: `${CDN_BASE}/bnpa/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bnp-paribas/logo.png`,
+        cdn: `${CDN_BASE}/bnpa/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/bnp-paribas/symbol.svg`,
+        cdn: `${CDN_BASE}/bnpa/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bnp-paribas/symbol.png`,
+        cdn: `${CDN_BASE}/bnpa/symbol.png`
+      }
+    }
+  },
+  "bank-of-america": {
+    // Bank of America; source slug: bofa
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-america/logo.svg`,
+        cdn: `${CDN_BASE}/bofa/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-america/logo.png`,
+        cdn: `${CDN_BASE}/bofa/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-america/symbol.svg`,
+        cdn: `${CDN_BASE}/bofa/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-america/symbol.png`,
+        cdn: `${CDN_BASE}/bofa/symbol.png`
+      }
+    }
+  },
+  "mufg-bank": {
+    // MUFG Bank; source slug: botm
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/mufg-bank/logo.svg`,
+        cdn: `${CDN_BASE}/botm/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/mufg-bank/logo.png`,
+        cdn: `${CDN_BASE}/botm/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/mufg-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/botm/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/mufg-bank/symbol.png`,
+        cdn: `${CDN_BASE}/botm/symbol.png`
+      }
+    }
+  },
+  "central-bank-of-india": {
+    // Central Bank of India; source slug: cbin
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/central-bank-of-india/logo.svg`,
+        cdn: `${CDN_BASE}/cbin/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/central-bank-of-india/logo.png`,
+        cdn: `${CDN_BASE}/cbin/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/central-bank-of-india/symbol.svg`,
+        cdn: `${CDN_BASE}/cbin/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/central-bank-of-india/symbol.png`,
+        cdn: `${CDN_BASE}/cbin/symbol.png`
+      }
+    }
+  },
+  "j-p-morgan-chase-bank": {
+    // J.P. Morgan Chase Bank; source slug: chas
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/j-p-morgan-chase-bank/logo.svg`,
+        cdn: `${CDN_BASE}/chas/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/j-p-morgan-chase-bank/logo.png`,
+        cdn: `${CDN_BASE}/chas/logo.png`
+      }
+    },
+    icon: {}
+  },
+  "citibank": {
+    // Citibank; source slug: citi
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/citibank/logo.svg`,
+        cdn: `${CDN_BASE}/citi/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/citibank/logo.png`,
+        cdn: `${CDN_BASE}/citi/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/citibank/symbol.svg`,
+        cdn: `${CDN_BASE}/citi/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/citibank/symbol.png`,
+        cdn: `${CDN_BASE}/citi/symbol.png`
+      }
+    }
+  },
+  "city-union-bank": {
+    // City Union Bank; source slug: ciub
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/city-union-bank/logo.svg`,
+        cdn: `${CDN_BASE}/ciub/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/city-union-bank/logo.png`,
+        cdn: `${CDN_BASE}/ciub/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/city-union-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/ciub/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/city-union-bank/symbol.png`,
+        cdn: `${CDN_BASE}/ciub/symbol.png`
+      }
+    }
+  },
+  "capital-small-finance-bank": {
+    // Capital Small Finance Bank; source slug: clbl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/capital-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/clbl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/capital-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/clbl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/capital-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/clbl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/capital-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/clbl/symbol.png`
+      }
+    }
+  },
+  "canara-bank": {
+    // Canara Bank; source slug: cnrb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/canara-bank/logo.svg`,
+        cdn: `${CDN_BASE}/cnrb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/canara-bank/logo.png`,
+        cdn: `${CDN_BASE}/cnrb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/canara-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/cnrb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/canara-bank/symbol.png`,
+        cdn: `${CDN_BASE}/cnrb/symbol.png`
+      }
+    }
+  },
+  "cr-dit-agricole-corporate-and-investment-bank": {
+    // Crédit Agricole Corporate and Investment Bank; source slug: crly
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/cr-dit-agricole-corporate-and-investment-bank/logo.svg`,
+        cdn: `${CDN_BASE}/crly/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/cr-dit-agricole-corporate-and-investment-bank/logo.png`,
+        cdn: `${CDN_BASE}/crly/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/cr-dit-agricole-corporate-and-investment-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/crly/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/cr-dit-agricole-corporate-and-investment-bank/symbol.png`,
+        cdn: `${CDN_BASE}/crly/symbol.png`
+      }
+    }
+  },
+  "csb-bank-limited": {
+    // CSB Bank Limited; source slug: csbk
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/csb-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/csbk/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/csb-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/csbk/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/csb-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/csbk/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/csb-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/csbk/symbol.png`
+      }
+    }
+  },
+  "ctbc-bank": {
+    // CTBC Bank; source slug: ctcb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/ctbc-bank/logo.svg`,
+        cdn: `${CDN_BASE}/ctcb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/ctbc-bank/logo.png`,
+        cdn: `${CDN_BASE}/ctcb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/ctbc-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/ctcb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/ctbc-bank/symbol.png`,
+        cdn: `${CDN_BASE}/ctcb/symbol.png`
+      }
+    }
+  },
+  "dbs-bank-india": {
+    // DBS Bank India; source slug: dbss
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/dbs-bank-india/logo.svg`,
+        cdn: `${CDN_BASE}/dbss/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/dbs-bank-india/logo.png`,
+        cdn: `${CDN_BASE}/dbss/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/dbs-bank-india/symbol.svg`,
+        cdn: `${CDN_BASE}/dbss/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/dbs-bank-india/symbol.png`,
+        cdn: `${CDN_BASE}/dbss/symbol.png`
+      }
+    }
+  },
+  "dcb-bank-limited": {
+    // DCB Bank Limited; source slug: dcbl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/dcb-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/dcbl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/dcb-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/dcbl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/dcb-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/dcbl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/dcb-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/dcbl/symbol.png`
+      }
+    }
+  },
+  "deutsche-bank": {
+    // Deutsche Bank; source slug: deut
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/deutsche-bank/logo.svg`,
+        cdn: `${CDN_BASE}/deut/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/deutsche-bank/logo.png`,
+        cdn: `${CDN_BASE}/deut/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/deutsche-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/deut/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/deutsche-bank/symbol.png`,
+        cdn: `${CDN_BASE}/deut/symbol.png`
+      }
+    }
+  },
+  "dhanlakshmi-bank": {
+    // Dhanalakshmi Bank; source slug: dlxb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/dhanlakshmi-bank/logo.svg`,
+        cdn: `${CDN_BASE}/dlxb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/dhanlakshmi-bank/logo.png`,
+        cdn: `${CDN_BASE}/dlxb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/dhanlakshmi-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/dlxb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/dhanlakshmi-bank/symbol.png`,
+        cdn: `${CDN_BASE}/dlxb/symbol.png`
+      }
+    }
+  },
+  "emirates-nbd-bank": {
+    // Emirates NBD Bank; source slug: ebil
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/emirates-nbd-bank/logo.svg`,
+        cdn: `${CDN_BASE}/ebil/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/emirates-nbd-bank/logo.png`,
+        cdn: `${CDN_BASE}/ebil/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/emirates-nbd-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/ebil/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/emirates-nbd-bank/symbol.png`,
+        cdn: `${CDN_BASE}/ebil/symbol.png`
+      }
+    }
+  },
+  "equitas-small-finance-bank": {
+    // Equitas Small Finance Bank; source slug: esfb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/equitas-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/esfb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/equitas-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/esfb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/equitas-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/esfb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/equitas-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/esfb/symbol.png`
+      }
+    }
+  },
+  "esaf-small-finance-bank": {
+    // ESAF Small Finance Bank; source slug: esmf
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/esaf-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/esmf/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/esaf-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/esmf/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/esaf-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/esmf/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/esaf-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/esmf/symbol.png`
+      }
+    }
+  },
+  "federal-bank": {
+    // Federal Bank; source slug: fdrl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/federal-bank/logo.svg`,
+        cdn: `${CDN_BASE}/fdrl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/federal-bank/logo.png`,
+        cdn: `${CDN_BASE}/fdrl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/federal-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/fdrl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/federal-bank/symbol.png`,
+        cdn: `${CDN_BASE}/fdrl/symbol.png`
+      }
+    }
+  },
+  "fino-payments-bank": {
+    // FINO Payments Bank; source slug: fino
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/fino-payments-bank/logo.svg`,
+        cdn: `${CDN_BASE}/fino/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/fino-payments-bank/logo.png`,
+        cdn: `${CDN_BASE}/fino/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/fino-payments-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/fino/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/fino-payments-bank/symbol.png`,
+        cdn: `${CDN_BASE}/fino/symbol.png`
+      }
+    }
+  },
+  "firstrand-bank": {
+    // FirstRand Bank; source slug: firn
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/firstrand-bank/logo.svg`,
+        cdn: `${CDN_BASE}/firn/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/firstrand-bank/logo.png`,
+        cdn: `${CDN_BASE}/firn/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/firstrand-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/firn/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/firstrand-bank/symbol.png`,
+        cdn: `${CDN_BASE}/firn/symbol.png`
+      }
+    }
+  },
+  "hdfc-bank": {
+    // HDFC Bank; source slug: hdfc
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/hdfc-bank/logo.svg`,
+        cdn: `${CDN_BASE}/hdfc/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/hdfc-bank/logo.png`,
+        cdn: `${CDN_BASE}/hdfc/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/hdfc-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/hdfc/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/hdfc-bank/symbol.png`,
+        cdn: `${CDN_BASE}/hdfc/symbol.png`
+      }
+    }
+  },
+  "hsbc": {
+    // HSBC; source slug: hsbc
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/hsbc/logo.svg`,
+        cdn: `${CDN_BASE}/hsbc/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/hsbc/logo.png`,
+        cdn: `${CDN_BASE}/hsbc/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/hsbc/symbol.svg`,
+        cdn: `${CDN_BASE}/hsbc/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/hsbc/symbol.png`,
+        cdn: `${CDN_BASE}/hsbc/symbol.png`
+      }
+    }
+  },
+  "woori-bank": {
+    // Woori Bank; source slug: hvbk
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/woori-bank/logo.svg`,
+        cdn: `${CDN_BASE}/hvbk/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/woori-bank/logo.png`,
+        cdn: `${CDN_BASE}/hvbk/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/woori-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/hvbk/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/woori-bank/symbol.png`,
+        cdn: `${CDN_BASE}/hvbk/symbol.png`
+      }
+    }
+  },
+  "maybank-indonesia": {
+    // Maybank Indonesia; source slug: ibbk
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/maybank-indonesia/logo.svg`,
+        cdn: `${CDN_BASE}/ibbk/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/maybank-indonesia/logo.png`,
+        cdn: `${CDN_BASE}/ibbk/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/maybank-indonesia/symbol.svg`,
+        cdn: `${CDN_BASE}/ibbk/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/maybank-indonesia/symbol.png`,
+        cdn: `${CDN_BASE}/ibbk/symbol.png`
+      }
+    }
+  },
+  "idbi-bank": {
+    // IDBI Bank; source slug: ibkl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/idbi-bank/logo.svg`,
+        cdn: `${CDN_BASE}/ibkl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/idbi-bank/logo.png`,
+        cdn: `${CDN_BASE}/ibkl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/idbi-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/ibkl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/idbi-bank/symbol.png`,
+        cdn: `${CDN_BASE}/ibkl/symbol.png`
+      }
+    }
+  },
+  "industrial-bank-of-korea": {
+    // Industrial Bank of Korea; source slug: ibko
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/industrial-bank-of-korea/logo.svg`,
+        cdn: `${CDN_BASE}/ibko/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/industrial-bank-of-korea/logo.png`,
+        cdn: `${CDN_BASE}/ibko/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/industrial-bank-of-korea/symbol.svg`,
+        cdn: `${CDN_BASE}/ibko/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/industrial-bank-of-korea/symbol.png`,
+        cdn: `${CDN_BASE}/ibko/symbol.png`
+      }
+    }
+  },
+  "industrial-and-commercial-bank-of-china": {
+    // Industrial and Commercial Bank of China; source slug: icbk
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/industrial-and-commercial-bank-of-china/logo.svg`,
+        cdn: `${CDN_BASE}/icbk/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/industrial-and-commercial-bank-of-china/logo.png`,
+        cdn: `${CDN_BASE}/icbk/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/industrial-and-commercial-bank-of-china/symbol.svg`,
+        cdn: `${CDN_BASE}/icbk/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/industrial-and-commercial-bank-of-china/symbol.png`,
+        cdn: `${CDN_BASE}/icbk/symbol.png`
+      }
+    }
+  },
+  "icici-bank-limited": {
+    // ICICI Bank Limited; source slug: icic
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/icici-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/icic/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/icici-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/icic/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/icici-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/icic/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/icici-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/icic/symbol.png`
+      }
+    }
+  },
+  "idfc-first-bank-limited": {
+    // IDFC First Bank Limited; source slug: idfb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/idfc-first-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/idfb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/idfc-first-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/idfb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/idfc-first-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/idfb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/idfc-first-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/idfb/symbol.png`
+      }
+    }
+  },
+  "indian-bank": {
+    // Indian Bank; source slug: idib
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/indian-bank/logo.svg`,
+        cdn: `${CDN_BASE}/idib/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/indian-bank/logo.png`,
+        cdn: `${CDN_BASE}/idib/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/indian-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/idib/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/indian-bank/symbol.png`,
+        cdn: `${CDN_BASE}/idib/symbol.png`
+      }
+    }
+  },
+  "indusind-bank": {
+    // IndusInd Bank; source slug: indb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/indusind-bank/logo.svg`,
+        cdn: `${CDN_BASE}/indb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/indusind-bank/logo.png`,
+        cdn: `${CDN_BASE}/indb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/indusind-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/indb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/indusind-bank/symbol.png`,
+        cdn: `${CDN_BASE}/indb/symbol.png`
+      }
+    }
+  },
+  "indian-overseas-bank": {
+    // Indian Overseas Bank; source slug: ioba
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/indian-overseas-bank/logo.svg`,
+        cdn: `${CDN_BASE}/ioba/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/indian-overseas-bank/logo.png`,
+        cdn: `${CDN_BASE}/ioba/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/indian-overseas-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/ioba/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/indian-overseas-bank/symbol.png`,
+        cdn: `${CDN_BASE}/ioba/symbol.png`
+      }
+    }
+  },
+  "india-post-payments-bank": {
+    // India Post Payments Bank; source slug: ipos
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/india-post-payments-bank/logo.svg`,
+        cdn: `${CDN_BASE}/ipos/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/india-post-payments-bank/logo.png`,
+        cdn: `${CDN_BASE}/ipos/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/india-post-payments-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/ipos/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/india-post-payments-bank/symbol.png`,
+        cdn: `${CDN_BASE}/ipos/symbol.png`
+      }
+    }
+  },
+  "jammu-and-kashmir-bank": {
+    // Jammu and Kashmir Bank; source slug: jaka
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/jammu-and-kashmir-bank/logo.svg`,
+        cdn: `${CDN_BASE}/jaka/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/jammu-and-kashmir-bank/logo.png`,
+        cdn: `${CDN_BASE}/jaka/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/jammu-and-kashmir-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/jaka/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/jammu-and-kashmir-bank/symbol.png`,
+        cdn: `${CDN_BASE}/jaka/symbol.png`
+      }
+    }
+  },
+  "jio-payments-bank": {
+    // Jio Payments Bank; source slug: jiop
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/jio-payments-bank/logo.svg`,
+        cdn: `${CDN_BASE}/jiop/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/jio-payments-bank/logo.png`,
+        cdn: `${CDN_BASE}/jiop/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/jio-payments-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/jiop/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/jio-payments-bank/symbol.png`,
+        cdn: `${CDN_BASE}/jiop/symbol.png`
+      }
+    }
+  },
+  "jana-small-finance-bank": {
+    // Jana Small Finance Bank; source slug: jsfb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/jana-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/jsfb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/jana-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/jsfb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/jana-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/jsfb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/jana-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/jsfb/symbol.png`
+      }
+    }
+  },
+  "karnataka-bank-limited": {
+    // Karnataka Bank Limited; source slug: karb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/karnataka-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/karb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/karnataka-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/karb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/karnataka-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/karb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/karnataka-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/karb/symbol.png`
+      }
+    }
+  },
+  "kb-kookmin-bank": {
+    // KB Kookmin Bank; source slug: kbkb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/kb-kookmin-bank/logo.svg`,
+        cdn: `${CDN_BASE}/kbkb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/kb-kookmin-bank/logo.png`,
+        cdn: `${CDN_BASE}/kbkb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/kb-kookmin-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/kbkb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/kb-kookmin-bank/symbol.png`,
+        cdn: `${CDN_BASE}/kbkb/symbol.png`
+      }
+    }
+  },
+  "kotak-mahindra-bank-limited": {
+    // Kotak Mahindra Bank Limited; source slug: kkbk
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/kotak-mahindra-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/kkbk/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/kotak-mahindra-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/kkbk/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/kotak-mahindra-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/kkbk/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/kotak-mahindra-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/kkbk/symbol.png`
+      }
+    }
+  },
+  "hana-bank": {
+    // Hana Bank; source slug: koex
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/hana-bank/logo.svg`,
+        cdn: `${CDN_BASE}/koex/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/hana-bank/logo.png`,
+        cdn: `${CDN_BASE}/koex/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/hana-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/koex/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/hana-bank/symbol.png`,
+        cdn: `${CDN_BASE}/koex/symbol.png`
+      }
+    }
+  },
+  "karur-vysya-bank": {
+    // Karur Vysya Bank; source slug: kvbl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/karur-vysya-bank/logo.svg`,
+        cdn: `${CDN_BASE}/kvbl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/karur-vysya-bank/logo.png`,
+        cdn: `${CDN_BASE}/kvbl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/karur-vysya-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/kvbl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/karur-vysya-bank/symbol.png`,
+        cdn: `${CDN_BASE}/kvbl/symbol.png`
+      }
+    }
+  },
+  "bank-of-maharashtra": {
+    // Bank of Maharashtra; source slug: mahb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-maharashtra/logo.svg`,
+        cdn: `${CDN_BASE}/mahb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-maharashtra/logo.png`,
+        cdn: `${CDN_BASE}/mahb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/bank-of-maharashtra/symbol.svg`,
+        cdn: `${CDN_BASE}/mahb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/bank-of-maharashtra/symbol.png`,
+        cdn: `${CDN_BASE}/mahb/symbol.png`
+      }
+    }
+  },
+  "mizuho-bank": {
+    // Mizuho Bank; source slug: mhcb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/mizuho-bank/logo.svg`,
+        cdn: `${CDN_BASE}/mhcb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/mizuho-bank/logo.png`,
+        cdn: `${CDN_BASE}/mhcb/logo.png`
+      }
+    },
+    icon: {}
+  },
+  "mashreq-bank": {
+    // Mashreq Bank; source slug: mshq
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/mashreq-bank/logo.svg`,
+        cdn: `${CDN_BASE}/mshq/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/mashreq-bank/logo.png`,
+        cdn: `${CDN_BASE}/mshq/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/mashreq-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/mshq/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/mashreq-bank/symbol.png`,
+        cdn: `${CDN_BASE}/mshq/symbol.png`
+      }
+    }
+  },
+  "first-abu-dhabi-bank": {
+    // First Abu Dhabi Bank; source slug: nbad
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/first-abu-dhabi-bank/logo.svg`,
+        cdn: `${CDN_BASE}/nbad/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/first-abu-dhabi-bank/logo.png`,
+        cdn: `${CDN_BASE}/nbad/logo.png`
+      }
+    },
+    icon: {}
+  },
+  "slice-small-finance-bank": {
+    // slice Small Finance Bank; source slug: nesf
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/slice-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/nesf/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/slice-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/nesf/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/slice-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/nesf/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/slice-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/nesf/symbol.png`
+      }
+    }
+  },
+  "scotiabank": {
+    // Scotiabank; source slug: nosc
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/scotiabank/logo.svg`,
+        cdn: `${CDN_BASE}/nosc/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/scotiabank/logo.png`,
+        cdn: `${CDN_BASE}/nosc/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/scotiabank/symbol.svg`,
+        cdn: `${CDN_BASE}/nosc/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/scotiabank/symbol.png`,
+        cdn: `${CDN_BASE}/nosc/symbol.png`
+      }
+    }
+  },
+  "the-nainital-bank-limited": {
+    // The Nainital Bank Limited; source slug: ntbl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/the-nainital-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/ntbl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/the-nainital-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/ntbl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/the-nainital-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/ntbl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/the-nainital-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/ntbl/symbol.png`
+      }
+    }
+  },
+  "punjab-and-sind-bank": {
+    // Punjab and Sind Bank; source slug: psib
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/punjab-and-sind-bank/logo.svg`,
+        cdn: `${CDN_BASE}/psib/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/punjab-and-sind-bank/logo.png`,
+        cdn: `${CDN_BASE}/psib/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/punjab-and-sind-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/psib/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/punjab-and-sind-bank/symbol.png`,
+        cdn: `${CDN_BASE}/psib/symbol.png`
+      }
+    }
+  },
+  "punjab-national-bank": {
+    // Punjab National Bank; source slug: punb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/punjab-national-bank/logo.svg`,
+        cdn: `${CDN_BASE}/punb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/punjab-national-bank/logo.png`,
+        cdn: `${CDN_BASE}/punb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/punjab-national-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/punb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/punjab-national-bank/symbol.png`,
+        cdn: `${CDN_BASE}/punb/symbol.png`
+      }
+    }
+  },
+  "paytm-payments-bank": {
+    // Paytm Payments Bank; source slug: pytm
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/paytm-payments-bank/logo.svg`,
+        cdn: `${CDN_BASE}/pytm/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/paytm-payments-bank/logo.png`,
+        cdn: `${CDN_BASE}/pytm/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/paytm-payments-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/pytm/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/paytm-payments-bank/symbol.png`,
+        cdn: `${CDN_BASE}/pytm/symbol.png`
+      }
+    }
+  },
+  "qatar-national-bank": {
+    // Qatar National Bank; source slug: qnba
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/qatar-national-bank/logo.svg`,
+        cdn: `${CDN_BASE}/qnba/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/qatar-national-bank/logo.png`,
+        cdn: `${CDN_BASE}/qnba/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/qatar-national-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/qnba/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/qatar-national-bank/symbol.png`,
+        cdn: `${CDN_BASE}/qnba/symbol.png`
+      }
+    }
+  },
+  "rabobank": {
+    // Rabobank; source slug: rabo
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/rabobank/logo.svg`,
+        cdn: `${CDN_BASE}/rabo/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/rabobank/logo.png`,
+        cdn: `${CDN_BASE}/rabo/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/rabobank/symbol.svg`,
+        cdn: `${CDN_BASE}/rabo/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/rabobank/symbol.png`,
+        cdn: `${CDN_BASE}/rabo/symbol.png`
+      }
+    }
+  },
+  "rbl-bank-limited": {
+    // RBL Bank Limited; source slug: ratn
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/rbl-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/ratn/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/rbl-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/ratn/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/rbl-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/ratn/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/rbl-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/ratn/symbol.png`
+      }
+    }
+  },
+  "sberbank": {
+    // Sberbank; source slug: sabr
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/sberbank/logo.svg`,
+        cdn: `${CDN_BASE}/sabr/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/sberbank/logo.png`,
+        cdn: `${CDN_BASE}/sabr/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/sberbank/symbol.svg`,
+        cdn: `${CDN_BASE}/sabr/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/sberbank/symbol.png`,
+        cdn: `${CDN_BASE}/sabr/symbol.png`
+      }
+    }
+  },
+  "state-bank-of-india": {
+    // State Bank of India; source slug: sbin
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/state-bank-of-india/logo.svg`,
+        cdn: `${CDN_BASE}/sbin/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/state-bank-of-india/logo.png`,
+        cdn: `${CDN_BASE}/sbin/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/state-bank-of-india/symbol.svg`,
+        cdn: `${CDN_BASE}/sbin/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/state-bank-of-india/symbol.png`,
+        cdn: `${CDN_BASE}/sbin/symbol.png`
+      }
+    }
+  },
+  "sonali-bank": {
+    // Sonali Bank; source slug: sbld
+    logo: {},
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/sonali-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/sbld/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/sonali-bank/symbol.png`,
+        cdn: `${CDN_BASE}/sbld/symbol.png`
+      }
+    }
+  },
+  "standard-chartered-bank": {
+    // Standard Chartered Bank; source slug: scbl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/standard-chartered-bank/logo.svg`,
+        cdn: `${CDN_BASE}/scbl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/standard-chartered-bank/logo.png`,
+        cdn: `${CDN_BASE}/scbl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/standard-chartered-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/scbl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/standard-chartered-bank/symbol.png`,
+        cdn: `${CDN_BASE}/scbl/symbol.png`
+      }
+    }
+  },
+  "shinhan-bank": {
+    // Shinhan Bank; source slug: shbk
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/shinhan-bank/logo.svg`,
+        cdn: `${CDN_BASE}/shbk/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/shinhan-bank/logo.png`,
+        cdn: `${CDN_BASE}/shbk/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/shinhan-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/shbk/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/shinhan-bank/symbol.png`,
+        cdn: `${CDN_BASE}/shbk/symbol.png`
+      }
+    }
+  },
+  "south-indian-bank": {
+    // South Indian Bank; source slug: sibl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/south-indian-bank/logo.svg`,
+        cdn: `${CDN_BASE}/sibl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/south-indian-bank/logo.png`,
+        cdn: `${CDN_BASE}/sibl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/south-indian-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/sibl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/south-indian-bank/symbol.png`,
+        cdn: `${CDN_BASE}/sibl/symbol.png`
+      }
+    }
+  },
+  "sumitomo-mitsui-banking-corporation": {
+    // Sumitomo Mitsui Banking Corporation; source slug: smbc
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/sumitomo-mitsui-banking-corporation/logo.svg`,
+        cdn: `${CDN_BASE}/smbc/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/sumitomo-mitsui-banking-corporation/logo.png`,
+        cdn: `${CDN_BASE}/smbc/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/sumitomo-mitsui-banking-corporation/symbol.svg`,
+        cdn: `${CDN_BASE}/smbc/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/sumitomo-mitsui-banking-corporation/symbol.png`,
+        cdn: `${CDN_BASE}/smbc/symbol.png`
+      }
+    }
+  },
+  "shivalik-small-finance-bank": {
+    // Shivalik Small Finance Bank; source slug: smcb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/shivalik-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/smcb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/shivalik-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/smcb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/shivalik-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/smcb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/shivalik-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/smcb/symbol.png`
+      }
+    }
+  },
+  "soci-t-g-n-rale": {
+    // Société Générale; source slug: soge
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/soci-t-g-n-rale/logo.svg`,
+        cdn: `${CDN_BASE}/soge/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/soci-t-g-n-rale/logo.png`,
+        cdn: `${CDN_BASE}/soge/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/soci-t-g-n-rale/symbol.svg`,
+        cdn: `${CDN_BASE}/soge/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/soci-t-g-n-rale/symbol.png`,
+        cdn: `${CDN_BASE}/soge/symbol.png`
+      }
+    }
+  },
+  "sbm-bank-india": {
+    // SBM Bank India; source slug: stcb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/sbm-bank-india/logo.svg`,
+        cdn: `${CDN_BASE}/stcb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/sbm-bank-india/logo.png`,
+        cdn: `${CDN_BASE}/stcb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/sbm-bank-india/symbol.svg`,
+        cdn: `${CDN_BASE}/stcb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/sbm-bank-india/symbol.png`,
+        cdn: `${CDN_BASE}/stcb/symbol.png`
+      }
+    }
+  },
+  "suryoday-small-finance-bank": {
+    // Suryoday Small Finance Bank; source slug: sury
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/suryoday-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/sury/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/suryoday-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/sury/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/suryoday-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/sury/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/suryoday-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/sury/symbol.png`
+      }
+    }
+  },
+  "tamilnad-mercantile-bank-limited": {
+    // Tamilnad Mercantile Bank Limited; source slug: tmbl
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/tamilnad-mercantile-bank-limited/logo.svg`,
+        cdn: `${CDN_BASE}/tmbl/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/tamilnad-mercantile-bank-limited/logo.png`,
+        cdn: `${CDN_BASE}/tmbl/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/tamilnad-mercantile-bank-limited/symbol.svg`,
+        cdn: `${CDN_BASE}/tmbl/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/tamilnad-mercantile-bank-limited/symbol.png`,
+        cdn: `${CDN_BASE}/tmbl/symbol.png`
+      }
+    }
+  },
+  "union-bank-of-india": {
+    // Union Bank of India; source slug: ubin
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/union-bank-of-india/logo.svg`,
+        cdn: `${CDN_BASE}/ubin/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/union-bank-of-india/logo.png`,
+        cdn: `${CDN_BASE}/ubin/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/union-bank-of-india/symbol.svg`,
+        cdn: `${CDN_BASE}/ubin/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/union-bank-of-india/symbol.png`,
+        cdn: `${CDN_BASE}/ubin/symbol.png`
+      }
+    }
+  },
+  "uco-bank": {
+    // UCO Bank; source slug: ucba
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/uco-bank/logo.svg`,
+        cdn: `${CDN_BASE}/ucba/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/uco-bank/logo.png`,
+        cdn: `${CDN_BASE}/ucba/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/uco-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/ucba/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/uco-bank/symbol.png`,
+        cdn: `${CDN_BASE}/ucba/symbol.png`
+      }
+    }
+  },
+  "ujjivan-small-finance-bank-ltd": {
+    // Ujjivan Small Finance Bank Ltd; source slug: ujvn
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/ujjivan-small-finance-bank-ltd/logo.svg`,
+        cdn: `${CDN_BASE}/ujvn/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/ujjivan-small-finance-bank-ltd/logo.png`,
+        cdn: `${CDN_BASE}/ujvn/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/ujjivan-small-finance-bank-ltd/symbol.svg`,
+        cdn: `${CDN_BASE}/ujvn/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/ujjivan-small-finance-bank-ltd/symbol.png`,
+        cdn: `${CDN_BASE}/ujvn/symbol.png`
+      }
+    }
+  },
+  "unity-small-finance-bank": {
+    // Unity Small Finance Bank; source slug: unba
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/unity-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/unba/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/unity-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/unba/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/unity-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/unba/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/unity-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/unba/symbol.png`
+      }
+    }
+  },
+  "united-overseas-bank": {
+    // United Overseas Bank; source slug: uovb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/united-overseas-bank/logo.svg`,
+        cdn: `${CDN_BASE}/uovb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/united-overseas-bank/logo.png`,
+        cdn: `${CDN_BASE}/uovb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/united-overseas-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/uovb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/united-overseas-bank/symbol.png`,
+        cdn: `${CDN_BASE}/uovb/symbol.png`
+      }
+    }
+  },
+  "axis-bank": {
+    // Axis Bank; source slug: utib
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/axis-bank/logo.svg`,
+        cdn: `${CDN_BASE}/utib/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/axis-bank/logo.png`,
+        cdn: `${CDN_BASE}/utib/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/axis-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/utib/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/axis-bank/symbol.png`,
+        cdn: `${CDN_BASE}/utib/symbol.png`
+      }
+    }
+  },
+  "utkarsh-small-finance-bank": {
+    // Utkarsh Small Finance Bank; source slug: utks
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/utkarsh-small-finance-bank/logo.svg`,
+        cdn: `${CDN_BASE}/utks/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/utkarsh-small-finance-bank/logo.png`,
+        cdn: `${CDN_BASE}/utks/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/utkarsh-small-finance-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/utks/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/utkarsh-small-finance-bank/symbol.png`,
+        cdn: `${CDN_BASE}/utks/symbol.png`
+      }
+    }
+  },
+  "yes-bank": {
+    // Yes Bank; source slug: yesb
+    logo: {
+      svg: {
+        local: `${LOCAL_BASE}/yes-bank/logo.svg`,
+        cdn: `${CDN_BASE}/yesb/logo.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/yes-bank/logo.png`,
+        cdn: `${CDN_BASE}/yesb/logo.png`
+      }
+    },
+    icon: {
+      svg: {
+        local: `${LOCAL_BASE}/yes-bank/symbol.svg`,
+        cdn: `${CDN_BASE}/yesb/symbol.svg`
+      },
+      png: {
+        local: `${LOCAL_BASE}/yes-bank/symbol.png`,
+        cdn: `${CDN_BASE}/yesb/symbol.png`
+      }
+    }
+  }
+};
+
+// src/banks/bank.utils.ts
+function getBanksCount() {
+  return banks.length;
+}
+function getBanks(ids) {
+  if (ids === void 0) {
+    return banks;
+  }
+  if (!ids || ids.length === 0) {
+    return [];
+  }
+  const normalizedIds = new Set(
+    ids.map((id) => id.trim().toLocaleLowerCase()).filter(Boolean)
+  );
+  return banks.filter(
+    (bank) => normalizedIds.has(bank.id.toLocaleLowerCase())
+  );
+}
+function getBanksByIds(ids) {
+  return getBanks(ids);
+}
+function getBankById(id) {
+  const normalizedId = id.trim().toLocaleLowerCase();
+  if (!normalizedId) {
+    return void 0;
+  }
+  return banks.find((bank) => bank.id.toLocaleLowerCase() === normalizedId);
+}
+function getBankByName(name) {
+  const normalizedName = name.trim().toLocaleLowerCase();
+  if (!normalizedName) {
+    return void 0;
+  }
+  return banks.find((bank) => bank.name.toLocaleLowerCase() === normalizedName);
+}
+function getBankByCode(code) {
+  return getBankById(code);
+}
+function searchBanks(query) {
+  const normalizedQuery = query.trim().toLocaleLowerCase();
+  if (!normalizedQuery) {
+    return [];
+  }
+  return banks.filter(
+    (bank) => bank.id.toLocaleLowerCase().includes(normalizedQuery) || bank.name.toLocaleLowerCase().includes(normalizedQuery)
+  );
+}
+
+exports.bankLogos = bankLogos;
+exports.banks = banks;
 exports.countries = countries;
+exports.currencies = currencies;
+exports.getBankByCode = getBankByCode;
+exports.getBankById = getBankById;
+exports.getBankByName = getBankByName;
+exports.getBanks = getBanks;
+exports.getBanksByIds = getBanksByIds;
+exports.getBanksCount = getBanksCount;
 exports.getCountryByAlpha3Code = getCountryByAlpha3Code;
 exports.getCountryByCode = getCountryByCode;
 exports.getCountryByNumericCode = getCountryByNumericCode;
+exports.getCurrencies = getCurrencies;
+exports.getCurrenciesCount = getCurrenciesCount;
+exports.getCurrencyByCode = getCurrencyByCode;
+exports.getCurrencyByName = getCurrencyByName;
+exports.searchBanks = searchBanks;
 exports.searchCountries = searchCountries;
+exports.searchCurrencies = searchCurrencies;
 //# sourceMappingURL=index.cjs.map
 //# sourceMappingURL=index.cjs.map

@@ -4,9 +4,10 @@
 
 ## ✨ Features
 
-- Country and currency reference data
+- Country, currency, and bank reference data
 - Country identifiers, names, calling codes, geographic fields, and flag references
 - Currency codes, names, and symbols
+- Bank records and bank logo assets (local + CDN)
 - Lookup and search helpers
 - TypeScript-friendly types
 - Automated tests for data consistency and public APIs
@@ -59,6 +60,12 @@ Lookup functions return `undefined` when no record matches; search functions ret
 
 The dataset contains normalized reference information intended for common application use cases. Values can be unavailable, and associations such as currencies or calling codes may change over time. The data is not a source of live exchange rates.
 
+### Reference sources
+
+- **Countries:** ISO 3166 country codes and normalized country metadata; flag SVG assets are served from [flagcdn.com](https://flagcdn.com).
+- **Currencies:** ISO 4217 currency codes and currency metadata.
+- **Banks:** Bank names and logo assets are derived from [praveenpuglia/indian-banks](https://github.com/praveenpuglia/indian-banks); offline SVG/PNG logos are bundled under `assets/bank-logos` and jsDelivr CDN URLs are also provided.
+
 Before release, consult the project’s documented data sources and verify their licensing and attribution requirements. Third-party datasets and flag assets may have terms separate from this package’s code.
 
 ## 🤝 Contributing
@@ -67,7 +74,7 @@ Corrections and improvements are welcome. When reporting a data issue, include t
 
 ## 📄 License
 
-This project is licensed under the [MIT License](./LICENSE). Review the license and third-party data terms before redistributing the package.
+This project is licensed under the [MIT License](./LICENSE). Review the license and third-party data terms before redistributing the package. See also [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
 
 ---
 

@@ -23,12 +23,9 @@ export function getCurrencyByName(name: string): Currency | undefined {
     return currencies.find(currency => currency.name.toLocaleLowerCase() === normalizedName);
 }
 
-export function searchCurrencies(query: string): Currency[] | [] {
+export function searchCurrencies(query: string): Currency[] {
 
     const normalizedQuery = query.trim().toLocaleLowerCase();
-
-    console.log("Before", normalizedQuery);
-    console.log("After", normalizedQuery);
 
     if (!normalizedQuery) {
         return [];
@@ -37,15 +34,13 @@ export function searchCurrencies(query: string): Currency[] | [] {
     return currencies.filter(currency =>
         currency.code.toLocaleLowerCase().includes(normalizedQuery) ||
         currency.name.toLocaleLowerCase().includes(normalizedQuery) ||
-        currency.symbol.includes(normalizedQuery)
+        (currency.symbol?.includes(normalizedQuery) ?? false)
     )
 
 }
 
 export function getCurrenciesCount(): number {
-
-    return currencies ? currencies.length : 0;
-
+    return currencies.length;
 }
 
 export function getCurrencies(codes: string[]): Currency[] {

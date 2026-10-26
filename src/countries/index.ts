@@ -7,5 +7,10 @@ export {
 } from './country.utils'
 
 export {
-    countries 
+    countries
 } from './countries'
+
+export type {
+    Country,
+    CountryFlag,
+} from './country.types'

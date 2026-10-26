@@ -27,6 +27,15 @@ import {
   searchCurrencies,
   getCurrencies,
   getCurrenciesCount,
+  banks,
+  bankLogos,
+  getBanks,
+  getBanksByIds,
+  getBanksCount,
+  getBankById,
+  getBankByCode,
+  getBankByName,
+  searchBanks,
 } from "open-reference-data";
 ```
 
@@ -557,7 +566,44 @@ The library supplies reference data and lookup utilities. Application-specific v
 
 ---
 
-# 📖 Related Documentation
+## 10. Banks
+
+Banks are exposed through `banks`, `bankLogos`, and lookup helpers.
+
+```typescript
+import {
+  banks,
+  bankLogos,
+  getBankById,
+  getBankByName,
+  searchBanks,
+  getBanks,
+  getBanksByIds,
+  getBanksCount,
+} from "open-reference-data";
+```
+
+### `getBankById(id)`
+
+Find a bank by its lowercase slug id.
+
+### `getBankByName(name)`
+
+Find a bank by its exact name (case-insensitive).
+
+### `searchBanks(query)`
+
+Search banks by id or name.
+
+### `getBanks()` / `getBanks(ids)`
+
+Get all banks or filter by a list of ids.
+
+### `getBanksCount()`
+
+Get the number of bank records.
+
+---
 
 - 🚀 **Getting Started** — installation and first steps
 - 📚 **API Reference** — this document

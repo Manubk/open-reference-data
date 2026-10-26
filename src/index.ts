@@ -16,9 +16,28 @@ export {
     getCurrencies,
     getCurrenciesCount,
     getCurrencyByCode,
-    getCurrencyByName
+    getCurrencyByName,
+    searchCurrencies
 } from './currencies';
 
 export type {
     Currency,
-} from './currencies/currency.types'
+} from './currencies/currency.types';
+
+export {
+    banks,
+    bankLogos,
+    getBanks,
+    getBanksByIds,
+    getBanksCount,
+    getBankById,
+    getBankByCode,
+    getBankByName,
+    searchBanks,
+} from './banks';
+
+export type {
+    Bank,
+    BankLogo,
+    BankLogoAsset,
+} from './banks/bank.types';

@@ -43,7 +43,7 @@ export interface Country {
     /** UN M49 geographic region, when applicable. */
     region: string | null;
 
-    /** Capital city, when applicable and available */
+    /** UN M49 subregion, when applicable. */
     subregion: string | null;
 
     /** Capital city, when applicable and available */

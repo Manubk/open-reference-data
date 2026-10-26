@@ -21,7 +21,7 @@ function validateCurrencies(): void {
 
         /** numeric Code unique and three numbers*/
         assert(
-            /^[0-9]{3}/.test(currency.numericCode),
+            /^[0-9]{3}$/.test(currency.numericCode),
             `Invalid currency numeric code ${currency.numericCode}`
         )
 
@@ -34,7 +34,7 @@ function validateCurrencies(): void {
 
         /** Check numeric code uniqueness */
         assert(
-            !codes.has(currency.numericCode),
+            !numericCodes.has(currency.numericCode),
             `Duplicate numeric code: ${currency.numericCode}`
         )
         numericCodes.add(currency.numericCode);

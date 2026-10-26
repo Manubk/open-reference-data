@@ -114,6 +114,39 @@ Currency reference data for financial and commerce applications.
 | `getCurrenciesCount()` | Get the number of currency records |
 | `getCurrencies(codes)` | Retrieve multiple currencies by code |
 
+### 🏦 Banks
+
+Bank reference data and logo assets for financial applications.
+
+**Use cases**
+
+- 🏦 Bank selection components
+- 💳 Payment and checkout interfaces
+- 📊 Financial dashboards
+- 🧾 Billing and reconciliation tools
+
+**Available utilities**
+
+| Function | Description |
+|---|---|
+| `getBankById(id)` | Find by bank id |
+| `getBankByCode(code)` | Alias for id lookup |
+| `getBankByName(name)` | Find by bank name |
+| `searchBanks(query)` | Search by id or name |
+| `getBanks()` | Get all bank records |
+| `getBanks(ids)` | Retrieve multiple banks by id |
+| `getBanksCount()` | Get the number of bank records |
+
+---
+
+## 🧾 Data sources and attribution
+
+- **Countries:** ISO 3166 country codes and normalized country metadata; flag SVG assets are served from [flagcdn.com](https://flagcdn.com).
+- **Currencies:** ISO 4217 currency codes and currency metadata.
+- **Banks:** Bank names and logo assets are derived from [praveenpuglia/indian-banks](https://github.com/praveenpuglia/indian-banks); offline SVG/PNG logos are bundled under `assets/bank-logos` and jsDelivr CDN URLs are also provided.
+
+Third-party datasets and assets may have licensing and attribution requirements separate from this package's code.
+
 ---
 
 ## 📚 Documentation
@@ -124,8 +157,8 @@ Explore the guides to get the most out of Open Reference Data.
 |---|---|
 | [🚀 Getting Started](getting-started.md) | Installation, imports, and usage examples |
 | [📖 API Reference](api.md) | Function signatures, parameters, and return values |
-| [🗂️ Data Structures](data-structure.md) | Dataset schemas and field definitions |
-| [🤝 Contributing](contributing.md) | Development and contribution guidelines |
+| [🗂️ Data Structures](data-models.md) | Dataset schemas and field definitions |
+| [🤝 Contributing](../CONTRIBUTING.md) | Development and contribution guidelines |
 
 *Links to guides that have not yet been created can be added when those files are ready.*
 

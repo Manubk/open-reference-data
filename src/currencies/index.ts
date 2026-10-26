@@ -5,8 +5,12 @@ export {
     getCurrencyByCode,
     getCurrencyByName,
     searchCurrencies
-} from '../currencies/currency.utils'
+} from './currency.utils'
 
 export {
     currencies
-} from '../currencies/currencies';
+} from './currencies'
+
+export type {
+    Currency,
+} from './currency.types';

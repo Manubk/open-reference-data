@@ -30,7 +30,7 @@ interface Country {
     currencyCode: string[];
     /** UN M49 geographic region, when applicable. */
     region: string | null;
-    /** Capital city, when applicable and available */
+    /** UN M49 subregion, when applicable. */
     subregion: string | null;
     /** Capital city, when applicable and available */
     capital: string | null;
@@ -52,4 +52,4 @@ declare function searchCountries(query: string): Country[];
 
 declare const countries: readonly Country[];
 
-export { type Country as C, type CountryFlag as a, countries, getCountryByAlpha3Code, getCountryByCode, getCountryByNumericCode, searchCountries };
+export { type Country, type CountryFlag, countries, getCountryByAlpha3Code, getCountryByCode, getCountryByNumericCode, searchCountries };

@@ -7,7 +7,7 @@ export interface Currency {
     name: string;
 
     /** Commonly name from the reference source */
-    symbol: string;
+    symbol: string | null;
 
     /** ISO 4217 numeric currency code, stored as a string */
     numericCode: string;
